@@ -1,0 +1,14 @@
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<md-toolbar md-whiteframe="2" data-ng-controller="MainController">
+    <div class="md-toolbar-tools" layout="row" layout-align="center center">
+        <md-button class="md-icon-button" style="height:45px;width:45px;padding:6px 0px 0px 0px;" data-ng-disabled="ifHere('/work')" data-ng-click="goTo('/work')" aria-label="go-work-button">
+            <span data-ng-show="!ifHere('/work')" class="icon-cog white"></span>
+            <span data-ng-show="ifHere('/work')" class="icon-cog"></span>
+        </md-button>
+        <md-button class="md-icon-button" style="height:45px;width:45px;padding:6px 0px 0px 0px;" data-ng-disabled="ifHere('/travel')" data-ng-click="goTo('/travel')" aria-label="go-travel-button">
+            <span data-ng-show="!ifHere('/travel')" class="icon-map white"></span>
+            <span data-ng-show="ifHere('/travel')" class="icon-map"></span>
+        </md-button>
+
+    </div>
+</md-toolbar>

@@ -4,7 +4,8 @@
 var kardanovApp = angular.module('myApp', [
     'ngRoute',
     'myApp.version',
-    'ngMaterial'
+    'ngMaterial',
+    'leaflet-directive'
 ]);
 
 // Setting main controller.

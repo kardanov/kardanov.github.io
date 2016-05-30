@@ -25,9 +25,9 @@ travelController = function($scope, $window) {
     });
 
     // Getting map height.
-    $scope.mapHeight = $window.innerHeight - angular.element(document.querySelector('#header-container'))[0].offsetHeight - 35;
+    $scope.mapHeight = $window.innerHeight - angular.element(document.querySelector('#header-container'))[0].offsetHeight - angular.element(document.querySelector('#footer-container'))[0].offsetHeight - 1;
     angular.element($window).bind('resize', function () {
-        $scope.mapHeight = $window.innerHeight - angular.element(document.querySelector('#header-container'))[0].offsetHeight - 35;
+        $scope.mapHeight = $window.innerHeight - angular.element(document.querySelector('#header-container'))[0].offsetHeight - angular.element(document.querySelector('#footer-container'))[0].offsetHeight - 1;
         if (!$scope.$$phase) {
             $scope.$apply();
         }

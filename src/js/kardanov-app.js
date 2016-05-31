@@ -27,3 +27,8 @@ kardanovApp.config(function($mdThemingProvider) {
         .accentPalette('blue-grey', {'default':'300'})
         .warnPalette('red', {'default':'700'});
 });
+
+// Disabling debug logging.
+kardanovApp.config(function($logProvider){
+    $logProvider.debugEnabled(false);
+});

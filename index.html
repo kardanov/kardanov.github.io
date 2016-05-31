@@ -13,8 +13,10 @@
 
     <link rel="stylesheet" href="src/css/ext/angular/material/angular-material.min.css">
     <link rel="stylesheet" href="src/css/ext/leaflet/leaflet.css">
-    <link rel="stylesheet" href="src/css/kardanovApp.css">
-    <link rel="stylesheet" href="src/css/iconFont.css">
+    <link rel="stylesheet" href="src/css/ext/leaflet/MarkerCluster.css">
+    <link rel="stylesheet" href="src/css/ext/leaflet/MarkerCluster.Default.css">
+    <link rel="stylesheet" href="src/css/kardanov-app.css">
+    <link rel="stylesheet" href="src/css/icon-font.css">
 
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -23,24 +25,25 @@
     </script>
 </head>
 <body layout="column">
-    <script src="src/js/ext/leaflet/leaflet.js"></script>
     <script src="src/js/ext/angular/angular.min.js"></script>
     <script src="src/js/ext/angular/angular-route.min.js"></script>
     <script src="src/js/ext/angular/material/angular-animate.min.js"></script>
     <script src="src/js/ext/angular/material/angular-aria.min.js"></script>
     <script src="src/js/ext/angular/material/angular-messages.min.js"></script>
     <script src="src/js/ext/angular/material/angular-material.min.js"></script>
+    <script src="src/js/ext/leaflet/leaflet.js"></script>
+    <script src="src/js/ext/leaflet/leaflet.markercluster.js"></script>
     <script src="src/js/ext/leaflet/angular-leaflet-directive.min.js"></script>
 
-    <script src="src/js/controllers/mainController.js"></script>
-    <script src="src/js/controllers/homeController.js"></script>
-    <script src="src/js/controllers/workController.js"></script>
-    <script src="src/js/controllers/travelController.js"></script>
+    <script src="src/js/controllers/main-controller.js"></script>
+    <script src="src/js/controllers/home-controller.js"></script>
+    <script src="src/js/controllers/work-controller.js"></script>
+    <script src="src/js/controllers/travel-controller.js"></script>
     <script src="src/js/utils/version.js"></script>
     <script src="src/js/utils/version-directive.js"></script>
     <script src="src/js/utils/interpolate-filter.js"></script>
 
-    <script src="src/js/kardanovApp.js"></script>
+    <script src="src/js/kardanov-app.js"></script>
 
     <div layout="column" flex>
         <div data-ng-include="'src/views/header.html'"></div>

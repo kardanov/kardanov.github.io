@@ -1,0 +1,17 @@
+[
+    {"lat": 48.401082, "lng": 9.987608, "layer": "travel", "properties": {"name": "Ulm", "id": 1}},
+	{"lat": 48.095147, "lng": 9.790152, "layer": "travel", "properties": {"name": "Biberach", "id": 2}},
+    {"lat": 47.579782, "lng": 9.678933, "layer": "travel", "properties": {"name": "Lindau", "id": 3}},
+	{"lat": 52.520007, "lng": 13.404954, "layer": "travel", "properties": {"name": "Berlin", "id": 4}},
+	{"lat": 48.775846, "lng": 9.182932, "layer": "travel", "properties": {"name": "Stuttgart", "id": 5}},
+	{"lat": 48.135125, "lng": 11.581981, "layer": "travel", "properties": {"name": "München", "id": 6}},
+	{"lat": 50.110922, "lng": 8.682127, "layer": "travel", "properties": {"name": "Frankfurt-am-Main", "id": 7}},
+    {"lat": 40.416775, "lng": -3.703790, "layer": "travel", "properties": {"name": "Madrid", "id": 8}},
+    {"lat": 48.856614, "lng": 2.352222, "layer": "travel", "properties": {"name": "Paris", "id": 9}},
+    {"lat": 47.497912, "lng": 19.040235, "layer": "travel", "properties": {"name": "Budapest", "id": 10}},
+    {"lat": 59.329323, "lng": 18.068581, "layer": "travel", "properties": {"name": "Stockholm", "id": 11}},
+    {"lat": 41.902783, "lng": 12.496366, "layer": "travel", "properties": {"name": "Rome", "id": 12}},
+    {"lat": 50.075538, "lng": 14.437800, "layer": "travel", "properties": {"name": "Prague", "id": 13}},
+    {"lat": 60.169856, "lng": 24.938379, "layer": "travel", "properties": {"name": "Helsinki", "id": 14}},
+    {"lat": 60.451813, "lng": 22.266630, "layer": "travel", "properties": {"name": "Turku", "id": 15}}
+]

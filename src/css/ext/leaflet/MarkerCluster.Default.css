@@ -1,17 +1,17 @@
 .marker-cluster-small {
-    background-color: #777;
+    background-color: #4c4c4c;
 }
 .marker-cluster-small div {
 	background-color: #212121;
 }
 .marker-cluster-medium {
-    background-color: #777;
+    background-color: #4c4c4c;
 }
 .marker-cluster-medium div {
     background-color: #212121;
 }
 .marker-cluster-large {
-    background-color: #777;
+    background-color: #4c4c4c;
 }
 .marker-cluster-large div {
     background-color: #212121;
@@ -48,7 +48,7 @@
 	margin-top: 5px;
     text-align: center;
 	border-radius: 15px;
-	font-size: 10px;
+	font-size: 12px;
     color: #fff;
     white-space: nowrap;
     overflow: hidden;

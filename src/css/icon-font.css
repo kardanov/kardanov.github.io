@@ -21,6 +21,15 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-briefcase:before {
+    content: "\e075";
+	color: #777;
+    font-size: 29px;
+}
+.icon-briefcase.white:before {
+    color: #fff;
+}
+
 .icon-cog:before {
     content: "\e023";
     color: #777;

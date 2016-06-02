@@ -1,3 +1,25 @@
+.clickable { }
+.clickable:hover {
+    cursor: pointer;
+}
+.clickable:focus {
+    outline: 0;
+}
+
+.logo {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+.logo.long {
+     width: 210px;
+}
+.logo.short {
+    width: 36px;
+}
+
 #footer-content {
     width: 100%;
     font-size: 12px;
@@ -5,7 +27,7 @@
 }
 
 html, body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', Helvetica, sans-serif;
     color: #777;
     height: 100%;
     width: 100%;

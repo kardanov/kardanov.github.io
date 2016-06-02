@@ -4,7 +4,7 @@
  * Created by Ruslan Kardanov.
  * Date: 27/05/16.
  */
-mainController = function($scope, $rootScope, $location) {
+mainController = function($scope, $rootScope, $location, $window) {
 
     // App navigation. >>
     // Goes to the location with path specified.
@@ -18,4 +18,13 @@ mainController = function($scope, $rootScope, $location) {
         return $location.path() === path;
     }
     // <<
+
+    // Handling app width.
+    $rootScope.width = $window.innerWidth;
+    angular.element($window).bind('resize', function () {
+        $rootScope.width = $window.innerWidth;
+        if (!$scope.$$phase) {
+            $scope.$apply();
+        }
+    });
 }

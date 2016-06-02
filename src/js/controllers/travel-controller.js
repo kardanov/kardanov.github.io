@@ -25,7 +25,7 @@ travelController = function($scope, $window, $http) {
     $scope.defaults = {
         zoomControl: false,
         scrollWheelZoom: true,
-        minZoom: 4,
+        minZoom: 5,
         center: {
             lat: 48.401082,
             lng: 9.987608,
@@ -51,7 +51,8 @@ travelController = function($scope, $window, $http) {
                 type: 'markercluster',
                 visible: true,
                 layerOptions: {
-                    showCoverageOnHover: false
+                    showCoverageOnHover: false,
+                    maxClusterRadius: 50
                 },
                 layerParams: {
                     showOnSelector: false

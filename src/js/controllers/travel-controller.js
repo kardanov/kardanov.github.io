@@ -37,6 +37,13 @@ travelController = function($scope, $window, $http) {
         lng: 9.987608,
         zoom: 6
     }
+    // Events.
+    $scope.events = {
+        markers: {
+            enable: ['click', 'touchend'],
+            logic: 'emit'
+        }
+    }
 
     // Map layers.
     $scope.layers = {
@@ -82,6 +89,21 @@ travelController = function($scope, $window, $http) {
     })
 
     $scope.$on('leafletDirectiveMarker.click', function(e, args) {
+        $scope.tech.popupContent = args.model.properties.name;
+        $scope.tech.showPopup = true;
+
+        // Repositioning center of the map.
+        $scope.center.lat = args.model.lat;
+        $scope.center.lng = args.model.lng;
+        // Changing zoom (if required).
+        if ($scope.center.zoom < 10) {
+            $scope.center.zoom = 10;
+        }
+        if (!$scope.$$phase) {
+            $scope.$apply();
+        }
+    });
+    $scope.$on('leafletDirectiveMarker.touchend', function(e, args) {
         $scope.tech.popupContent = args.model.properties.name;
         $scope.tech.showPopup = true;
 

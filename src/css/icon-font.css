@@ -47,3 +47,8 @@
 .icon-map.white:before {
     color: #fff;
 }
+.icon-cross:before {
+    content: "\e117";
+    color: #fff;
+    font-size: 22px;
+}

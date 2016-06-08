@@ -1,4 +1,13 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-<md-content id="travel-container" layout="column" layout-align="center center">
-    <leaflet width="100%" data-ng-style="{'height':mapHeight+'px'}" defaults="defaults" layers="layers" markers="markers"></leaflet>
+<md-content layout="column" layout-align="center center">
+    <div id="map-popup" layout="row" layout-align="space-between center" data-ng-show="tech.showPopup">
+        <div class="map-popup-control"></div>
+        <div class="map-popup-content" layout="column" layout-align="center center" flex>{{tech.popupContent}}</div>
+        <div class="map-popup-control" layout="row" layout-align="end center">
+            <md-button class="md-icon-button" style="padding:5px 0px 0px 0px;" data-ng-click="closePopup()" aria-label="close-popup-button">
+                <span class="icon-cross"></span>
+            </md-button>
+        </div>
+    </div>
+    <leaflet width="100%" data-ng-style="{'height':mapHeight+'px'}" defaults="defaults" center="center" layers="layers" markers="markers"></leaflet>
 </md-content>

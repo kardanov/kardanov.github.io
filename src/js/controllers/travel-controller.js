@@ -15,23 +15,29 @@ travelController = function($scope, $window, $http) {
         }
     });
 
+    $scope.tech = {};
+    $scope.tech.showPopup = false;
+    $scope.tech.popupContent = 'n/a';
+
     // Setting up custom map marker icon.
     var icon = {
         iconUrl: 'src/images/map-marker.png',
-        iconSize: [48, 48]
+        iconSize: [24, 24]
     };
 
     // Map defaults.
     $scope.defaults = {
         zoomControl: false,
         scrollWheelZoom: true,
-        minZoom: 5,
-        center: {
-            lat: 48.401082,
-            lng: 9.987608,
-            zoom: 5
-        }
+        minZoom: 5
     }
+    // Center of the map.
+    $scope.center = {
+        lat: 48.401082,
+        lng: 9.987608,
+        zoom: 6
+    }
+
     // Map layers.
     $scope.layers = {
         baselayers: {
@@ -74,6 +80,33 @@ travelController = function($scope, $window, $http) {
             });
         }
     })
+
+    $scope.$on('leafletDirectiveMarker.click', function(e, args) {
+        $scope.tech.popupContent = args.model.properties.name;
+        $scope.tech.showPopup = true;
+
+        // Repositioning center of the map.
+        $scope.center.lat = args.model.lat;
+        $scope.center.lng = args.model.lng;
+        // Changing zoom (if required).
+        if ($scope.center.zoom < 10) {
+            $scope.center.zoom = 10;
+        }
+        if (!$scope.$$phase) {
+            $scope.$apply();
+        }
+    });
+    $scope.closePopup = function() {
+        $scope.tech.showPopup = false;
+
+        // Changing zoom (if required).
+        if ($scope.center.zoom > 6) {
+            $scope.center.zoom = 6;
+        }
+        if (!$scope.$$phase) {
+            $scope.$apply();
+        }
+    }
 
     // Gets map height depending on the window height.
     function getMapHeight(windowHeight) {

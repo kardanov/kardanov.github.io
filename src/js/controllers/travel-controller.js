@@ -113,6 +113,6 @@ travelController = function($scope, $window, $http) {
         return windowHeight
             - angular.element(document.querySelector('#header-container'))[0].offsetHeight
             - angular.element(document.querySelector('#footer-container'))[0].offsetHeight
-                - 2;
+                - 1;
     }
 }

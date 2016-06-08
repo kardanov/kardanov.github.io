@@ -82,7 +82,7 @@ travelController = function($scope, $window, $http) {
     })
 
     $scope.$on('leafletDirectiveMarker.click', function(e, args) {
-        $scope.tech.popupContent = args.model.properties.name;
+        $scope.tech.popupContent = args.model.properties.name + ' [ ' + args.model.properties.c + ' ]';
         $scope.tech.showPopup = true;
 
         // Repositioning center of the map.

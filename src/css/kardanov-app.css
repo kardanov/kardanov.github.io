@@ -5,6 +5,13 @@
     padding: 10px;
     font-size: 13px;
 }
+.map-popup-content-inner {
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 #map-popup {
     position: absolute;
     z-index: 100000;
@@ -31,7 +38,7 @@
     letter-spacing: 5px;
 }
 .logo.long {
-     width: 210px;
+    width: 210px;
 }
 .logo.short {
     width: 36px;

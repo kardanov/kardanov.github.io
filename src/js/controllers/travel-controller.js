@@ -111,6 +111,6 @@ travelController = function($scope, $window, $http) {
 
     // Gets map height depending on the window height.
     function getMapHeight(windowHeight) {
-        return windowHeight - angular.element(document.querySelector('#header-container'))[0].offsetHeight - 38;
+        return windowHeight - angular.element(document.querySelector('#header-container'))[0].offsetHeight - 41;
     }
 }

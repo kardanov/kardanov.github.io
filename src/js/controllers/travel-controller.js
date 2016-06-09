@@ -4,7 +4,7 @@
  * Created by Ruslan Kardanov.
  * Date: 27/05/16.
  */
-travelController = function($scope, $window, $http, leafletMarkerEvents) {
+travelController = function($scope, $window, $http, leafletEvents) {
 
     // Getting map height.
     $scope.mapHeight = getMapHeight($window.innerHeight);
@@ -70,7 +70,7 @@ travelController = function($scope, $window, $http, leafletMarkerEvents) {
     // Map events.
     $scope.events = {
         markers: {
-            enable: leafletMarkerEvents.getAvailableEvents()
+            enable: leafletEvents.getAvailableEvents()
         }
     };
 

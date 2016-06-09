@@ -70,8 +70,7 @@ travelController = function($scope, $window, $http, leafletMarkerEvents) {
     // Map events.
     $scope.events = {
         markers: {
-            enable: leafletMarkerEvents.getAvailableEvents(),
-            logic: 'emit'
+            enable: ['touchend', 'click']
         }
     };
 
@@ -105,7 +104,19 @@ travelController = function($scope, $window, $http, leafletMarkerEvents) {
         }
     });
     $scope.$on('leafletDirectiveMarker.touchend', function(e, args) {
+        $scope.tech.popupContent = args.model.properties.name + ' [ ' + args.model.properties.c + ' ]';
         $scope.tech.showPopup = true;
+
+        // Repositioning center of the map.
+        $scope.center.lat = args.model.lat;
+        $scope.center.lng = args.model.lng;
+        // Changing zoom (if required).
+        if ($scope.center.zoom < 10) {
+            $scope.center.zoom = 10;
+        }
+        if (!$scope.$$phase) {
+            $scope.$apply();
+        }
     });
 
 

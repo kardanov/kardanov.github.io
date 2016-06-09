@@ -5,19 +5,14 @@
             <span class="logo long clickable" data-ng-show="width >= 800" data-ng-click="goTo('/home')">KARDANOV.</span>
             <span class="logo short clickable" data-ng-show="width < 800" data-ng-click="goTo('/home')">K.</span>
         </div>
-        <div layout="row" layout-align="center center" >
-            <md-button class="md-icon-button" style="height:45px;width:45px;padding:6px 0px 0px 0px;" data-ng-disabled="ifHere('/work')" data-ng-click="goTo('/work')" aria-label="go-work-button">
-                <span data-ng-show="!ifHere('/work')" class="icon-briefcase white"></span>
-                <span data-ng-show="ifHere('/work')" class="icon-briefcase"></span>
-            </md-button>
-            <md-button class="md-icon-button" style="height:45px;width:45px;padding:6px 0px 0px 0px;" data-ng-disabled="ifHere('/travel')" data-ng-click="goTo('/travel')" aria-label="go-travel-button">
-                <span data-ng-show="!ifHere('/travel')" class="icon-map white"></span>
-                <span data-ng-show="ifHere('/travel')" class="icon-map"></span>
-            </md-button>
+        <div data-ng-show="width >= 800" layout="row" layout-align="center center">
+            <div data-ng-include="'src/views/header_navigation.html'"></div>
         </div>
         <div layout="row" layout-align="end center">
             <span class="logo long" data-ng-show="width >= 800">&nbsp;</span>
-            <span class="logo short" data-ng-show="width < 800">&nbsp;</span>
+            <div data-ng-show="width < 800" layout="row" layout-align="end center">
+                <div data-ng-include="'src/views/header_navigation.html'"></div>
+            </div>
         </div>
     </div>
 </md-toolbar>

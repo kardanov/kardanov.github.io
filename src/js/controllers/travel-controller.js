@@ -96,6 +96,11 @@ travelController = function($scope, $window, $http) {
             $scope.$apply();
         }
     });
+    $scope.$on('leafletDirectiveMarker.touchend', function(e, args) {
+        $scope.tech.showPopup = true;
+    });
+
+
 
     $scope.closePopup = function() {
         $scope.tech.showPopup = false;

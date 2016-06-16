@@ -1,19 +1,11 @@
 [
     {"lat": 48.401082, "lng": 9.987608, "layer": "travel", "properties": {"name": "Ulm", "c": "Germany", "id": 1}},
-	{"lat": 48.095147, "lng": 9.790152, "layer": "travel", "properties": {"name": "Biberach", "c": "Germany", "id": 2}},
+	{"lat": 48.095147, "lng": 9.790152, "layer": "travel", "properties": {"name": "Biberach-am-Riß", "c": "Germany", "id": 2}},
     {"lat": 47.579782, "lng": 9.678933, "layer": "travel", "properties": {"name": "Lindau", "c": "Germany", "id": 3}},
 	{"lat": 52.520007, "lng": 13.404954, "layer": "travel", "properties": {"name": "Berlin", "c": "Germany", "id": 4}},
 	{"lat": 48.775846, "lng": 9.182932, "layer": "travel", "properties": {"name": "Stuttgart", "c": "Germany", "id": 5}},
 	{"lat": 48.135125, "lng": 11.581981, "layer": "travel", "properties": {"name": "München", "c": "Germany", "id": 6}},
 	{"lat": 50.110922, "lng": 8.682127, "layer": "travel", "properties": {"name": "Frankfurt-am-Main", "c": "Germany", "id": 7}},
-    {"lat": 40.416775, "lng": -3.703790, "layer": "travel", "properties": {"name": "Madrid", "c": "Spain", "id": 8}},
-    {"lat": 48.856614, "lng": 2.352222, "layer": "travel", "properties": {"name": "Paris", "c": "France", "id": 9}},
-    {"lat": 47.497912, "lng": 19.040235, "layer": "travel", "properties": {"name": "Budapest", "c": "Hungary", "id": 10}},
-    {"lat": 59.329323, "lng": 18.068581, "layer": "travel", "properties": {"name": "Stockholm", "c": "Sweden", "id": 11}},
-    {"lat": 41.902783, "lng": 12.496366, "layer": "travel", "properties": {"name": "Rome", "c": "Italy", "id": 12}},
-    {"lat": 50.075538, "lng": 14.437800, "layer": "travel", "properties": {"name": "Prague", "c": "Czech Republic", "id": 13}},
-    {"lat": 60.169856, "lng": 24.938379, "layer": "travel", "properties": {"name": "Helsinki", "c": "Finland", "id": 14}},
-    {"lat": 60.451813, "lng": 22.266630, "layer": "travel", "properties": {"name": "Turku", "c": "Finland", "id": 15}},
     {"lat": 47.966924, "lng": 11.184414, "layer": "travel", "properties": {"name": "Andechs", "c": "Germany", "id": 16}},
     {"lat": 48.370545, "lng": 10.897790, "layer": "travel", "properties": {"name": "Augsburg", "c": "Germany", "id": 17}},
     {"lat": 48.061879, "lng": 9.607911, "layer": "travel", "properties": {"name": "Bad Buchau", "c": "Germany", "id": 18}},
@@ -32,6 +24,23 @@
     {"lat": 48.743342, "lng": 9.320112, "layer": "travel", "properties": {"name": "Esslingen-am-Neckar", "c": "Germany", "id": 31}},
     {"lat": 48.407304, "lng": 9.783545, "layer": "travel", "properties": {"name": "Blaubeuren", "c": "Germany", "id": 32}},
     {"lat": 48.390604, "lng": 10.006040, "layer": "travel", "properties": {"name": "Neu-Ulm", "c": "Germany", "id": 33}},
+
+    {"lat": 40.416775, "lng": -3.703790, "layer": "travel", "properties": {"name": "Madrid", "c": "Spain", "id": 8}},
+
+    {"lat": 48.856614, "lng": 2.352222, "layer": "travel", "properties": {"name": "Paris", "c": "France", "id": 9}},
+
+    {"lat": 59.329323, "lng": 18.068581, "layer": "travel", "properties": {"name": "Stockholm", "c": "Sweden", "id": 11}},
+
+    {"lat": 41.902783, "lng": 12.496366, "layer": "travel", "properties": {"name": "Rome", "c": "Italy", "id": 12}},
+
+    {"lat": 50.075538, "lng": 14.437800, "layer": "travel", "properties": {"name": "Prague", "c": "Czech Republic", "id": 13}},
+
+    {"lat": 60.169856, "lng": 24.938379, "layer": "travel", "properties": {"name": "Helsinki", "c": "Finland", "id": 14}},
+    {"lat": 60.451813, "lng": 22.266630, "layer": "travel", "properties": {"name": "Turku", "c": "Finland", "id": 15}},
+
+
+
+
     {"lat": 47.500750, "lng": 9.742310, "layer": "travel", "properties": {"name": "Bregenz", "c": "Austria", "id": 34}},
     {"lat": 47.334287, "lng": 9.645246, "layer": "travel", "properties": {"name": "Götzis", "c": "Austria", "id": 35}},
     {"lat": 47.412400, "lng": 9.743790, "layer": "travel", "properties": {"name": "Dornbirn", "c": "Austria", "id": 36}},
@@ -55,9 +64,38 @@
     {"lat": 47.474438, "lng": 9.730228, "layer": "travel", "properties": {"name": "Lauterach", "c": "Austria", "id": 54}},
     {"lat": 47.529679, "lng": 9.751304, "layer": "travel", "properties": {"name": "Lochau", "c": "Austria", "id": 55}},
     {"lat": 47.322749, "lng": 10.152766, "layer": "travel", "properties": {"name": "Mittelberg", "c": "Austria", "id": 56}},
+
     {"lat": 53.904540, "lng": 27.561524, "layer": "travel", "properties": {"name": "Minsk", "c": "Belarus", "id": 57}},
     {"lat": 53.453995, "lng": 26.469836, "layer": "travel", "properties": {"name": "Mir", "c": "Belarus", "id": 58}},
+
     {"lat": 50.850340, "lng": 4.351710, "layer": "travel", "properties": {"name": "Brussels", "c": "Belgium", "id": 59}},
     {"lat": 50.879844, "lng": 4.700518, "layer": "travel", "properties": {"name": "Leuven", "c": "Belgium", "id": 60}},
-    {"lat": 41.902916, "lng": 12.453389, "layer": "travel", "properties": {"name": "Vatican City", "c": "Vatican", "id": 61}}
+
+    {"lat": 41.902916, "lng": 12.453389, "layer": "travel", "properties": {"name": "Vatican City", "c": "Vatican", "id": 61}},
+
+    {"lat": 47.497912, "lng": 19.040235, "layer": "travel", "properties": {"name": "Budapest", "c": "Hungary", "id": 10}},
+    {"lat": 46.956937, "lng": 17.896568, "layer": "travel", "properties": {"name": "Balatonfüred", "c": "Hungary"}},
+    {"lat": 46.765472, "lng": 17.247955, "layer": "travel", "properties": {"name": "Keszthely", "c": "Hungary"}},
+    {"lat": 46.790286, "lng": 17.186694, "layer": "travel", "properties": {"name": "Heviz", "c": "Hungary"}},
+    {"lat": 46.802527, "lng": 17.510874, "layer": "travel", "properties": {"name": "Badacsonytomaj", "c": "Hungary"}},
+    {"lat": 47.031703, "lng": 18.008700, "layer": "travel", "properties": {"name": "Balatonalmadi", "c": "Hungary"}},
+    {"lat": 46.773667, "lng": 17.285178, "layer": "travel", "properties": {"name": "Gyenesdias", "c": "Hungary"}},
+    {"lat": 46.761343, "lng": 17.315234, "layer": "travel", "properties": {"name": "Vonyarcvashegy", "c": "Hungary"}},
+
+    {"lat": 47.141030, "lng": 9.520928, "layer": "travel", "properties": {"name": "Vaduz", "c": "Liechtenstein"}},
+    {"lat": 47.185532, "lng": 9.545365, "layer": "travel", "properties": {"name": "Planken", "c": "Liechtenstein"}},
+    {"lat": 47.109792, "lng": 9.524817, "layer": "travel", "properties": {"name": "Triesen", "c": "Liechtenstein"}},
+    {"lat": 47.167522, "lng": 9.510558, "layer": "travel", "properties": {"name": "Schaan", "c": "Liechtenstein"}},
+    {"lat": 47.065583, "lng": 9.507453, "layer": "travel", "properties": {"name": "Balzers", "c": "Liechtenstein"}},
+    {"lat": 47.218928, "lng": 9.541735, "layer": "travel", "properties": {"name": "Mauren", "c": "Liechtenstein"}},
+
+    {"lat": 40.662289, "lng": -8.728642, "layer": "travel", "properties": {"name": "São Jacinto", "c": "Portugal"}},
+    {"lat": 40.640506, "lng": -8.653754, "layer": "travel", "properties": {"name": "Aveiro", "c": "Portugal"}},
+    {"lat": 41.123876, "lng": -8.611785, "layer": "travel", "properties": {"name": "Vila Nova de Gaia", "c": "Portugal"}},
+    {"lat": 41.157944, "lng": -8.629105, "layer": "travel", "properties": {"name": "Porto", "c": "Portugal"}},
+    {"lat": 40.618422, "lng": -8.733524, "layer": "travel", "properties": {"name": "Gafanha da Encarnação", "c": "Portugal"}},
+    {"lat": 40.636374, "lng": -8.700461, "layer": "travel", "properties": {"name": "Gafanha da Nazaré", "c": "Portugal"}},
+    {"lat": 40.638059, "lng": -8.747081, "layer": "travel", "properties": {"name": "Praia da Barra", "c": "Portugal"}},
+    {"lat": 38.722252, "lng": -9.139337, "layer": "travel", "properties": {"name": "Lisbon", "c": "Portugal"}},
+    {"lat": 40.760681, "lng": -8.705260, "layer": "travel", "properties": {"name": "Torreira", "c": "Portugal"}}
 ]

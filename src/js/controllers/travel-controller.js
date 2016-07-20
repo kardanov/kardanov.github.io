@@ -88,6 +88,27 @@ travelController = function($scope, $window, $http, leafletMarkerEvents) {
         }
     })
 
+    // Getting countries to be shown on the map.
+    /*
+    $http({
+        method: 'GET',
+        url: 'src/data/countries.json'
+    }).then(function (result) {
+        angular.extend($scope, {
+            geojson: {
+                data: result.data,
+                style: {
+                    fillColor: '#212121',
+                    weight: 1,
+                    opacity: 1,
+                    color: 'white',
+                    dashArray: '1',
+                    fillOpacity: 0.3
+                }
+            }
+        });
+    })*/
+
     $scope.$on('leafletDirectiveMarker.click', function(e, args) {
         $scope.tech.popupContent = args.model.properties.name + ' [ ' + args.model.properties.c + ' ]';
         $scope.tech.showPopup = true;

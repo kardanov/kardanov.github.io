@@ -58,7 +58,7 @@ travelController = function($scope, $window, $http, leafletMarkerEvents) {
                 visible: true,
                 layerOptions: {
                     showCoverageOnHover: false,
-                    maxClusterRadius: 50
+                    maxClusterRadius: 60
                 },
                 layerParams: {
                     showOnSelector: false

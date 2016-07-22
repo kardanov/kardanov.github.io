@@ -4,7 +4,7 @@
  * Created by Ruslan Kardanov.
  * Date: 27/05/16.
  */
-travelController = function($scope, $window, $http, $mdSidenav, $timeout, leafletData, leafletMarkerEvents) {
+travelController = function($scope, $window, $http, $mdSidenav, $timeout, leafletData, leafletMarkersHelpers, leafletMarkerEvents) {
 
     // Getting map height.
     $scope.mapHeight = getMapHeight($window.innerHeight);
@@ -73,7 +73,7 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, leafle
     // Map events.
     $scope.events = {
         markers: {
-            enable: ['touchend', 'click']
+            enable: ['touchend', 'touchstart', 'touchmove', 'touchcancel', 'touchleave', 'click']
         }
     };
 
@@ -126,7 +126,7 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, leafle
         });
     })*/
 
-    $scope.$on('leafletDirectiveMarker.leafletTravelMap.click', function(e, args) {
+    $scope.$on('leafletDirectiveMarker.click', function(e, args) {
         $scope.tech.popupContent = args.model.props.n + ' [ ' + args.model.props.c + ' ]';
         $scope.tech.showPopup = true;
 
@@ -143,6 +143,22 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, leafle
     });
 
     $scope.$on('leafletDirectiveMarker.touchend', function(e, args) {
+        $scope.tech.popupContent = args.model.props.n + ' [ ' + args.model.props.c + ' ]';
+        $scope.tech.showPopup = true;
+
+        // Repositioning center of the map.
+        $scope.center.lat = args.model.lat;
+        $scope.center.lng = args.model.lng;
+        // Changing zoom (if required).
+        if ($scope.center.zoom < 10) {
+            $scope.center.zoom = 10;
+        }
+        if (!$scope.$$phase) {
+            $scope.$apply();
+        }
+    });
+
+    $scope.$on('leafletDirectiveMarker.touchstart', function(e, args) {
         $scope.tech.popupContent = args.model.props.n + ' [ ' + args.model.props.c + ' ]';
         $scope.tech.showPopup = true;
 
@@ -181,6 +197,8 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, leafle
 
         $scope.markers = [];
         $scope.markers = $scope.getVisibleMarkers($scope.tech.allMarkers, $scope.tech.currentYear);
+
+        leafletMarkersHelpers.resetMarkerGroups();
 
 
         $timeout(function() {

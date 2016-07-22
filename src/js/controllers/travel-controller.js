@@ -4,7 +4,7 @@
  * Created by Ruslan Kardanov.
  * Date: 27/05/16.
  */
-travelController = function($scope, $window, $http, leafletMarkerEvents) {
+travelController = function($scope, $window, $http, $mdSidenav, $timeout, leafletData, leafletMarkerEvents) {
 
     // Getting map height.
     $scope.mapHeight = getMapHeight($window.innerHeight);
@@ -18,6 +18,8 @@ travelController = function($scope, $window, $http, leafletMarkerEvents) {
     $scope.tech = {};
     $scope.tech.showPopup = false;
     $scope.tech.popupContent = 'n/a';
+    $scope.tech.currentYear = 2016;
+    $scope.tech.allMarkers = [];
 
     // Setting up custom map marker icon.
     var icon = {
@@ -29,6 +31,7 @@ travelController = function($scope, $window, $http, leafletMarkerEvents) {
     $scope.defaults = {
         zoomControl: false,
         scrollWheelZoom: true,
+        touchZoom: true,
         minZoom: 5
     }
     // Center of the map.
@@ -74,18 +77,32 @@ travelController = function($scope, $window, $http, leafletMarkerEvents) {
         }
     };
 
+    $scope.getVisibleMarkers = function(markers, year) {
+        var result = [];
+        if (typeof markers !== 'undefined' && markers.length > 0) {
+            markers.forEach(function (marker) {
+                if (marker.props.y <= year) {
+                    result.push(marker);
+                }
+            });
+        }
+        return result;
+    }
+
     // Getting places to be shown on the map.
     $http({
         method: 'GET',
         url: 'src/data/places.json'
     }).then(function (result) {
         // Getting markers.
-        $scope.markers = result.data;
-        if (typeof $scope.markers !== 'undefined' && $scope.markers.length > 0) {
-            $scope.markers.forEach(function (marker) {
+        $scope.tech.allMarkers = result.data;
+        if (typeof $scope.tech.allMarkers !== 'undefined' && $scope.tech.allMarkers.length > 0) {
+            $scope.tech.allMarkers.forEach(function (marker) {
                 marker.icon = icon;
             });
         }
+        $scope.markers = [];
+        $scope.markers = $scope.getVisibleMarkers($scope.tech.allMarkers, $scope.tech.currentYear);
     })
 
     // Getting countries to be shown on the map.
@@ -109,8 +126,8 @@ travelController = function($scope, $window, $http, leafletMarkerEvents) {
         });
     })*/
 
-    $scope.$on('leafletDirectiveMarker.click', function(e, args) {
-        $scope.tech.popupContent = args.model.properties.name + ' [ ' + args.model.properties.c + ' ]';
+    $scope.$on('leafletDirectiveMarker.leafletTravelMap.click', function(e, args) {
+        $scope.tech.popupContent = args.model.props.n + ' [ ' + args.model.props.c + ' ]';
         $scope.tech.showPopup = true;
 
         // Repositioning center of the map.
@@ -126,7 +143,7 @@ travelController = function($scope, $window, $http, leafletMarkerEvents) {
     });
 
     $scope.$on('leafletDirectiveMarker.touchend', function(e, args) {
-        $scope.tech.popupContent = args.model.properties.name + ' [ ' + args.model.properties.c + ' ]';
+        $scope.tech.popupContent = args.model.props.n + ' [ ' + args.model.props.c + ' ]';
         $scope.tech.showPopup = true;
 
         // Repositioning center of the map.
@@ -148,6 +165,47 @@ travelController = function($scope, $window, $http, leafletMarkerEvents) {
         if ($scope.center.zoom > 6) {
             $scope.center.zoom = 6;
         }
+        if (!$scope.$$phase) {
+            $scope.$apply();
+        }
+    }
+
+    $scope.openSideNavigation = function () {
+        //$mdSidenav('left').open();
+    }
+
+    $scope.onYearChange = function() {
+        $scope.closePopup();
+
+        //$scope.layers.overlays = {};
+
+        $scope.markers = [];
+        $scope.markers = $scope.getVisibleMarkers($scope.tech.allMarkers, $scope.tech.currentYear);
+
+
+        $timeout(function() {
+            leafletData.getLayers().then(function(layers) {
+                var clusters = layers.overlays.travel.getLayers();
+                var test = "test";
+            });
+        }, 1000);
+
+
+
+        /*$scope.layers.overlays = {
+            travel: {
+                name: 'travel',
+                type: 'markercluster',
+                visible: true,
+                layerOptions: {
+                    showCoverageOnHover: false,
+                    maxClusterRadius: 60
+                },
+                layerParams: {
+                    showOnSelector: false
+                }
+            }
+        }*/
         if (!$scope.$$phase) {
             $scope.$apply();
         }

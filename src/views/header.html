@@ -1,18 +1,12 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-<md-toolbar id="header-container" md-whiteframe="2" data-ng-controller="MainController">
+<md-toolbar id="header-container" md-whiteframe="4" data-ng-controller="MainController">
     <div class="md-toolbar-tools" layout="row" layout-align="space-between center">
         <div layout="row" layout-align="start center">
             <span class="logo long clickable" data-ng-show="width >= 800" data-ng-click="goTo('/home')">KARDANOV.</span>
             <span class="logo short clickable" data-ng-show="width < 800" data-ng-click="goTo('/home')">K.</span>
         </div>
-        <div data-ng-show="width >= 800" layout="row" layout-align="center center">
-            <div data-ng-include="'src/views/header_navigation.html'"></div>
-        </div>
         <div layout="row" layout-align="end center">
-            <span class="logo long" data-ng-show="width >= 800">&nbsp;</span>
-            <div data-ng-show="width < 800" layout="row" layout-align="end center">
-                <div data-ng-include="'src/views/header_navigation.html'"></div>
-            </div>
+            <div data-ng-include="'src/views/header_navigation.html'"></div>
         </div>
     </div>
 </md-toolbar>

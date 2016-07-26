@@ -174,6 +174,22 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, leafle
         }
     });
 
+    $scope.$on('leafletDirectiveMarker.touchstart', function(e, args) {
+        $scope.tech.popupContent = args.model.props.n + ' [ ' + args.model.props.c + ' ]';
+        $scope.tech.showPopup = true;
+
+        // Repositioning center of the map.
+        $scope.center.lat = args.model.lat;
+        $scope.center.lng = args.model.lng;
+        // Changing zoom (if required).
+        if ($scope.center.zoom < 10) {
+            $scope.center.zoom = 10;
+        }
+        if (!$scope.$$phase) {
+            $scope.$apply();
+        }
+    });
+
     $scope.closePopup = function() {
         $scope.tech.showPopup = false;
 

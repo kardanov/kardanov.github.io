@@ -59,7 +59,7 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, leafle
                     showOnSelector: false
                 }
             }
-        },
+        }/*,
         overlays: {
             travel: {
                 name: 'travel',
@@ -73,7 +73,7 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, leafle
                     showOnSelector: false
                 }
             }
-        }
+        }*/
     }
 
     $scope.getVisibleMarkers = function(markers, year) {

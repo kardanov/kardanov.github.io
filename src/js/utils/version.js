@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module('myApp.version', [ 'myApp.version.interpolate-filter', 'myApp.version.version-directive' ]).value('version', '0.38');
+angular.module('myApp.version', [ 'myApp.version.interpolate-filter', 'myApp.version.version-directive' ]).value('version', '0.39');

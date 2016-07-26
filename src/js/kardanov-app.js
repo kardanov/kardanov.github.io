@@ -3,7 +3,6 @@
 // Configuring app.
 var kardanovApp = angular.module('myApp', [
     'ngRoute',
-    'ngTouch',
     'myApp.version',
     'ngMaterial',
     'leaflet-directive'

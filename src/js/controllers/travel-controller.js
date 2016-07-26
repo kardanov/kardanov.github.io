@@ -20,6 +20,12 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, leafle
     $scope.tech.popupContent = 'n/a';
     $scope.tech.currentYear = 2016;
     $scope.tech.allMarkers = [];
+    // Map events.
+    $scope.tech.events = {
+        markers: {
+            enable: leafletMarkerEvents.getAvailableEvents()
+        }
+    };
 
     // Setting up custom map marker icon.
     var icon = {
@@ -69,13 +75,6 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, leafle
             }
         }
     }
-
-    // Map events.
-    $scope.events = {
-        markers: {
-            enable: ['touchend', 'touchstart', 'touchmove', 'touchcancel', 'touchleave', 'click']
-        }
-    };
 
     $scope.getVisibleMarkers = function(markers, year) {
         var result = [];

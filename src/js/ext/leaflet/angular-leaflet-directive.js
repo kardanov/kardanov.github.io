@@ -5527,7 +5527,7 @@ angular.module('leaflet-directive')
         .genDispatchEvent.call(this, maybeMapId, eventName, logic, leafletScope, lObject, name, model, layerName);
     return function(e) {
       // Broadcast old marker click name for backwards compatibility
-      if (eventName === 'click' || eventName === 'touchend') {
+      if (eventName === 'click') {
         safeApply(leafletScope, function() {
           $rootScope.$broadcast('leafletDirectiveMarkersClick', name);
         });

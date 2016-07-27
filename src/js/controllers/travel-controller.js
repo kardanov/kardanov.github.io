@@ -27,6 +27,16 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, leafle
         }
     };
 
+    var markerEvents = leafletMarkerEvents.getAvailableEvents();
+    for (var k in markerEvents){
+        var eventName = 'leafletDirectiveMarker.myTravelMap.' + markerEvents[k];
+        $scope.$on(eventName, function(event, args){
+            if (event.name.indexOf('mouse') === -1) {
+                $scope.eventDetected = event.name;
+            }
+        });
+    }
+
     // Setting up custom map marker icon.
     var icon = {
         iconUrl: 'src/images/map-marker.png',

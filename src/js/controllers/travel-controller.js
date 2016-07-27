@@ -4,7 +4,7 @@
  * Created by Ruslan Kardanov.
  * Date: 27/05/16.
  */
-travelController = function($scope, $window, $http, $mdSidenav, $timeout, leafletData, leafletMarkersHelpers, leafletMarkerEvents) {
+travelController = function($scope, $window, $http, $mdSidenav, $timeout, $log, leafletData, leafletMarkersHelpers, leafletMarkerEvents) {
 
     // Getting map height.
     $scope.mapHeight = getMapHeight($window.innerHeight);
@@ -31,6 +31,7 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, leafle
     for (var k in markerEvents){
         var eventName = 'leafletDirectiveMarker.myTravelMap.' + markerEvents[k];
         $scope.$on(eventName, function(event, args){
+            $log.info(event.name);
             if (event.name.indexOf('mouse') === -1) {
                 $scope.eventDetected = event.name;
             }

@@ -200,6 +200,10 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, leafle
         }
     });
 
+    $scope.$on('touchend', function(e, args) {
+        var test = 'test';
+    });
+
     $scope.$on('leafletDirectiveMarker.touchend', function(e, args) {
         $scope.tech.popupContent = args.model.props.n + ' [ ' + args.model.props.c + ' ]';
         $scope.tech.showPopup = true;

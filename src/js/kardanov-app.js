@@ -48,6 +48,10 @@ kardanovApp.config(function($mdThemingProvider) {
 });
 
 // Disabling debug logging.
-kardanovApp.config(function($logProvider){
+kardanovApp.config(function($logProvider) {
     $logProvider.debugEnabled(false);
+});
+
+kardanovApp.config(function($mdGestureProvider) {
+    $mdGestureProvider.skipClickHijack();
 });

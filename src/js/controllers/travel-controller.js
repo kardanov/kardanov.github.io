@@ -4,7 +4,7 @@
  * Created by Ruslan Kardanov.
  * Date: 27/05/16.
  */
-travelController = function($scope, $window, $http, $mdSidenav, $timeout, $log, leafletData, leafletMarkersHelpers, leafletMarkerEvents) {
+travelController = function($scope, $window, $http, $mdSidenav, $timeout, leafletData, leafletMarkersHelpers) {
 
     // Getting map height.
     $scope.mapHeight = getMapHeight($window.innerHeight);
@@ -21,22 +21,11 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, $log, 
     $scope.tech.currentYear = 2016;
     $scope.tech.allMarkers = [];
     // Map events.
-    $scope.tech.events = {
+    /*$scope.tech.events = {
         markers: {
             enable: leafletMarkerEvents.getAvailableEvents()
         }
-    };
-
-    var markerEvents = leafletMarkerEvents.getAvailableEvents();
-    for (var k in markerEvents){
-        var eventName = 'leafletDirectiveMarker.myTravelMap.' + markerEvents[k];
-        $scope.$on(eventName, function(event, args){
-            $log.info(event.name);
-            if (event.name.indexOf('mouse') === -1) {
-                $scope.eventDetected = event.name;
-            }
-        });
-    }
+    };*/
 
     // Setting up custom map marker icon.
     var icon = {
@@ -137,7 +126,7 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, $log, 
         });
     })*/
 
-    $scope.$on('leafletDirectiveMarker.myTravelMap.click', function(e, args) {
+    $scope.$on('leafletDirectiveMarker.click', function(e, args) {
         $scope.tech.popupContent = args.model.props.n + ' [ ' + args.model.props.c + ' ]';
         $scope.tech.showPopup = true;
 
@@ -166,7 +155,7 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, $log, 
     }
 
     $scope.openSideNavigation = function () {
-        //$mdSidenav('left').open();
+        $mdSidenav('left').open();
     }
 
     $scope.onYearChange = function() {

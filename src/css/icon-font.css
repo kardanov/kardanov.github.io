@@ -52,3 +52,7 @@
     color: #fff;
     font-size: 22px;
 }
+
+.icon-circle:before {
+  content: "\f111";
+}

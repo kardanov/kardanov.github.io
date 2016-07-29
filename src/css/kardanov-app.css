@@ -10,12 +10,12 @@ md-backdrop._md-sidenav-backdrop {
 
 md-sidenav {
     z-index: 10001;
-    width: 230px;
+    width: 150px;
 }
 @media (max-width: 456px) {
     md-sidenav {
-        width: 230px;
-        min-width: 230px;
+        width: 150px;
+        min-width: 150px;
     }
 }
 
@@ -31,27 +31,25 @@ md-sidenav {
 
 #map-year-indicator {
     position: absolute;
-    z-index: 5000;
-    width: 100px;
-    height: 50px;
-    top: 50%;
-    margin-top: -25px;
-    left: 100%;
-    margin-left: -105px;
-    background-color: rgba(33, 33, 33, 0.8);
+    z-index: 50000;
+    width: 150px;
+    height: 70px;
+    top: 100%;
+    margin-top: -70px;
+    background-color: rgba(33, 33, 33, 0.4);
     color: #fff;
     outline-width: 0;
 }
 #map-year-indicator:hover {
     cursor: pointer;
-    background-color: rgba(33, 33, 33, 1);
+    background-color: rgba(33, 33, 33, 0.5);
 }
 #map-year-indicator:focus {
     outline: none;
 }
 
 .map-year-label {
-    font-size: 30px;
+    font-size: 40px;
 }
 .map-year-label.map:hover {
     cursor: pointer;

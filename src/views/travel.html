@@ -12,13 +12,13 @@
         </div>
     </div>
 
-    <div id="map-year-indicator" layout="column" layout-align="center center" data-ng-click="openSideNavigation()">
+    <div id="map-year-indicator" layout="column" layout-align="center center" data-ng-click="toggleSideNav()">
         <label class="map-year-label map">{{tech.currentYear}}</label>
     </div>
 
     <md-sidenav class="md-sidenav-left" md-whiteframe="2" md-component-id="left">
         <md-content class="md-sidenav-content-custom" layout="column" layout-align="center center">
-            <md-slider class="md-warn" style="height:90%" min="1985" max="2016" data-ng-model="tech.currentYear" data-ng-change="onYearChange()" aria-label="map-time-slider" md-vertical></md-slider>
+            <md-slider class="md-warn" style="height:100%;padding:20px 0px 90px 0px;" min="1985" max="2016" data-ng-model="tech.currentYear" data-ng-change="onYearChange()" aria-label="map-time-slider" md-vertical></md-slider>
         </md-content>
     </md-sidenav>
 

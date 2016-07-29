@@ -154,8 +154,8 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, leafle
         }
     }
 
-    $scope.openSideNavigation = function () {
-        $mdSidenav('left').open();
+    $scope.toggleSideNav = function () {
+        $mdSidenav('left').toggle();
     }
 
     $scope.onYearChange = function() {

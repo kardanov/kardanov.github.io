@@ -26,3 +26,15 @@ dataFactory = function($rootScope, $http) {
     // Returns factory.
     return factory;
 }
+
+function getVisibleMarkers(markers, year) {
+    var result = [];
+    if (typeof markers !== 'undefined' && markers.length > 0) {
+        markers.forEach(function (marker) {
+            if (marker.props.y <= year) {
+                result.push(marker);
+            }
+        });
+    }
+    return result;
+}

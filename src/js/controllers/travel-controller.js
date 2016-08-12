@@ -4,7 +4,7 @@
  * Created by Ruslan Kardanov.
  * Date: 27/05/16.
  */
-travelController = function($scope, $window, $http, $mdSidenav, $timeout, dataFactory, leafletData, leafletMarkersHelpers) {
+travelController = function($scope, $window, $http, $mdSidenav, $timeout, dataFactory) {
 
     // Getting map height.
     $scope.mapHeight = getMapHeight($window.innerHeight);
@@ -27,61 +27,45 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, dataFa
         iconSize: [24, 24]
     };
 
-    // Map defaults.
-    $scope.defaults = {
-        zoomControl: false,
-        scrollWheelZoom: true,
-        touchZoom: true,
-        tap: true,
-        minZoom: 5
-    }
-    // Center of the map.
-    $scope.center = {
-        lat: 48.401082,
-        lng: 9.987608,
-        zoom: 6
-    }
-
-    // Map layers.
-    $scope.layers = {
-        baselayers: {
-            watercolor: {
-                name: 'watercolor',
-                type: 'xyz',
-                url: 'http://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.png',
-                layerOptions: {
-                    attribution: '<a href="http://stamen.com">Stamen Design</a>, ' + '<a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> | ' + '<a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-                    showOnSelector: false
-                }
-            }
+    // Configuring basic map data.
+    angular.extend($scope, {
+        center: {
+            lat: 48.401082,
+            lng: 9.987608,
+            zoom: 6
         },
-        overlays: {
-            travel: {
-                name: 'travel',
-                type: 'markercluster',
-                visible: true,
-                layerOptions: {
-                    showCoverageOnHover: false,
-                    maxClusterRadius: 65
-                },
-                layerParams: {
-                    showOnSelector: false
+        defaults: {
+            zoomControl: false,
+            minZoom: 5
+        },
+        layers: {
+            baselayers: {
+                watercolor: {
+                    name: 'watercolor',
+                    type: 'xyz',
+                    url: 'http://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.png',
+                    layerOptions: {
+                        attribution: '<a href="http://stamen.com">Stamen Design</a>, ' + '<a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> | ' + '<a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+                        showOnSelector: false
+                    }
+                }
+            },
+            overlays: {
+                travel: {
+                    name: 'travel',
+                    type: 'markercluster',
+                    visible: true,
+                    layerOptions: {
+                        showCoverageOnHover: false,
+                        maxClusterRadius: 65
+                    },
+                    layerParams: {
+                        showOnSelector: false
+                    }
                 }
             }
         }
-    }
-
-    $scope.getVisibleMarkers = function(markers, year) {
-        var result = [];
-        if (typeof markers !== 'undefined' && markers.length > 0) {
-            markers.forEach(function (marker) {
-                if (marker.props.y <= year) {
-                    result.push(marker);
-                }
-            });
-        }
-        return result;
-    }
+    });
 
     // Getting places to be shown on the map.
     dataFactory.getPlaces().then(function (result) {
@@ -90,8 +74,9 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, dataFa
             marker.icon = icon;
         });
 
-        $scope.markers = [];
-        $scope.markers = $scope.getVisibleMarkers($scope.tech.allMarkers, $scope.tech.currentYear);
+        angular.extend($scope, {
+            markers: getVisibleMarkers($scope.tech.allMarkers, $scope.tech.currentYear)
+        });
     });
 
     // Getting countries to be shown on the map.
@@ -149,38 +134,9 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, dataFa
 
     $scope.onYearChange = function() {
         $scope.closePopup();
-
-        //$scope.layers.overlays = {};
-
-        $scope.markers = [];
-        $scope.markers = $scope.getVisibleMarkers($scope.tech.allMarkers, $scope.tech.currentYear);
-
-        leafletMarkersHelpers.resetMarkerGroups();
-
-
-        $timeout(function() {
-            leafletData.getLayers().then(function(layers) {
-                var clusters = layers.overlays.travel.getLayers();
-                var test = "test";
-            });
-        }, 1000);
-
-
-
-        /*$scope.layers.overlays = {
-            travel: {
-                name: 'travel',
-                type: 'markercluster',
-                visible: true,
-                layerOptions: {
-                    showCoverageOnHover: false,
-                    maxClusterRadius: 60
-                },
-                layerParams: {
-                    showOnSelector: false
-                }
-            }
-        }*/
+        angular.extend($scope, {
+            markers: getVisibleMarkers($scope.tech.allMarkers, $scope.tech.currentYear)
+        });
         if (!$scope.$$phase) {
             $scope.$apply();
         }

@@ -4,7 +4,7 @@
  * Created by Ruslan Kardanov.
  * Date: 27/05/16.
  */
-mainController = function($scope, $rootScope, $location, $window) {
+mainController = function($scope, $rootScope, $location, $window, promiseTracker) {
 
     // App navigation. >>
     // Goes to the location with path specified.
@@ -18,6 +18,9 @@ mainController = function($scope, $rootScope, $location, $window) {
         return $location.path() === path;
     }
     // <<
+
+    // Creating new loading tracker.
+    $rootScope.loadingTracker = promiseTracker('loadingTracker');
 
     // Handling app width.
     $rootScope.width = $window.innerWidth;

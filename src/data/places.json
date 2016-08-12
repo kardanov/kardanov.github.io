@@ -293,6 +293,41 @@
   {"lat": 48.615544, "lng": 10.566997, "layer": "travel", "props": {"n": "Höchstädt-an-der-Donau", "c": "DE", "y": 2016}},
   {"lat": 48.655032, "lng": 10.647996, "layer": "travel", "props": {"n": "Schwenningen", "c": "DE", "y": 2016}},
   {"lat": 48.673682, "lng": 10.685364, "layer": "travel", "props": {"n": "Tapfheim", "c": "DE", "y": 2016}},
+  {"lat": 48.967802, "lng": 8.725007, "layer": "travel", "props": {"n": "Neulingen", "c": "DE", "y": 2016}},
+  {"lat": 49.036291, "lng": 8.701059, "layer": "travel", "props": {"n": "Bretten", "c": "DE", "y": 2016}},
+  {"lat": 49.059732, "lng": 8.659553, "layer": "travel", "props": {"n": "Gondelsheim", "c": "DE", "y": 2016}},
+
+  {"lat": 51.812563, "lng": 5.837226, "layer": "travel", "props": {"n": "Nijmegen", "c": "NL", "y": 2010}},
+  {"lat": 52.370216, "lng": 4.895168, "layer": "travel", "props": {"n": "Amsterdam", "c": "NL", "y": 2010}},
+  {"lat": 51.985103, "lng": 5.898730, "layer": "travel", "props": {"n": "Arnhem", "c": "NL", "y": 2011}},
+  {"lat": 52.387388, "lng": 4.646219, "layer": "travel", "props": {"n": "Haarlem", "c": "NL", "y": 2015}},
+  {"lat": 52.442040, "lng": 4.829199, "layer": "travel", "props": {"n": "Zaandam", "c": "NL", "y": 2015}},
+  {"lat": 52.514381, "lng": 4.964061, "layer": "travel", "props": {"n": "Purmerend", "c": "NL", "y": 2015}},
+  {"lat": 52.512637, "lng": 5.049182, "layer": "travel", "props": {"n": "Edam", "c": "NL", "y": 2015}},
+  {"lat": 52.496869, "lng": 5.072701, "layer": "travel", "props": {"n": "Volendam", "c": "NL", "y": 2015}},
+  {"lat": 52.455569, "lng": 5.039232, "layer": "travel", "props": {"n": "Monnickendam", "c": "NL", "y": 2015}},
+  {"lat": 52.458993, "lng": 5.103206, "layer": "travel", "props": {"n": "Marken", "c": "NL", "y": 2015}},
+  {"lat": 52.070498, "lng": 4.300700, "layer": "travel", "props": {"n": "Den Haag", "c": "NL", "y": 2015}},
+  {"lat": 52.102401, "lng": 4.302183, "layer": "travel", "props": {"n": "Scheveningen", "c": "NL", "y": 2015}},
+  {"lat": 52.956281, "lng": 4.760797, "layer": "travel", "props": {"n": "Den Helder", "c": "NL", "y": 2016}},
+  {"lat": 53.004305, "lng": 4.783042, "layer": "travel", "props": {"n": "Het Horntje", "c": "NL", "y": 2016}},
+  {"lat": 53.096220, "lng": 4.761841, "layer": "travel", "props": {"n": "De Koog", "c": "NL", "y": 2016}},
+  {"lat": 52.913688, "lng": 4.795023, "layer": "travel", "props": {"n": "De Kooy", "c": "NL", "y": 2016}},
+  {"lat": 52.882690, "lng": 4.876035, "layer": "travel", "props": {"n": "Van Ewijcksluis", "c": "NL", "y": 2016}},
+  {"lat": 52.845134, "lng": 4.968685, "layer": "travel", "props": {"n": "Slootdorp", "c": "NL", "y": 2016}},
+  {"lat": 52.642365, "lng": 5.060212, "layer": "travel", "props": {"n": "Hoorn", "c": "NL", "y": 2016}},
+  {"lat": 52.622183, "lng": 5.012412, "layer": "travel", "props": {"n": "Scharwoude", "c": "NL", "y": 2016}},
+  {"lat": 52.632381, "lng": 4.753375, "layer": "travel", "props": {"n": "Alkmaar", "c": "NL", "y": 2016}},
+  {"lat": 52.674937, "lng": 4.706395, "layer": "travel", "props": {"n": "Bergen", "c": "NL", "y": 2016}},
+  {"lat": 52.661042, "lng": 4.631819, "layer": "travel", "props": {"n": "Bergen-aan-Zee", "c": "NL", "y": 2016}},
+  {"lat": 51.370375, "lng": 6.172403, "layer": "travel", "props": {"n": "Venlo", "c": "NL", "y": 2016}},
+  {"lat": 51.924420, "lng": 4.477733, "layer": "travel", "props": {"n": "Rotterdam", "c": "NL", "y": 2016}},
+
+
+
+
+
+
 
   {"lat": 40.416775, "lng": -3.703790, "layer": "travel", "props": {"n": "Madrid", "c": "ES", "y": 2011}},
 

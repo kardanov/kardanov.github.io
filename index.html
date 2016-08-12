@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="src/css/ext/leaflet/leaflet.css">
     <link rel="stylesheet" href="src/css/ext/leaflet/MarkerCluster.css">
     <link rel="stylesheet" href="src/css/ext/leaflet/MarkerCluster.Default.css">
+    <link rel="stylesheet" href="src/css/ext/utils/angular-busy.min.css">
     <link rel="stylesheet" href="src/css/kardanov-app.css">
     <link rel="stylesheet" href="src/css/icon-font.css">
 
@@ -25,9 +26,8 @@
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
         ga('create', 'UA-72952134-1', 'auto');ga('send', 'pageview');
     </script>
-</head>
-<body layout="column">
-    <script src="src/js/ext/angular/angular.min.js"></script>
+
+    <script src="src/js/ext/angular/angular.js"></script>
     <script src="src/js/ext/angular/angular-route.min.js"></script>
     <script src="src/js/ext/angular/material/angular-animate.min.js"></script>
     <script src="src/js/ext/angular/material/angular-aria.min.js"></script>
@@ -36,20 +36,26 @@
     <script src="src/js/ext/leaflet/leaflet.js"></script>
     <script src="src/js/ext/leaflet/leaflet.markercluster.js"></script>
     <script src="src/js/ext/leaflet/angular-leaflet-directive.min.js"></script>
+    <script src="src/js/ext/utils/angular-busy.min.js"></script>
+    <script src="src/js/ext/utils/promise-tracker.min.js"></script>
+    <script src="src/js/ext/utils/angular-translate.min.js"></script>
+
+    <script src="src/js/utils/version.js"></script>
+    <script src="src/js/utils/version-directive.js"></script>
+    <script src="src/js/utils/interpolate-filter.js"></script>
 
     <script src="src/js/controllers/main-controller.js"></script>
     <script src="src/js/controllers/home-controller.js"></script>
     <script src="src/js/controllers/work-controller.js"></script>
     <script src="src/js/controllers/travel-controller.js"></script>
-    <script src="src/js/utils/version.js"></script>
-    <script src="src/js/utils/version-directive.js"></script>
-    <script src="src/js/utils/interpolate-filter.js"></script>
 
+    <script src="src/js/common/data-factory.js"></script>
+</head>
+<body layout="column">
     <script src="src/js/kardanov-app.js"></script>
-
     <div layout="column" flex>
         <div data-ng-include="'src/views/header.html'"></div>
-        <md-content layout="column" flex>
+        <md-content layout="column" flex cg-busy="{tracker: 'loadingTracker', backdrop: true}">
             <div ng-view></div>
         </md-content>
         <div data-ng-include="'src/views/footer.html'"></div>

@@ -4,7 +4,7 @@
  * Created by Ruslan Kardanov.
  * Date: 27/05/16.
  */
-travelController = function($scope, $window, $http, $mdSidenav, $timeout, leafletData, leafletMarkersHelpers) {
+travelController = function($scope, $window, $http, $mdSidenav, $timeout, dataFactory, leafletData, leafletMarkersHelpers) {
 
     // Getting map height.
     $scope.mapHeight = getMapHeight($window.innerHeight);
@@ -20,12 +20,6 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, leafle
     $scope.tech.popupContent = 'n/a';
     $scope.tech.currentYear = 2016;
     $scope.tech.allMarkers = [];
-    // Map events.
-    /*$scope.tech.events = {
-        markers: {
-            enable: leafletMarkerEvents.getAvailableEvents()
-        }
-    };*/
 
     // Setting up custom map marker icon.
     var icon = {
@@ -68,7 +62,7 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, leafle
                 visible: true,
                 layerOptions: {
                     showCoverageOnHover: false,
-                    maxClusterRadius: 60
+                    maxClusterRadius: 65
                 },
                 layerParams: {
                     showOnSelector: false
@@ -90,20 +84,15 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, leafle
     }
 
     // Getting places to be shown on the map.
-    $http({
-        method: 'GET',
-        url: 'src/data/places.json'
-    }).then(function (result) {
-        // Getting markers.
-        $scope.tech.allMarkers = result.data;
-        if (typeof $scope.tech.allMarkers !== 'undefined' && $scope.tech.allMarkers.length > 0) {
-            $scope.tech.allMarkers.forEach(function (marker) {
-                marker.icon = icon;
-            });
-        }
+    dataFactory.getPlaces().then(function (result) {
+        $scope.tech.allMarkers = result;
+        $scope.tech.allMarkers.forEach(function (marker) {
+            marker.icon = icon;
+        });
+
         $scope.markers = [];
         $scope.markers = $scope.getVisibleMarkers($scope.tech.allMarkers, $scope.tech.currentYear);
-    })
+    });
 
     // Getting countries to be shown on the map.
     /*

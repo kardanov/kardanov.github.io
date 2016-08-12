@@ -5,7 +5,9 @@ var kardanovApp = angular.module('myApp', [
     'ngRoute',
     'myApp.version',
     'ngMaterial',
-    'leaflet-directive'
+    'leaflet-directive',
+    'ajoslin.promise-tracker',
+    'cgBusy',
 ]);
 
 // Setting main controller.
@@ -22,25 +24,13 @@ kardanovApp.config(['$routeProvider', function($routeProvider) {
 
 // Setting color theme.
 kardanovApp.config(function($mdThemingProvider) {
-
+    // Defining white palette.
     $mdThemingProvider.definePalette('white', {
-        '50': 'ffffff',
-        '100': 'ffffff',
-        '200': 'ffffff',
-        '300': 'ffffff',
-        '400': 'ffffff',
-        '500': 'ffffff',
-        '600': 'ffffff',
-        '700': 'ffffff',
-        '800': 'ffffff',
-        '900': 'ffffff',
-        'A100': 'ffffff',
-        'A200': 'ffffff',
-        'A400': 'ffffff',
-        'A700': 'ffffff',
-        'contrastDefaultColor': 'dark'
+        '50': 'ffffff', '100': 'ffffff', '200': 'ffffff', '300': 'ffffff', '400': 'ffffff', '500': 'ffffff',
+        '600': 'ffffff', '700': 'ffffff', '800': 'ffffff', '900': 'ffffff', 'A100': 'ffffff', 'A200': 'ffffff',
+        'A400': 'ffffff', 'A700': 'ffffff', 'contrastDefaultColor': 'dark'
     });
-
+    // Setting default theme.
     $mdThemingProvider.theme('default')
         .primaryPalette('grey', {'default':'900'})
         .accentPalette('blue-grey', {'default':'300'})
@@ -51,7 +41,9 @@ kardanovApp.config(function($mdThemingProvider) {
 kardanovApp.config(function($logProvider) {
     $logProvider.debugEnabled(false);
 });
-
+// Disabling click hijacking.
 kardanovApp.config(function($mdGestureProvider) {
     $mdGestureProvider.skipClickHijack();
 });
+// Data factory.
+kardanovApp.factory('dataFactory', dataFactory);

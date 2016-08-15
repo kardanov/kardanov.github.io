@@ -48,6 +48,23 @@
   {"lat": 59.379680, "lng": 28.179133, "layer": "travel", "props": {"n": "Narva", "c": "EE", "y": 2010}},
   {"lat": 53.904540, "lng": 27.561524, "layer": "travel", "props": {"n": "Minsk", "c": "BY", "y": 2010}},
   {"lat": 53.453995, "lng": 26.469836, "layer": "travel", "props": {"n": "Mir", "c": "BY", "y": 2010}},
+  {"lat": 30.427755, "lng": -9.598107, "layer": "travel", "props": {"n": "Agadir", "c": "MA", "y": 2010}},
+  {"lat": 30.427755, "lng": -9.653625, "layer": "travel", "props": {"n": "Anza", "c": "MA", "y": 2010}},
+  {"lat": 30.511005, "lng": -9.677297, "layer": "travel", "props": {"n": "Tamraght", "c": "MA", "y": 2010}},
+  {"lat": 30.545337, "lng": -9.708986, "layer": "travel", "props": {"n": "Taghazout", "c": "MA", "y": 2010}},
+  {"lat": 31.508493, "lng": -9.759504, "layer": "travel", "props": {"n": "Essaouira", "c": "MA", "y": 2010}},
+  {"lat": 31.629472, "lng": -7.981084, "layer": "travel", "props": {"n": "Marrakesh", "c": "MA", "y": 2010}},
+  {"lat": 31.590214, "lng": -8.500712, "layer": "travel", "props": {"n": "Mzoudia", "c": "MA", "y": 2010}},
+  {"lat": 31.538358, "lng": -8.764639, "layer": "travel", "props": {"n": "Chichaoua", "c": "MA", "y": 2010}},
+  {"lat": 31.577269, "lng": -9.018418, "layer": "travel", "props": {"n": "Sidi Mokhtar", "c": "MA", "y": 2010}},
+  {"lat": 31.521505, "lng": -9.436712, "layer": "travel", "props": {"n": "Tleta-El Henchane", "c": "MA", "y": 2010}},
+  {"lat": 31.530191, "lng": -9.547878, "layer": "travel", "props": {"n": "Ounagha", "c": "MA", "y": 2010}},
+  {"lat": 29.693392, "lng": -9.732157, "layer": "travel", "props": {"n": "Tiznit", "c": "MA", "y": 2010}},
+  {"lat": 29.796463, "lng": -9.839698, "layer": "travel", "props": {"n": "Aglou", "c": "MA", "y": 2010}},
+  {"lat": 29.875734, "lng": -9.610475, "layer": "travel", "props": {"n": "Douar Sidi Ali", "c": "MA", "y": 2010}},
+  {"lat": 30.058244, "lng": -9.561785, "layer": "travel", "props": {"n": "Belfaa", "c": "MA", "y": 2010}},
+  {"lat": 30.236651, "lng": -9.527023, "layer": "travel", "props": {"n": "Sidi-Bibi", "c": "MA", "y": 2010}},
+  {"lat": 30.330616, "lng": -9.511733, "layer": "travel", "props": {"n": "Ait Melloul", "c": "MA", "y": 2010}},
   
   
   
@@ -322,6 +339,7 @@
   {"lat": 50.245026, "lng": 7.613938, "layer": "travel", "props": {"n": "Osterspai", "c": "DE", "y": 2015}},
   {"lat": 50.226051, "lng": 7.351470, "layer": "travel", "props": {"n": "Wierschem", "c": "DE", "y": 2015}},
   {"lat": 50.314188, "lng": 7.517376, "layer": "travel", "props": {"n": "Winningen", "c": "DE", "y": 2015}},
+  {"lat": 49.473067, "lng": 6.385100, "layer": "travel", "props": {"n": "Perl", "c": "DE", "y": 2015}},
   {"lat": 52.387388, "lng": 4.646219, "layer": "travel", "props": {"n": "Haarlem", "c": "NL", "y": 2015}},
   {"lat": 52.442040, "lng": 4.829199, "layer": "travel", "props": {"n": "Zaandam", "c": "NL", "y": 2015}},
   {"lat": 52.514381, "lng": 4.964061, "layer": "travel", "props": {"n": "Purmerend", "c": "NL", "y": 2015}},
@@ -339,6 +357,8 @@
   {"lat": 47.031703, "lng": 18.008700, "layer": "travel", "props": {"n": "Balatonalmadi", "c": "HU", "y": 2015}},
   {"lat": 46.773667, "lng": 17.285178, "layer": "travel", "props": {"n": "Gyenesdias", "c": "HU", "y": 2015}},
   {"lat": 46.761343, "lng": 17.315234, "layer": "travel", "props": {"n": "Vonyarcvashegy", "c": "HU", "y": 2015}},
+  {"lat": 49.611621, "lng": 6.131935, "layer": "travel", "props": {"n": "Luxembourg", "c": "LU", "y": 2015}},
+  {"lat": 49.470946, "lng": 6.365046, "layer": "travel", "props": {"n": "Schengen", "c": "LU", "y": 2015}},
   
   
   
@@ -408,6 +428,7 @@
   {"lat": 48.967802, "lng": 8.725007, "layer": "travel", "props": {"n": "Neulingen", "c": "DE", "y": 2016}},
   {"lat": 49.036291, "lng": 8.701059, "layer": "travel", "props": {"n": "Bretten", "c": "DE", "y": 2016}},
   {"lat": 49.059732, "lng": 8.659553, "layer": "travel", "props": {"n": "Gondelsheim", "c": "DE", "y": 2016}},
+  {"lat": 48.272941, "lng": 9.993128, "layer": "travel", "props": {"n": "Schnürpflingen", "c": "DE", "y": 2016}},
   {"lat": 52.956281, "lng": 4.760797, "layer": "travel", "props": {"n": "Den Helder", "c": "NL", "y": 2016}},
   {"lat": 53.004305, "lng": 4.783042, "layer": "travel", "props": {"n": "Het Horntje", "c": "NL", "y": 2016}},
   {"lat": 53.096220, "lng": 4.761841, "layer": "travel", "props": {"n": "De Koog", "c": "NL", "y": 2016}},

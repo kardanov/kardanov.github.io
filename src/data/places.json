@@ -3,10 +3,29 @@
   
   {"lat": 55.755826, "lng": 37.617300, "layer": "travel", "props": {"n": "Moscow", "c": "RU", "y": 1987}},
   {"lat": 59.934280, "lng": 30.335099, "layer": "travel", "props": {"n": "St. Petersburg", "c": "RU", "y": 1987}},
-  
-  {"lat": 59.329323, "lng": 18.068581, "layer": "travel", "props": {"n": "Stockholm", "c": "SE", "y": 2002}},	
+
+  {"lat": 61.727391, "lng": 17.107401, "layer": "travel", "props": {"n": "Hudiksvall", "c": "SE", "y": 2001}},
+
+  {"lat": 59.329323, "lng": 18.068581, "layer": "travel", "props": {"n": "Stockholm", "c": "SE", "y": 2002}},
+
+  {"lat": 41.878114, "lng": -87.629798, "layer": "travel", "props": {"n": "Chicago", "c": "US", "y": 2003}},
+  {"lat": 41.912529, "lng": -88.134793, "layer": "travel", "props": {"n": "Carol Stream", "c": "US", "y": 2003}},
+
+  {"lat": 40.712784, "lng": -74.005941, "layer": "travel", "props": {"n": "New York", "c": "US", "y": 2004}},
+  {"lat": 40.588437, "lng": -73.657908, "layer": "travel", "props": {"n": "Long Beach", "c": "US", "y": 2004}},
+  {"lat": 39.961176, "lng": -82.998794, "layer": "travel", "props": {"n": "Columbus", "c": "US", "y": 2004}},
+  {"lat": 41.448940, "lng": -82.707961, "layer": "travel", "props": {"n": "Sandusky", "c": "US", "y": 2004}},
+  {"lat": 41.885032, "lng": -87.784503, "layer": "travel", "props": {"n": "Oak Park", "c": "US", "y": 2004}},
+  {"lat": 41.499320, "lng": -81.694361, "layer": "travel", "props": {"n": "Cleveland", "c": "US", "y": 2004}},
+  {"lat": 42.886447, "lng": -78.878369, "layer": "travel", "props": {"n": "Buffalo", "c": "US", "y": 2004}},
+  {"lat": 43.161030, "lng": -77.610922, "layer": "travel", "props": {"n": "Rochester", "c": "US", "y": 2004}},
+  {"lat": 43.096214, "lng": -79.037739, "layer": "travel", "props": {"n": "Niagara Falls", "c": "US", "y": 2004}},
+
+
 
   {"lat": 60.169856, "lng": 24.938379, "layer": "travel", "props": {"n": "Helsinki", "c": "FI", "y": 2006}},
+
+
   
   {"lat": 50.110922, "lng": 8.682127, "layer": "travel", "props": {"n": "Frankfurt-am-Main", "c": "DE", "y": 2007}},
   {"lat": 49.398752, "lng": 8.672434, "layer": "travel", "props": {"n": "Heidelberg", "c": "DE", "y": 2007}},
@@ -110,12 +129,38 @@
   {"lat": 48.766535, "lng": 11.425754, "layer": "travel", "props": {"n": "Ingolstadt", "c": "DE", "y": 2012}},
   {"lat": 48.959516, "lng": 10.909644, "layer": "travel", "props": {"n": "Treuchtlingen", "c": "DE", "y": 2012}},
   {"lat": 49.689428, "lng": 11.031822, "layer": "travel", "props": {"n": "Hausen", "c": "DE", "y": 2012}},
-  {"lat": 56.046467, "lng": 12.694512, "layer": "travel", "props": {"n": "Helsingborg", "c": "SE", "y": 2012}},
-  {"lat": 55.604981, "lng": 13.003822, "layer": "travel", "props": {"n": "Malmö", "c": "SE", "y": 2012}},
   {"lat": 55.676097, "lng": 12.568337, "layer": "travel", "props": {"n": "Copenhagen", "c": "DK", "y": 2012}},
   {"lat": 55.610770, "lng": 12.605163, "layer": "travel", "props": {"n": "Tarnby", "c": "DK", "y": 2012}},
   {"lat": 56.030787, "lng": 12.592127, "layer": "travel", "props": {"n": "Helsingør", "c": "DK", "y": 2012}},
-  
+  {"lat": 56.046467, "lng": 12.694512, "layer": "travel", "props": {"n": "Helsingborg", "c": "SE", "y": 2012}},
+  {"lat": 55.604981, "lng": 13.003822, "layer": "travel", "props": {"n": "Malmö", "c": "SE", "y": 2012}},
+  {"lat": 57.708870, "lng": 11.974560, "layer": "travel", "props": {"n": "Göteborg", "c": "SE", "y": 2012}},
+  {"lat": 56.029394, "lng": 14.156678, "layer": "travel", "props": {"n": "Kristianstad", "c": "SE", "y": 2012}},
+  {"lat": 57.708870, "lng": 11.974560, "layer": "travel", "props": {"n": "Göteborg", "c": "SE", "y": 2012}},
+  {"lat": 55.429505, "lng": 13.820031, "layer": "travel", "props": {"n": "Ystad", "c": "SE", "y": 2012}},
+  {"lat": 56.663445, "lng": 16.356779, "layer": "travel", "props": {"n": "Kalmar", "c": "SE", "y": 2012}},
+  {"lat": 56.161224, "lng": 15.586900, "layer": "travel", "props": {"n": "Karlskrona", "c": "SE", "y": 2012}},
+  {"lat": 56.170303, "lng": 14.863073, "layer": "travel", "props": {"n": "Karlshamn", "c": "SE", "y": 2012}},
+  {"lat": 58.587745, "lng": 16.192421, "layer": "travel", "props": {"n": "Norrköping", "c": "SE", "y": 2012}},
+  {"lat": 59.051117, "lng": 12.697732, "layer": "travel", "props": {"n": "Åmål", "c": "SE", "y": 2012}},
+  {"lat": 55.376243, "lng": 13.157423, "layer": "travel", "props": {"n": "Trelleborg", "c": "SE", "y": 2012}},
+  {"lat": 59.858564, "lng": 17.638927, "layer": "travel", "props": {"n": "Uppsala", "c": "SE", "y": 2012}},
+  {"lat": 59.275263, "lng": 15.213411, "layer": "travel", "props": {"n": "Örebro", "c": "SE", "y": 2012}},
+  {"lat": 55.393203, "lng": 13.594537, "layer": "travel", "props": {"n": "Abbekås", "c": "SE", "y": 2012}},
+  {"lat": 57.922870, "lng": 11.585047, "layer": "travel", "props": {"n": "Åstol", "c": "SE", "y": 2012}},
+  {"lat": 57.949675, "lng": 11.568734, "layer": "travel", "props": {"n": "Bleket", "c": "SE", "y": 2012}},
+  {"lat": 59.514829, "lng": 17.640289, "layer": "travel", "props": {"n": "Bro", "c": "SE", "y": 2012}},
+  {"lat": 56.359640, "lng": 16.407576, "layer": "travel", "props": {"n": "Degerhamn", "c": "SE", "y": 2012}},
+  {"lat": 56.601562, "lng": 16.640343, "layer": "travel", "props": {"n": "Gårdby", "c": "SE", "y": 2012}},
+  {"lat": 58.442148, "lng": 11.301577, "layer": "travel", "props": {"n": "Hunnebostrand", "c": "SE", "y": 2012}},
+  {"lat": 56.458125, "lng": 16.427868, "layer": "travel", "props": {"n": "Kastlösa", "c": "SE", "y": 2012}},
+  {"lat": 57.938985, "lng": 11.581717, "layer": "travel", "props": {"n": "Rönnäng", "c": "SE", "y": 2012}},
+  {"lat": 59.132661, "lng": 12.930107, "layer": "travel", "props": {"n": "Säffle", "c": "SE", "y": 2012}},
+  {"lat": 56.626561, "lng": 16.510390, "layer": "travel", "props": {"n": "Skogsby", "c": "SE", "y": 2012}},
+  {"lat": 55.344101, "lng": 13.374758, "layer": "travel", "props": {"n": "Smygehamn", "c": "SE", "y": 2012}},
+  {"lat": 56.238075, "lng": 16.452895, "layer": "travel", "props": {"n": "Ottenby", "c": "SE", "y": 2012}},
+  {"lat": 55.432139, "lng": 13.714906, "layer": "travel", "props": {"n": "Svarte", "c": "SE", "y": 2012}},
+  {"lat": 56.576568, "lng": 16.460360, "layer": "travel", "props": {"n": "Vickleby", "c": "SE", "y": 2012}},
   
   
   {"lat": 48.095147, "lng": 9.790152, "layer": "travel", "props": {"n": "Biberach-an-der-Riß", "c": "DE", "y": 2013}},
@@ -216,6 +261,9 @@
   {"lat": 47.474438, "lng": 9.730228, "layer": "travel", "props": {"n": "Lauterach", "c": "AT", "y": 2013}},
   {"lat": 47.529679, "lng": 9.751304, "layer": "travel", "props": {"n": "Lochau", "c": "AT", "y": 2013}},
   {"lat": 47.322749, "lng": 10.152766, "layer": "travel", "props": {"n": "Mittelberg", "c": "AT", "y": 2013}},
+  {"lat": 58.025023, "lng": 14.470095, "layer": "travel", "props": {"n": "Gränna", "c": "SE", "y": 2013}},
+  {"lat": 57.782614, "lng": 14.161788, "layer": "travel", "props": {"n": "Jönköping", "c": "SE", "y": 2013}},
+  {"lat": 57.790414, "lng": 14.275578, "layer": "travel", "props": {"n": "Huskvarna", "c": "SE", "y": 2013}},
   
   
   

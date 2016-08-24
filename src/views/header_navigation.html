@@ -1,9 +1,20 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-<md-button class="md-icon-button good-nav-button" data-ng-disabled="ifHere('/work')" data-ng-click="goTo('/work')" aria-label="go-work-button">
-    <span data-ng-show="!ifHere('/work')" class="icon-briefcase white"></span>
-    <span data-ng-show="ifHere('/work')" class="icon-briefcase"></span>
-</md-button>
-<md-button class="md-icon-button good-nav-button" data-ng-disabled="ifHere('/travel')" data-ng-click="goTo('/travel')" aria-label="go-travel-button">
-    <span data-ng-show="!ifHere('/travel')" class="icon-map white"></span>
-    <span data-ng-show="ifHere('/travel')" class="icon-map"></span>
-</md-button>
+<div data-ng-show="width >= 800">
+    <md-button class="nav-button" data-ng-disabled="ifHere('/work')" data-ng-click="goTo('/work')" aria-label="go-work-button">work</md-button>
+    <md-button class="nav-button" data-ng-disabled="ifHere('/travel')" data-ng-click="goTo('/travel')" aria-label="go-travel-button">travel</md-button>
+</div>
+<div data-ng-show="width < 800">
+    <md-menu>
+        <md-button class="md-icon-button" data-ng-click="$mdOpenMenu($event)" aria-label="open-menu-button">
+            <span class="icon-menu"></span>
+        </md-button>
+        <md-menu-content width="2">
+            <md-menu-item>
+                <md-button class="menu-nav-button" data-ng-disabled="ifHere('/work')" data-ng-click="goTo('/work')" aria-label="go-work-button">work</md-button>
+            </md-menu-item>
+            <md-menu-item>
+                <md-button class="menu-nav-button" data-ng-disabled="ifHere('/travel')" data-ng-click="goTo('/travel')" aria-label="go-travel-button">travel</md-button>
+            </md-menu-item>
+        </md-menu-content>
+    </md-menu>
+</div>

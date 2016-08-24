@@ -21,38 +21,25 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-briefcase:before {
-    content: "\e075";
-	color: #777;
-    font-size: 29px;
-}
-.icon-briefcase.white:before {
+.icon-menu:before {
+    content: "\e5d3";
     color: #fff;
-}
-
-.icon-cog:before {
-    content: "\e023";
-    color: #777;
-    font-size: 25px;
-}
-.icon-cog.white:before {
-    color: #fff;
-}
-
-.icon-map:before {
-    content: "\e072";
-    color: #777;
-    font-size: 25px;
-}
-.icon-map.white:before {
-    color: #fff;
+    font-size: 22px;
 }
 .icon-cross:before {
     content: "\e117";
     color: #fff;
     font-size: 22px;
 }
-
-.icon-circle:before {
-  content: "\f111";
+.icon-linkedin:before {
+    content: "\f08c";
+    font-size: 200px;
+}
+.icon-xing:before {
+    content: "\f169";
+    font-size: 200px;
+}
+.icon-spinner:before {
+    content: "\f110";
+    font-size: 50px;
 }

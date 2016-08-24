@@ -1,3 +1,67 @@
+.work-text-ss {
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+.work-text {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.work-text.top {
+    padding-bottom: 40px;
+}
+.work-text.bottom {
+    padding-top: 40px;
+}
+
+.icon-link {
+    padding: 0px 10px;
+}
+.icon-link.linkedin:hover {
+    color: #0077b5;
+    cursor: pointer;
+}
+.icon-link.xing:hover {
+    color: #026466;
+    cursor: pointer;
+}
+
+.rotating-item {
+    -webkit-animation-name: spin;
+       -moz-animation-name: spin;
+        -ms-animation-name: spin;
+            animation-name: spin;
+    -webkit-animation-duration: 3000ms;
+       -moz-animation-duration: 3000ms;
+        -ms-animation-duration: 3000ms;
+            animation-duration: 3000ms;
+    -webkit-animation-iteration-count: infinite;
+       -moz-animation-iteration-count: infinite;
+        -ms-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+       -moz-animation-timing-function: linear;
+        -ms-animation-timing-function: linear;
+            animation-timing-function: linear;
+}
+@-ms-keyframes spin {
+    from { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
 .md-sidenav-content-custom {
     width: 100%;
     height: 100%;
@@ -19,10 +83,36 @@ md-sidenav {
     }
 }
 
-.md-button.md-icon-button.good-nav-button {
-    height: 45px;
-    width: 45px;
-    padding: 6px 0px 0px 0px;
+.md-button.nav-button {
+    width: 70px;
+    min-width: 70px;
+    height: 40px;
+    min-height: 40px;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    margin: 0px;
+}
+.md-button.nav-button:not([disabled]) {
+    color: #fff;
+}
+.md-button.nav-button[disabled] {
+    color: #777;
+}
+.md-button.menu-nav-button {
+    width: 100%;
+    min-width: 70px;
+    height: 40px;
+    min-height: 40px;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0px;
+}
+.md-button.menu-nav-button:not([disabled]) {
+    color: #000;
+}
+.md-button.menu-nav-button[disabled] {
+    color: #777;
 }
 
 .md-button.md-icon-button.good-popup-button {
@@ -95,6 +185,7 @@ md-sidenav {
     font-size: 28px;
     font-weight: 600;
     letter-spacing: 5px;
+    padding-left: 15px;
 }
 .logo.long {
     width: 210px;

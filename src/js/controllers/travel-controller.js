@@ -68,16 +68,20 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, dataFa
     });
 
     // Getting places to be shown on the map.
-    dataFactory.getPlaces().then(function (result) {
-        $scope.tech.allMarkers = result;
-        $scope.tech.allMarkers.forEach(function (marker) {
-            marker.icon = icon;
-        });
+    $timeout(function () {
+        dataFactory.getPlaces().then(function (result) {
+            $scope.tech.allMarkers = result;
+            $scope.tech.allMarkers.forEach(function (marker) {
+                marker.icon = icon;
+            });
 
-        angular.extend($scope, {
-            markers: getVisibleMarkers($scope.tech.allMarkers, $scope.tech.currentYear)
+            angular.extend($scope, {
+                markers: getVisibleMarkers($scope.tech.allMarkers, $scope.tech.currentYear)
+            });
         });
-    });
+    }, 100);
+
+
 
     // Getting countries to be shown on the map.
     /*
@@ -99,6 +103,11 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, dataFa
             }
         });
     })*/
+
+    $scope.$on('leafletDirectiveMap.load', function() {
+
+        $scope.eventDetected = "ZoomStart";
+    });
 
     $scope.$on('leafletDirectiveMarker.click', function(e, args) {
         $scope.tech.popupContent = args.model.props.n + ' [ ' + args.model.props.c + ' ]';

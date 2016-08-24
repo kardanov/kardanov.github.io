@@ -104,11 +104,6 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, dataFa
         });
     })*/
 
-    $scope.$on('leafletDirectiveMap.load', function() {
-
-        $scope.eventDetected = "ZoomStart";
-    });
-
     $scope.$on('leafletDirectiveMarker.click', function(e, args) {
         $scope.tech.popupContent = args.model.props.n + ' [ ' + args.model.props.c + ' ]';
         $scope.tech.showPopup = true;
@@ -127,8 +122,6 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, dataFa
 
     $scope.closePopup = function() {
         $scope.tech.showPopup = false;
-
-        // Changing zoom (if required).
         if ($scope.center.zoom > 6) {
             $scope.center.zoom = 6;
         }

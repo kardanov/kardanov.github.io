@@ -1,15 +1,25 @@
 [
   {"lat": 58.525570, "lng": 31.274193, "layer": "travel", "props": {"n": "Velikij Novgorod", "c": "RU", "y": 1985}},
-  
+
+
+
   {"lat": 55.755826, "lng": 37.617300, "layer": "travel", "props": {"n": "Moscow", "c": "RU", "y": 1987}},
   {"lat": 59.934280, "lng": 30.335099, "layer": "travel", "props": {"n": "St. Petersburg", "c": "RU", "y": 1987}},
 
+
+
   {"lat": 61.727391, "lng": 17.107401, "layer": "travel", "props": {"n": "Hudiksvall", "c": "SE", "y": 2001}},
+
+
 
   {"lat": 59.329323, "lng": 18.068581, "layer": "travel", "props": {"n": "Stockholm", "c": "SE", "y": 2002}},
 
+
+
   {"lat": 41.878114, "lng": -87.629798, "layer": "travel", "props": {"n": "Chicago", "c": "US", "y": 2003}},
   {"lat": 41.912529, "lng": -88.134793, "layer": "travel", "props": {"n": "Carol Stream", "c": "US", "y": 2003}},
+
+
 
   {"lat": 40.712784, "lng": -74.005941, "layer": "travel", "props": {"n": "New York", "c": "US", "y": 2004}},
   {"lat": 40.588437, "lng": -73.657908, "layer": "travel", "props": {"n": "Long Beach", "c": "US", "y": 2004}},
@@ -42,6 +52,9 @@
   
   
   {"lat": 52.520007, "lng": 13.404954, "layer": "travel", "props": {"n": "Berlin", "c": "DE", "y": 2008}},
+  {"lat": 41.385064, "lng": 2.173403, "layer": "travel", "props": {"n": "Barcelona", "c": "ES", "y": 2008}},
+  {"lat": 38.345996, "lng": -0.490686, "layer": "travel", "props": {"n": "Alicante", "c": "ES", "y": 2008}},
+  {"lat": 41.979400, "lng": 2.821426, "layer": "travel", "props": {"n": "Girona", "c": "ES", "y": 2008}},
   
   
   
@@ -58,7 +71,6 @@
   {"lat": 61.867973, "lng": 28.886384, "layer": "travel", "props": {"n": "Savonlinna", "c": "FI", "y": 2009}},
   {"lat": 61.497752, "lng": 23.760954, "layer": "travel", "props": {"n": "Tampere", "c": "FI", "y": 2009}},
   {"lat": 61.204194, "lng": 26.038156, "layer": "travel", "props": {"n": "Heinola", "c": "FI", "y": 2009}},
-
   {"lat": 50.850340, "lng": 4.351710, "layer": "travel", "props": {"n": "Brussels", "c": "BE", "y": 2009}},
   {"lat": 50.879844, "lng": 4.700518, "layer": "travel", "props": {"n": "Leuven", "c": "BE", "y": 2009}},
   {"lat": 40.662289, "lng": -8.728642, "layer": "travel", "props": {"n": "São Jacinto", "c": "PT", "y": 2009}},
@@ -126,6 +138,24 @@
   {"lat": 48.302707, "lng": 10.972609, "layer": "travel", "props": {"n": "Kissing", "c": "DE", "y": 2011}},
   {"lat": 51.985103, "lng": 5.898730, "layer": "travel", "props": {"n": "Arnhem", "c": "NL", "y": 2011}},
   {"lat": 40.416775, "lng": -3.703790, "layer": "travel", "props": {"n": "Madrid", "c": "ES", "y": 2011}},
+  {"lat": 28.029745, "lng": -16.593029, "layer": "travel", "props": {"n": "Los Abrigos", "c": "ES", "y": 2011}},
+  {"lat": 28.211112, "lng": -16.778756, "layer": "travel", "props": {"n": "Guía de Isora", "c": "ES", "y": 2011}},
+  {"lat": 28.095846, "lng": -16.558407, "layer": "travel", "props": {"n": "Granadilla de Abona", "c": "ES", "y": 2011}},
+  {"lat": 28.463630, "lng": -16.251847, "layer": "travel", "props": {"n": "Santa Cruz de Tenerife", "c": "ES", "y": 2011}},
+  {"lat": 28.057143, "lng": -16.729709, "layer": "travel", "props": {"n": "Playa de las Americas", "c": "ES", "y": 2011}},
+  {"lat": 28.297260, "lng": -16.815625, "layer": "travel", "props": {"n": "Santiago del Teide", "c": "ES", "y": 2011}},
+  {"lat": 28.045983, "lng": -16.536311, "layer": "travel", "props": {"n": "El Médano", "c": "ES", "y": 2011}},
+  {"lat": 28.048906, "lng": -16.711598, "layer": "travel", "props": {"n": "Los Cristianos", "c": "ES", "y": 2011}},
+  {"lat": 28.305353, "lng": -16.839914, "layer": "travel", "props": {"n": "Masca", "c": "ES", "y": 2011}},
+  {"lat": 28.236196, "lng": -16.841127, "layer": "travel", "props": {"n": "Puerto de Santiago", "c": "ES", "y": 2011}},
+  {"lat": 28.078693, "lng": -16.558448, "layer": "travel", "props": {"n": "San Isidro", "c": "ES", "y": 2011}},
+  {"lat": 28.187939, "lng": -17.194982, "layer": "travel", "props": {"n": "Agulo", "c": "ES", "y": 2011}},
+  {"lat": 28.338586, "lng": -16.421448, "layer": "travel", "props": {"n": "Arafo", "c": "ES", "y": 2011}},
+  {"lat": 28.093800, "lng": -17.109858, "layer": "travel", "props": {"n": "San Sebastián de La Gomera", "c": "ES", "y": 2011}},
+  {"lat": 28.122060, "lng": -16.733821, "layer": "travel", "props": {"n": "Adeje", "c": "ES", "y": 2011}},
+  {"lat": 28.165995, "lng": -17.197567, "layer": "travel", "props": {"n": "Hermigua", "c": "ES", "y": 2011}},
+  {"lat": 28.180199, "lng": -17.265901, "layer": "travel", "props": {"n": "Vallehermosa", "c": "ES", "y": 2011}},
+  {"lat": 28.157817, "lng": -16.637235, "layer": "travel", "props": {"n": "Vilaflor", "c": "ES", "y": 2011}},
   {"lat": 47.241280, "lng": 9.601900, "layer": "travel", "props": {"n": "Feldkirch", "c": "AT", "y": 2011}},
   {"lat": 47.360831, "lng": 9.686719, "layer": "travel", "props": {"n": "Hohenems", "c": "AT", "y": 2011}},
   {"lat": 47.141030, "lng": 9.520928, "layer": "travel", "props": {"n": "Vaduz", "c": "LI", "y": 2011}},
@@ -153,8 +183,8 @@
   {"lat": 47.390742, "lng": 9.389246, "layer": "travel", "props": {"n": "Teufen", "c": "CH", "y": 2011}},
   {"lat": 47.583499, "lng": 9.340498, "layer": "travel", "props": {"n": "Uttwil", "c": "CH", "y": 2011}},
   {"lat": 47.459879, "lng": 9.389990, "layer": "travel", "props": {"n": "Wittenbach", "c": "CH", "y": 2011}},
-  
-  
+
+
   
   {"lat": 48.370545, "lng": 10.897790, "layer": "travel", "props": {"n": "Augsburg", "c": "DE", "y": 2012}},
   {"lat": 49.452030, "lng": 11.076750, "layer": "travel", "props": {"n": "Nürnberg", "c": "DE", "y": 2012}},
@@ -196,7 +226,8 @@
   {"lat": 56.238075, "lng": 16.452895, "layer": "travel", "props": {"n": "Ottenby", "c": "SE", "y": 2012}},
   {"lat": 55.432139, "lng": 13.714906, "layer": "travel", "props": {"n": "Svarte", "c": "SE", "y": 2012}},
   {"lat": 56.576568, "lng": 16.460360, "layer": "travel", "props": {"n": "Vickleby", "c": "SE", "y": 2012}},
-  
+
+
   
   {"lat": 48.095147, "lng": 9.790152, "layer": "travel", "props": {"n": "Biberach-an-der-Riß", "c": "DE", "y": 2013}},
   {"lat": 47.579782, "lng": 9.678933, "layer": "travel", "props": {"n": "Lindau", "c": "DE", "y": 2013}},
@@ -373,9 +404,31 @@
   {"lat": 46.343400, "lng": 9.590624, "layer": "travel", "props": {"n": "Stampa", "c": "CH", "y": 2014}},
   {"lat": 46.351022, "lng": 9.622081, "layer": "travel", "props": {"n": "Vicosoprano", "c": "CH", "y": 2014}},
   {"lat": 47.100183, "lng": 8.516233, "layer": "travel", "props": {"n": "Walchwil", "c": "CH", "y": 2014}},
+  {"lat": 28.100259, "lng": -15.699674, "layer": "travel", "props": {"n": "Agaete", "c": "ES", "y": 2014}},
+  {"lat": 27.901833, "lng": -15.446348, "layer": "travel", "props": {"n": "Agüimes", "c": "ES", "y": 2014}},
+  {"lat": 28.120141, "lng": -15.521061, "layer": "travel", "props": {"n": "Arucas", "c": "ES", "y": 2014}},
+  {"lat": 28.146350, "lng": -15.651517, "layer": "travel", "props": {"n": "Gáldar", "c": "ES", "y": 2014}},
+  {"lat": 43.338147, "lng": -1.788849, "layer": "travel", "props": {"n": "Irun", "c": "ES", "y": 2014}},
+  {"lat": 28.355677, "lng": -16.371718, "layer": "travel", "props": {"n": "Candelaria", "c": "ES", "y": 2014}},
+  {"lat": 28.487401, "lng": -16.315906, "layer": "travel", "props": {"n": "San Cristóbal de La Laguna", "c": "ES", "y": 2014}},
+  {"lat": 28.123546, "lng": -15.436257, "layer": "travel", "props": {"n": "Las Palmas de Gran Canaria", "c": "ES", "y": 2014}},
+  {"lat": 27.760562, "lng": -15.586017, "layer": "travel", "props": {"n": "Maspalomas", "c": "ES", "y": 2014}},
+  {"lat": 28.411413, "lng": -16.544961, "layer": "travel", "props": {"n": "Puerto de la Cruz", "c": "ES", "y": 2014}},
+  {"lat": 43.318334, "lng": -1.981231, "layer": "travel", "props": {"n": "San Sebastián", "c": "ES", "y": 2014}},
+  {"lat": 28.560595, "lng": -16.218176, "layer": "travel", "props": {"n": "Taganana", "c": "ES", "y": 2014}},
+  {"lat": 28.571503, "lng": -16.197428, "layer": "travel", "props": {"n": "Almáciga", "c": "ES", "y": 2014}},
+  {"lat": 28.310606, "lng": -16.412578, "layer": "travel", "props": {"n": "Güímar", "c": "ES", "y": 2014}},
+  {"lat": 28.295067, "lng": -16.375798, "layer": "travel", "props": {"n": "Puertito de Güímar", "c": "ES", "y": 2014}},
+  {"lat": 28.021101, "lng": -15.646975, "layer": "travel", "props": {"n": "Artenara", "c": "ES", "y": 2014}},
+  {"lat": 28.139666, "lng": -15.633124, "layer": "travel", "props": {"n": "Guia", "c": "ES", "y": 2014}},
+  {"lat": 28.479795, "lng": -16.413321, "layer": "travel", "props": {"n": "Tacoronte", "c": "ES", "y": 2014}},
+  {"lat": 27.995531, "lng": -15.417373, "layer": "travel", "props": {"n": "Telde", "c": "ES", "y": 2014}},
+  {"lat": 28.005943, "lng": -15.599488, "layer": "travel", "props": {"n": "Cruz de Tejeda", "c": "ES", "y": 2014}},
+  {"lat": 28.474978, "lng": -16.434149, "layer": "travel", "props": {"n": "El Sauzal", "c": "ES", "y": 2014}},
+  {"lat": 28.522841, "lng": -16.337930, "layer": "travel", "props": {"n": "Tegueste", "c": "ES", "y": 2014}},
 
-  
-  
+
+
   {"lat": 48.278334, "lng": 10.230861, "layer": "travel", "props": {"n": "Roggenburg", "c": "DE", "y": 2015}},
   {"lat": 48.264972, "lng": 10.220260, "layer": "travel", "props": {"n": "Meßhofen", "c": "DE", "y": 2015}},
   {"lat": 48.064839, "lng": 9.828405, "layer": "travel", "props": {"n": "Ummendorf", "c": "DE", "y": 2015}},
@@ -502,6 +555,22 @@
   {"lat": 46.524129, "lng": 9.620479, "layer": "travel", "props": {"n": "Mulegns", "c": "CH", "y": 2015}},
   {"lat": 46.760033, "lng": 9.557742, "layer": "travel", "props": {"n": "Parpan", "c": "CH", "y": 2015}},
   {"lat": 46.936530, "lng": 9.565520, "layer": "travel", "props": {"n": "Zizers", "c": "CH", "y": 2015}},
+  {"lat": 28.965169, "lng": -13.555036, "layer": "travel", "props": {"n": "Arrecife", "c": "ES", "y": 2015}},
+  {"lat": 29.043129, "lng": -13.556707, "layer": "travel", "props": {"n": "Nazaret", "c": "ES", "y": 2015}},
+  {"lat": 28.867000, "lng": -13.839016, "layer": "travel", "props": {"n": "Playa Blanca", "c": "ES", "y": 2015}},
+  {"lat": 28.922802, "lng": -13.668110, "layer": "travel", "props": {"n": "Puerto del Carmen", "c": "ES", "y": 2015}},
+  {"lat": 29.001049, "lng": -13.611765, "layer": "travel", "props": {"n": "San Bartolomé", "c": "ES", "y": 2015}},
+  {"lat": 28.955718, "lng": -13.768021, "layer": "travel", "props": {"n": "Yaiza", "c": "ES", "y": 2015}},
+  {"lat": 28.949561, "lng": -13.744847, "layer": "travel", "props": {"n": "Uga", "c": "ES", "y": 2015}},
+  {"lat": 28.982362, "lng": -13.830683, "layer": "travel", "props": {"n": "El Golfo", "c": "ES", "y": 2015}},
+  {"lat": 29.146826, "lng": -13.498149, "layer": "travel", "props": {"n": "Haría", "c": "ES", "y": 2015}},
+  {"lat": 29.059953, "lng": -13.559599, "layer": "travel", "props": {"n": "Teguise", "c": "ES", "y": 2015}},
+  {"lat": 28.957849, "lng": -13.650743, "layer": "travel", "props": {"n": "Tias", "c": "ES", "y": 2015}},
+  {"lat": 29.065498, "lng": -13.676012, "layer": "travel", "props": {"n": "Tinajo", "c": "ES", "y": 2015}},
+  {"lat": 29.222687, "lng": -13.453344, "layer": "travel", "props": {"n": "Orzola", "c": "ES", "y": 2015}},
+  {"lat": 29.231465, "lng": -13.503414, "layer": "travel", "props": {"n": "Caleta del Sebo", "c": "ES", "y": 2015}},
+  {"lat": 29.144850, "lng": -13.447564, "layer": "travel", "props": {"n": "Punta Mujeres", "c": "ES", "y": 2015}},
+  {"lat": 29.131969, "lng": -13.462015, "layer": "travel", "props": {"n": "Arrieta", "c": "ES", "y": 2015}},
   
   
   

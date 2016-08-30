@@ -114,6 +114,8 @@
   {"lat": 30.058244, "lng": -9.561785, "layer": "travel", "props": {"n": "Belfaa", "c": "MA", "y": 2010}},
   {"lat": 30.236651, "lng": -9.527023, "layer": "travel", "props": {"n": "Sidi-Bibi", "c": "MA", "y": 2010}},
   {"lat": 30.330616, "lng": -9.511733, "layer": "travel", "props": {"n": "Ait Melloul", "c": "MA", "y": 2010}},
+  {"lat": 45.698264, "lng": 9.677270, "layer": "travel", "props": {"n": "Bergamo", "c": "IT", "y": 2010}},
+  {"lat": 45.465422, "lng": 9.185924, "layer": "travel", "props": {"n": "Milano", "c": "IT", "y": 2010}},
   
   
   
@@ -335,6 +337,15 @@
   {"lat": 48.079359, "lng": 7.358512, "layer": "travel", "props": {"n": "Colmar", "c": "FR", "y": 2013}},
   {"lat": 48.573405, "lng": 7.752111, "layer": "travel", "props": {"n": "Strasbourg", "c": "FR", "y": 2013}},
   {"lat": 48.096948, "lng": 7.302058, "layer": "travel", "props": {"n": "Ingersheim", "c": "FR", "y": 2013}},
+  {"lat": 45.734955, "lng": 7.313076, "layer": "travel", "props": {"n": "Aosta", "c": "IT", "y": 2013}},
+  {"lat": 45.683337, "lng": 7.309334, "layer": "travel", "props": {"n": "Pila", "c": "IT", "y": 2013}},
+  {"lat": 45.934521, "lng": 7.631124, "layer": "travel", "props": {"n": "Breuil-Cervinia", "c": "IT", "y": 2013}},
+  {"lat": 45.796922, "lng": 6.968963, "layer": "travel", "props": {"n": "Courmayeur", "c": "IT", "y": 2013}},
+  {"lat": 45.070312, "lng": 7.686856, "layer": "travel", "props": {"n": "Turin", "c": "IT", "y": 2013}},
+  {"lat": 45.806179, "lng": 7.589455, "layer": "travel", "props": {"n": "Antey-Saint-Andre", "c": "IT", "y": 2013}},
+  {"lat": 45.609095, "lng": 7.745530, "layer": "travel", "props": {"n": "Bard", "c": "IT", "y": 2013}},
+  {"lat": 45.744289, "lng": 7.548068, "layer": "travel", "props": {"n": "Chambave", "c": "IT", "y": 2013}},
+  {"lat": 45.748582, "lng": 7.612801, "layer": "travel", "props": {"n": "Chatillon", "c": "IT", "y": 2013}},
   
   
   
@@ -382,8 +393,6 @@
   {"lat": 48.925170, "lng": 10.468307, "layer": "travel", "props": {"n": "Marktoffingen", "c": "DE", "y": 2014}},
   {"lat": 47.555979, "lng": 8.024304, "layer": "travel", "props": {"n": "Murg", "c": "DE", "y": 2014}},
   {"lat": 47.592202, "lng": 7.875386, "layer": "travel", "props": {"n": "Schwörstadt", "c": "DE", "y": 2014}},
-  {"lat": 41.902783, "lng": 12.496366, "layer": "travel", "props": {"n": "Rome", "c": "IT", "y": 2014}},
-  {"lat": 41.902916, "lng": 12.453389, "layer": "travel", "props": {"n": "Vatican City", "c": "VA", "y": 2014}},
   {"lat": 47.559599, "lng": 7.588576, "layer": "travel", "props": {"n": "Basel", "c": "CH", "y": 2014}},
   {"lat": 47.195373, "lng": 8.526087, "layer": "travel", "props": {"n": "Baar", "c": "CH", "y": 2014}},
   {"lat": 47.166167, "lng": 8.515495, "layer": "travel", "props": {"n": "Zug", "c": "CH", "y": 2014}},
@@ -451,6 +460,16 @@
   {"lat": 48.133459, "lng": 7.300286, "layer": "travel", "props": {"n": "Sigolsheim", "c": "FR", "y": 2014}},
   {"lat": 48.073122, "lng": 7.289782, "layer": "travel", "props": {"n": "Wintzenheim", "c": "FR", "y": 2014}},
   {"lat": 48.169048, "lng": 7.320055, "layer": "travel", "props": {"n": "Zellenberg", "c": "FR", "y": 2014}},
+  {"lat": 41.902916, "lng": 12.453389, "layer": "travel", "props": {"n": "Vatican City", "c": "VA", "y": 2014}},
+  {"lat": 41.902783, "lng": 12.496366, "layer": "travel", "props": {"n": "Rome", "c": "IT", "y": 2014}},
+  {"lat": 45.978249, "lng": 9.258849, "layer": "travel", "props": {"n": "Bellagio", "c": "IT", "y": 2014}},
+  {"lat": 45.820093, "lng": 9.097038, "layer": "travel", "props": {"n": "Brunate", "c": "IT", "y": 2014}},
+  {"lat": 45.808060, "lng": 9.085176, "layer": "travel", "props": {"n": "Como", "c": "IT", "y": 2014}},
+  {"lat": 45.856570, "lng": 9.397670, "layer": "travel", "props": {"n": "Lecco", "c": "IT", "y": 2014}},
+  {"lat": 45.894898, "lng": 9.336342, "layer": "travel", "props": {"n": "Abbadia Lariana", "c": "IT", "y": 2014}},
+  {"lat": 45.896624, "lng": 9.154873, "layer": "travel", "props": {"n": "Careno", "c": "IT", "y": 2014}},
+  {"lat": 46.136850, "lng": 9.369461, "layer": "travel", "props": {"n": "Colico Piano", "c": "IT", "y": 2014}},
+  {"lat": 45.912449, "lng": 9.333085, "layer": "travel", "props": {"n": "Crebbio", "c": "IT", "y": 2014}},
 
 
 
@@ -602,6 +621,21 @@
   {"lat": 49.451475, "lng": 6.448029, "layer": "travel", "props": {"n": "Manderen", "c": "FR", "y": 2015}},
   {"lat": 49.436349, "lng": 6.461601, "layer": "travel", "props": {"n": "Ritzing", "c": "FR", "y": 2015}},
   {"lat": 49.414424, "lng": 6.530167, "layer": "travel", "props": {"n": "Waldwisse", "c": "FR", "y": 2015}},
+  {"lat": 43.865727, "lng": 10.251310, "layer": "travel", "props": {"n": "Viareggio", "c": "IT", "y": 2015}},
+  {"lat": 43.837621, "lng": 10.495061, "layer": "travel", "props": {"n": "Lucca", "c": "IT", "y": 2015}},
+  {"lat": 43.722839, "lng": 10.401689, "layer": "travel", "props": {"n": "Pisa", "c": "IT", "y": 2015}},
+  {"lat": 43.672385, "lng": 10.275437, "layer": "travel", "props": {"n": "Marina di Pisa", "c": "IT", "y": 2015}},
+  {"lat": 43.548473, "lng": 10.310567, "layer": "travel", "props": {"n": "Livorno", "c": "IT", "y": 2015}},
+  {"lat": 43.629436, "lng": 10.290863, "layer": "travel", "props": {"n": "Tirrenia", "c": "IT", "y": 2015}},
+  {"lat": 43.818629, "lng": 10.411037, "layer": "travel", "props": {"n": "Acquedotti", "c": "IT", "y": 2015}},
+  {"lat": 43.815153, "lng": 10.407602, "layer": "travel", "props": {"n": "Filettole", "c": "IT", "y": 2015}},
+  {"lat": 43.820315, "lng": 10.416830, "layer": "travel", "props": {"n": "Ripafratta", "c": "IT", "y": 2015}},
+  {"lat": 46.329132, "lng": 9.421354, "layer": "travel", "props": {"n": "Prosto", "c": "IT", "y": 2015}},
+  {"lat": 43.481076, "lng": 11.295429, "layer": "travel", "props": {"n": "Casanuova di Pietrafitta", "c": "IT", "y": 2015}},
+  {"lat": 43.708424, "lng": 10.891192, "layer": "travel", "props": {"n": "Case Bosco", "c": "IT", "y": 2015}},
+  {"lat": 46.320967, "lng": 9.397657, "layer": "travel", "props": {"n": "Chiavenna", "c": "IT", "y": 2015}},
+  {"lat": 43.638365, "lng": 11.314390, "layer": "travel", "props": {"n": "Chiocchio", "c": "IT", "y": 2015}},
+  {"lat": 43.780402, "lng": 10.426901, "layer": "travel", "props": {"n": "Corliano", "c": "IT", "y": 2015}},
   
   
   
@@ -756,5 +790,23 @@
   {"lat": 42.258200, "lng": 8.745860, "layer": "travel", "props": {"n": "Ota", "c": "FR", "y": 2016}},
   {"lat": 42.599403, "lng": 8.902716, "layer": "travel", "props": {"n": "Pigna", "c": "FR", "y": 2016}},
   {"lat": 42.681846, "lng": 9.303704, "layer": "travel", "props": {"n": "Saint-Florent", "c": "FR", "y": 2016}},
-  {"lat": 41.837115, "lng": 9.372646, "layer": "travel", "props": {"n": "Sari-Solenzara", "c": "FR", "y": 2016}}
+  {"lat": 41.837115, "lng": 9.372646, "layer": "travel", "props": {"n": "Sari-Solenzara", "c": "FR", "y": 2016}},
+  {"lat": 43.727867, "lng": 10.806722, "layer": "travel", "props": {"n": "Fucecchio", "c": "IT", "y": 2016}},
+  {"lat": 44.405650, "lng": 8.946256, "layer": "travel", "props": {"n": "Genova", "c": "IT", "y": 2016}},
+  {"lat": 44.297560, "lng": 8.464500, "layer": "travel", "props": {"n": "Savona", "c": "IT", "y": 2016}},
+  {"lat": 43.318809, "lng": 11.330757, "layer": "travel", "props": {"n": "Siena", "c": "IT", "y": 2016}},
+  {"lat": 43.472565, "lng": 11.146754, "layer": "travel", "props": {"n": "Poggibonsi", "c": "IT", "y": 2016}},
+  {"lat": 43.812488, "lng": 10.677101, "layer": "travel", "props": {"n": "Altopascio", "c": "IT", "y": 2016}},
+  {"lat": 43.643337, "lng": 10.957123, "layer": "travel", "props": {"n": "Colombaie", "c": "IT", "y": 2016}},
+  {"lat": 43.721512, "lng": 10.856612, "layer": "travel", "props": {"n": "Appalto", "c": "IT", "y": 2016}},
+  {"lat": 43.723563, "lng": 10.876900, "layer": "travel", "props": {"n": "Bassa", "c": "IT", "y": 2016}},
+  {"lat": 43.533949, "lng": 11.059155, "layer": "travel", "props": {"n": "Bassetto", "c": "IT", "y": 2016}},
+  {"lat": 43.347604, "lng": 11.304466, "layer": "travel", "props": {"n": "Belverde", "c": "IT", "y": 2016}},
+  {"lat": 43.381066, "lng": 11.309428, "layer": "travel", "props": {"n": "Bivio Santo Stefano", "c": "IT", "y": 2016}},
+  {"lat": 43.684783, "lng": 10.907604, "layer": "travel", "props": {"n": "Brusciana", "c": "IT", "y": 2016}},
+  {"lat": 43.632850, "lng": 10.960567, "layer": "travel", "props": {"n": "Cambiano", "c": "IT", "y": 2016}},
+  {"lat": 43.712282, "lng": 10.888016, "layer": "travel", "props": {"n": "Capanne di Sopra", "c": "IT", "y": 2016}},
+  {"lat": 43.604185, "lng": 10.969713, "layer": "travel", "props": {"n": "Castelfiorentino", "c": "IT", "y": 2016}},
+  {"lat": 43.471514, "lng": 11.285668, "layer": "travel", "props": {"n": "Castellina in Chianti", "c": "IT", "y": 2016}},
+  {"lat": 43.547659, "lng": 11.041546, "layer": "travel", "props": {"n": "Certaldo", "c": "IT", "y": 2016}}
 ]

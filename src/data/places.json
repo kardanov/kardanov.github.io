@@ -781,7 +781,6 @@
   {"lat": 48.761761, "lng": 9.388987, "layer": "travel", "props": {"n": "Aichwald", "c": "DE", "y": 2016}},
   {"lat": 48.810865, "lng": 9.364447, "layer": "travel", "props": {"n": "Weinstadt", "c": "DE", "y": 2016}},
   {"lat": 48.804899, "lng": 9.389328, "layer": "travel", "props": {"n": "Beutelsbach", "c": "DE", "y": 2016}},
-  {"lat": 47.697371, "lng": 9.562972, "layer": "travel", "props": {"n": "Meckerbeuren", "c": "DE", "y": 2016}},
   {"lat": 47.668172, "lng": 9.591604, "layer": "travel", "props": {"n": "Tettnang", "c": "DE", "y": 2016}},
   {"lat": 52.956281, "lng": 4.760797, "layer": "travel", "props": {"n": "Den Helder", "c": "NL", "y": 2016}},
   {"lat": 53.004305, "lng": 4.783042, "layer": "travel", "props": {"n": "Het Horntje", "c": "NL", "y": 2016}},

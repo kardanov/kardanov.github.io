@@ -32,7 +32,7 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, dataFa
         center: {
             lat: 48.401082,
             lng: 9.987608,
-            zoom: 6
+            zoom: 7
         },
         defaults: {
             zoomControl: false,

@@ -1,25 +1,72 @@
 [
   {"lat": 58.525570, "lng": 31.274193, "layer": "travel", "props": {"n": "Velikij Novgorod", "c": "RU", "y": 1985}},
 
+  {"lat": 58.498156, "lng": 31.199070, "layer": "travel", "props": {"n": "Pankovka", "c": "RU", "y": 1988}},
+  {"lat": 43.602808, "lng": 39.734154, "layer": "travel", "props": {"n": "Sochi", "c": "RU", "y": 1988}},
 
+  {"lat": 43.538410, "lng": 43.879106, "layer": "travel", "props": {"n": "Kakhun", "c": "RU", "y": 1989}},
+  {"lat": 43.494992, "lng": 43.604513, "layer": "travel", "props": {"n": "Nalchik", "c": "RU", "y": 1989}},
+  {"lat": 43.549286, "lng": 43.850658, "layer": "travel", "props": {"n": "Nartkala", "c": "RU", "y": 1989}},
+  {"lat": 55.755826, "lng": 37.617300, "layer": "travel", "props": {"n": "Moscow", "c": "RU", "y": 1989}},
+  {"lat": 59.934280, "lng": 30.335099, "layer": "travel", "props": {"n": "St. Petersburg", "c": "RU", "y": 1989}},
+  {"lat": 59.540395, "lng": 30.889671, "layer": "travel", "props": {"n": "Tosno", "c": "RU", "y": 1989}},
 
-  {"lat": 55.755826, "lng": 37.617300, "layer": "travel", "props": {"n": "Moscow", "c": "RU", "y": 1987}},
-  {"lat": 59.934280, "lng": 30.335099, "layer": "travel", "props": {"n": "St. Petersburg", "c": "RU", "y": 1987}},
+  {"lat": 57.816699, "lng": 28.334473, "layer": "travel", "props": {"n": "Pskov", "c": "RU", "y": 1994}},
+  {"lat": 57.022803, "lng": 28.914211, "layer": "travel", "props": {"n": "Pushkinskie Gory", "c": "RU", "y": 1994}},
+  {"lat": 57.708244, "lng": 27.860883, "layer": "travel", "props": {"n": "Izborsk", "c": "RU", "y": 1994}},
+  {"lat": 57.814631, "lng": 27.626894, "layer": "travel", "props": {"n": "Pechory", "c": "RU", "y": 1994}},
+  {"lat": 58.210039, "lng": 30.713571, "layer": "travel", "props": {"n": "Shimsk", "c": "RU", "y": 1994}},
 
+  {"lat": 44.746091, "lng": 33.861564, "layer": "travel", "props": {"n": "Bahchysarai", "c": "UA", "y": 1995}},
+  {"lat": 45.357314, "lng": 36.468293, "layer": "travel", "props": {"n": "Kerch", "c": "UA", "y": 1995}},
+  {"lat": 44.966227, "lng": 35.245054, "layer": "travel", "props": {"n": "Koktebel", "c": "UA", "y": 1995}},
+  {"lat": 44.912652, "lng": 35.190606, "layer": "travel", "props": {"n": "Kurortnoe", "c": "UA", "y": 1995}},
+  {"lat": 44.829819, "lng": 34.915084, "layer": "travel", "props": {"n": "Noviy Svet", "c": "UA", "y": 1995}},
+  {"lat": 44.850467, "lng": 34.976183, "layer": "travel", "props": {"n": "Sudak", "c": "UA", "y": 1995}},
+  {"lat": 45.031933, "lng": 35.382433, "layer": "travel", "props": {"n": "Feodosija", "c": "UA", "y": 1995}},
+  {"lat": 44.885701, "lng": 37.319919, "layer": "travel", "props": {"n": "Anapa", "c": "RU", "y": 1995}},
 
+  {"lat": 45.295271, "lng": 35.771698, "layer": "travel", "props": {"n": "Lenino", "c": "UA", "y": 1996}},
+  {"lat": 44.961680, "lng": 35.358952, "layer": "travel", "props": {"n": "Ordzhonikidze", "c": "UA", "y": 1996}},
+  {"lat": 59.884500, "lng": 29.885176, "layer": "travel", "props": {"n": "Petergof", "c": "RU", "y": 1996}},
+  {"lat": 59.717593, "lng": 30.406004, "layer": "travel", "props": {"n": "Pushkin", "c": "RU", "y": 1996}},
+
+  {"lat": 47.758581, "lng": 29.533916, "layer": "travel", "props": {"n": "Kotovsk", "c": "UA", "y": 1997}},
+  {"lat": 46.482526, "lng": 30.723310, "layer": "travel", "props": {"n": "Odessa", "c": "UA", "y": 1997}},
+  {"lat": 57.989523, "lng": 31.354785, "layer": "travel", "props": {"n": "Staraja Russa", "c": "RU", "y": 1997}},
+  {"lat": 58.437441, "lng": 31.701973, "layer": "travel", "props": {"n": "Proletariy", "c": "RU", "y": 1997}},
+  {"lat": 58.463603, "lng": 31.647435, "layer": "travel", "props": {"n": "Bronnitsa", "c": "RU", "y": 1997}},
+  {"lat": 44.049893, "lng": 43.039636, "layer": "travel", "props": {"n": "Pjatigorsk", "c": "RU", "y": 1997}},
+  {"lat": 43.488997, "lng": 43.762228, "layer": "travel", "props": {"n": "Urvan", "c": "RU", "y": 1997}},
+
+  {"lat": 59.127272, "lng": 31.670282, "layer": "travel", "props": {"n": "Chudovo", "c": "RU", "y": 1998}},
+  {"lat": 58.187516, "lng": 30.992700, "layer": "travel", "props": {"n": "Korostyn", "c": "RU", "y": 1998}},
+  {"lat": 58.203567, "lng": 30.764563, "layer": "travel", "props": {"n": "Uspolon", "c": "RU", "y": 1998}},
+
+  {"lat": 57.643702, "lng": 32.462420, "layer": "travel", "props": {"n": "Demjansk", "c": "RU", "y": 1999}},
+  {"lat": 57.140268, "lng": 33.128516, "layer": "travel", "props": {"n": "Ostashkov", "c": "RU", "y": 1999}},
+
+  {"lat": 58.241914, "lng": 32.502162, "layer": "travel", "props": {"n": "Kresttsy", "c": "RU", "y": 2000}},
+  {"lat": 57.978879, "lng": 33.243615, "layer": "travel", "props": {"n": "Valdaj", "c": "RU", "y": 2000}},
+  {"lat": 57.583603, "lng": 34.564259, "layer": "travel", "props": {"n": "Vyshniy Volochek", "c": "RU", "y": 2000}},
+  {"lat": 57.870299, "lng": 33.695089, "layer": "travel", "props": {"n": "Vypolzovo", "c": "RU", "y": 2000}},
+  {"lat": 56.858721, "lng": 35.917596, "layer": "travel", "props": {"n": "Tver", "c": "RU", "y": 2000}},
 
   {"lat": 61.727391, "lng": 17.107401, "layer": "travel", "props": {"n": "Hudiksvall", "c": "SE", "y": 2001}},
 
-
-
   {"lat": 59.329323, "lng": 18.068581, "layer": "travel", "props": {"n": "Stockholm", "c": "SE", "y": 2002}},
-
-
+  {"lat": 44.475130, "lng": 34.147915, "layer": "travel", "props": {"n": "Livadija", "c": "UA", "y": 2002}},
+  {"lat": 44.495205, "lng": 34.166301, "layer": "travel", "props": {"n": "Jalta", "c": "UA", "y": 2002}},
+  {"lat": 44.405923, "lng": 33.999712, "layer": "travel", "props": {"n": "Simeiz", "c": "UA", "y": 2002}},
+  {"lat": 44.952117, "lng": 34.102417, "layer": "travel", "props": {"n": "Simferopol", "c": "UA", "y": 2002}},
+  {"lat": 55.894055, "lng": 37.443949, "layer": "travel", "props": {"n": "Khimki", "c": "RU", "y": 2002}},
 
   {"lat": 41.878114, "lng": -87.629798, "layer": "travel", "props": {"n": "Chicago", "c": "US", "y": 2003}},
   {"lat": 41.912529, "lng": -88.134793, "layer": "travel", "props": {"n": "Carol Stream", "c": "US", "y": 2003}},
-
-
+  {"lat": 58.615813, "lng": 31.840900, "layer": "travel", "props": {"n": "Zhabitsy", "c": "RU", "y": 2003}},
+  {"lat": 58.568649, "lng": 31.738185, "layer": "travel", "props": {"n": "Pjatnitsa", "c": "RU", "y": 2003}},
+  {"lat": 58.559168, "lng": 31.703020, "layer": "travel", "props": {"n": "Plashkino", "c": "RU", "y": 2003}},
+  {"lat": 58.740819, "lng": 29.850590, "layer": "travel", "props": {"n": "Luga", "c": "RU", "y": 2003}},
 
   {"lat": 40.712784, "lng": -74.005941, "layer": "travel", "props": {"n": "New York", "c": "US", "y": 2004}},
   {"lat": 40.588437, "lng": -73.657908, "layer": "travel", "props": {"n": "Long Beach", "c": "US", "y": 2004}},
@@ -30,8 +77,19 @@
   {"lat": 42.886447, "lng": -78.878369, "layer": "travel", "props": {"n": "Buffalo", "c": "US", "y": 2004}},
   {"lat": 43.161030, "lng": -77.610922, "layer": "travel", "props": {"n": "Rochester", "c": "US", "y": 2004}},
   {"lat": 43.096214, "lng": -79.037739, "layer": "travel", "props": {"n": "Niagara Falls", "c": "US", "y": 2004}},
+  {"lat": 58.847342, "lng": 32.220568, "layer": "travel", "props": {"n": "Malaja Vishera", "c": "RU", "y": 2004}},
+  {"lat": 59.353109, "lng": 30.082120, "layer": "travel", "props": {"n": "Siverskiy", "c": "RU", "y": 2004}},
 
-
+  {"lat": 59.734026, "lng": 30.337579, "layer": "travel", "props": {"n": "Aleksandrovskaja", "c": "RU", "y": 2005}},
+  {"lat": 59.849026, "lng": 30.034309, "layer": "travel", "props": {"n": "Strelna", "c": "RU", "y": 2005}},
+  {"lat": 59.910701, "lng": 29.735961, "layer": "travel", "props": {"n": "Lomonosov", "c": "RU", "y": 2005}},
+  {"lat": 59.734385, "lng": 30.084445, "layer": "travel", "props": {"n": "Krasnoe Selo", "c": "RU", "y": 2005}},
+  {"lat": 59.804827, "lng": 30.560720, "layer": "travel", "props": {"n": "Metallostroy", "c": "RU", "y": 2005}},
+  {"lat": 59.761761, "lng": 30.578897, "layer": "travel", "props": {"n": "Kolpino", "c": "RU", "y": 2005}},
+  {"lat": 60.713953, "lng": 28.757157, "layer": "travel", "props": {"n": "Vyborg", "c": "RU", "y": 2005}},
+  {"lat": 59.356109, "lng": 31.248435, "layer": "travel", "props": {"n": "Luban", "c": "RU", "y": 2005}},
+  {"lat": 59.636619, "lng": 30.766021, "layer": "travel", "props": {"n": "Uljanovka", "c": "RU", "y": 2005}},
+  {"lat": 59.420989, "lng": 31.130670, "layer": "travel", "props": {"n": "Rjabovo", "c": "RU", "y": 2005}},
 
   {"lat": 60.169856, "lng": 24.938379, "layer": "travel", "props": {"n": "Helsinki", "c": "FI", "y": 2006}},
   {"lat": 60.582931, "lng": 27.706839, "layer": "travel", "props": {"n": "Virojoki", "c": "FI", "y": 2006}},
@@ -39,25 +97,23 @@
   {"lat": 60.293352, "lng": 25.037769, "layer": "travel", "props": {"n": "Vantaa", "c": "FI", "y": 2006}},
   {"lat": 60.569203, "lng": 27.193846, "layer": "travel", "props": {"n": "Hamina", "c": "FI", "y": 2006}},
   {"lat": 60.205491, "lng": 24.655900, "layer": "travel", "props": {"n": "Espoo", "c": "FI", "y": 2006}},
+  {"lat": 60.101453, "lng": 29.957360, "layer": "travel", "props": {"n": "Sestroretsk", "c": "RU", "y": 2006}},
 
-
-  
   {"lat": 50.110922, "lng": 8.682127, "layer": "travel", "props": {"n": "Frankfurt-am-Main", "c": "DE", "y": 2007}},
   {"lat": 49.398752, "lng": 8.672434, "layer": "travel", "props": {"n": "Heidelberg", "c": "DE", "y": 2007}},
   {"lat": 49.487459, "lng": 8.466039, "layer": "travel", "props": {"n": "Mannheim", "c": "DE", "y": 2007}},
   {"lat": 49.477410, "lng": 8.445180, "layer": "travel", "props": {"n": "Ludwigshafen-am-Rhein", "c": "DE", "y": 2007}},
   {"lat": 49.317276, "lng": 8.441217, "layer": "travel", "props": {"n": "Speyer", "c": "DE", "y": 2007}},
   {"lat": 59.436961, "lng": 24.753575, "layer": "travel", "props": {"n": "Tallinn", "c": "EE", "y": 2007}},
-  
-  
-  
+
   {"lat": 52.520007, "lng": 13.404954, "layer": "travel", "props": {"n": "Berlin", "c": "DE", "y": 2008}},
   {"lat": 41.385064, "lng": 2.173403, "layer": "travel", "props": {"n": "Barcelona", "c": "ES", "y": 2008}},
   {"lat": 38.345996, "lng": -0.490686, "layer": "travel", "props": {"n": "Alicante", "c": "ES", "y": 2008}},
   {"lat": 41.979400, "lng": 2.821426, "layer": "travel", "props": {"n": "Girona", "c": "ES", "y": 2008}},
-  
-  
-  
+  {"lat": 60.144415, "lng": 30.193843, "layer": "travel", "props": {"n": "Sertolovo", "c": "RU", "y": 2008}},
+  {"lat": 60.078373, "lng": 30.290846, "layer": "travel", "props": {"n": "Pargolovo", "c": "RU", "y": 2008}},
+  {"lat": 59.681198, "lng": 30.444376, "layer": "travel", "props": {"n": "Pavlovsk", "c": "RU", "y": 2008}},
+
   {"lat": 49.963291, "lng": 7.270700, "layer": "travel", "props": {"n": "Hahn", "c": "DE", "y": 2009}},
   {"lat": 49.939711, "lng": 7.268477, "layer": "travel", "props": {"n": "Lautzenhausen", "c": "DE", "y": 2009}},
   {"lat": 60.451813, "lng": 22.266630, "layer": "travel", "props": {"n": "Turku", "c": "FI", "y": 2009}},
@@ -82,8 +138,22 @@
   {"lat": 40.638059, "lng": -8.747081, "layer": "travel", "props": {"n": "Praia da Barra", "c": "PT", "y": 2009}},
   {"lat": 38.722252, "lng": -9.139337, "layer": "travel", "props": {"n": "Lisbon", "c": "PT", "y": 2009}},
   {"lat": 40.760681, "lng": -8.705260, "layer": "travel", "props": {"n": "Torreira", "c": "PT", "y": 2009}},
-  
-  
+  {"lat": 55.606284, "lng": 40.656373, "layer": "travel", "props": {"n": "Gus-Hrustalniy", "c": "RU", "y": 2009}},
+  {"lat": 54.609542, "lng": 39.712586, "layer": "travel", "props": {"n": "Rjazan", "c": "RU", "y": 2009}},
+  {"lat": 57.035934, "lng": 34.969076, "layer": "travel", "props": {"n": "Torzhok", "c": "RU", "y": 2009}},
+  {"lat": 54.204836, "lng": 37.618492, "layer": "travel", "props": {"n": "Tula", "c": "RU", "y": 2009}},
+  {"lat": 54.070278, "lng": 37.526688, "layer": "travel", "props": {"n": "Jasnaja poljana", "c": "RU", "y": 2009}},
+  {"lat": 56.144596, "lng": 40.417869, "layer": "travel", "props": {"n": "Vladimir", "c": "RU", "y": 2009}},
+  {"lat": 60.168349, "lng": 29.867286, "layer": "travel", "props": {"n": "Repino", "c": "RU", "y": 2009}},
+  {"lat": 60.183791, "lng": 29.810085, "layer": "travel", "props": {"n": "Komarovo", "c": "RU", "y": 2009}},
+  {"lat": 60.196715, "lng": 29.700691, "layer": "travel", "props": {"n": "Zelenogorsk", "c": "RU", "y": 2009}},
+  {"lat": 60.012825, "lng": 30.004616, "layer": "travel", "props": {"n": "Lisiy Nos", "c": "RU", "y": 2009}},
+  {"lat": 60.151663, "lng": 29.934518, "layer": "travel", "props": {"n": "Solnechnoe", "c": "RU", "y": 2009}},
+  {"lat": 60.040940, "lng": 29.987935, "layer": "travel", "props": {"n": "Gorskaja", "c": "RU", "y": 2009}},
+  {"lat": 60.146320, "lng": 30.013729, "layer": "travel", "props": {"n": "Beloostrov", "c": "RU", "y": 2009}},
+  {"lat": 56.419159, "lng": 40.453615, "layer": "travel", "props": {"n": "Suzdal", "c": "RU", "y": 2009}},
+  {"lat": 60.122909, "lng": 30.152059, "layer": "travel", "props": {"n": "Pesochniy", "c": "RU", "y": 2009}},
+  {"lat": 60.103683, "lng": 30.203118, "layer": "travel", "props": {"n": "Levashovo", "c": "RU", "y": 2009}},
   
   {"lat": 51.626668, "lng": 6.196844, "layer": "travel", "props": {"n": "Weeze", "c": "DE", "y": 2010}},
   {"lat": 51.812563, "lng": 5.837226, "layer": "travel", "props": {"n": "Nijmegen", "c": "NL", "y": 2010}},
@@ -116,8 +186,7 @@
   {"lat": 30.330616, "lng": -9.511733, "layer": "travel", "props": {"n": "Ait Melloul", "c": "MA", "y": 2010}},
   {"lat": 45.698264, "lng": 9.677270, "layer": "travel", "props": {"n": "Bergamo", "c": "IT", "y": 2010}},
   {"lat": 45.465422, "lng": 9.185924, "layer": "travel", "props": {"n": "Milano", "c": "IT", "y": 2010}},
-  
-  
+  {"lat": 59.371564, "lng": 28.218812, "layer": "travel", "props": {"n": "Ivangorod", "c": "RU", "y": 2010}},
   
   {"lat": 48.401082, "lng": 9.987608, "layer": "travel", "props": {"n": "Ulm", "c": "DE", "y": 2011}},
   {"lat": 48.775846, "lng": 9.182932, "layer": "travel", "props": {"n": "Stuttgart", "c": "DE", "y": 2011}},
@@ -187,9 +256,8 @@
   {"lat": 47.390742, "lng": 9.389246, "layer": "travel", "props": {"n": "Teufen", "c": "CH", "y": 2011}},
   {"lat": 47.583499, "lng": 9.340498, "layer": "travel", "props": {"n": "Uttwil", "c": "CH", "y": 2011}},
   {"lat": 47.459879, "lng": 9.389990, "layer": "travel", "props": {"n": "Wittenbach", "c": "CH", "y": 2011}},
+  {"lat": 59.995930, "lng": 29.765545, "layer": "travel", "props": {"n": "Kronstadt", "c": "RU", "y": 2011}},
 
-
-  
   {"lat": 48.370545, "lng": 10.897790, "layer": "travel", "props": {"n": "Augsburg", "c": "DE", "y": 2012}},
   {"lat": 49.452030, "lng": 11.076750, "layer": "travel", "props": {"n": "Nürnberg", "c": "DE", "y": 2012}},
   {"lat": 49.898814, "lng": 10.902764, "layer": "travel", "props": {"n": "Bamberg", "c": "DE", "y": 2012}},
@@ -230,9 +298,10 @@
   {"lat": 56.238075, "lng": 16.452895, "layer": "travel", "props": {"n": "Ottenby", "c": "SE", "y": 2012}},
   {"lat": 55.432139, "lng": 13.714906, "layer": "travel", "props": {"n": "Svarte", "c": "SE", "y": 2012}},
   {"lat": 56.576568, "lng": 16.460360, "layer": "travel", "props": {"n": "Vickleby", "c": "SE", "y": 2012}},
+  {"lat": 60.108314, "lng": 30.286372, "layer": "travel", "props": {"n": "Yukki", "c": "RU", "y": 2012}},
+  {"lat": 60.069095, "lng": 30.397086, "layer": "travel", "props": {"n": "Bugry", "c": "RU", "y": 2012}},
+  {"lat": 60.679402, "lng": 29.995118, "layer": "travel", "props": {"n": "Losevo", "c": "RU", "y": 2012}},
 
-
-  
   {"lat": 48.095147, "lng": 9.790152, "layer": "travel", "props": {"n": "Biberach-an-der-Riß", "c": "DE", "y": 2013}},
   {"lat": 47.579782, "lng": 9.678933, "layer": "travel", "props": {"n": "Lindau", "c": "DE", "y": 2013}},
   {"lat": 47.966924, "lng": 11.184414, "layer": "travel", "props": {"n": "Andechs", "c": "DE", "y": 2013}},
@@ -353,9 +422,9 @@
   {"lat": 45.746458, "lng": 7.353542, "layer": "travel", "props": {"n": "Saint-Christophe", "c": "IT", "y": 2013}},
   {"lat": 45.877207, "lng": 7.622204, "layer": "travel", "props": {"n": "Valtournenche", "c": "IT", "y": 2013}},
   {"lat": 45.733196, "lng": 7.258119, "layer": "travel", "props": {"n": "Ville Sur Sarre", "c": "IT", "y": 2013}},
-  
-  
-  
+  {"lat": 60.195379, "lng": 29.517505, "layer": "travel", "props": {"n": "Molodezhnoe", "c": "RU", "y": 2013}},
+  {"lat": 60.210804, "lng": 29.617333, "layer": "travel", "props": {"n": "Ushkovo", "c": "RU", "y": 2013}},
+
   {"lat": 48.496896, "lng": 9.394875, "layer": "travel", "props": {"n": "Bad Urach", "c": "DE", "y": 2014}},
   {"lat": 48.327329, "lng": 9.892667, "layer": "travel", "props": {"n": "Erbach-an-der-Donau", "c": "DE", "y": 2014}},
   {"lat": 47.990581, "lng": 10.213027, "layer": "travel", "props": {"n": "Memmingenberg", "c": "DE", "y": 2014}},
@@ -492,8 +561,7 @@
   {"lat": 45.857934, "lng": 9.118184, "layer": "travel", "props": {"n": "Torno", "c": "IT", "y": 2014}},
   {"lat": 45.931294, "lng": 9.283740, "layer": "travel", "props": {"n": "Vassena", "c": "IT", "y": 2014}},
   {"lat": 46.199698, "lng": 9.451898, "layer": "travel", "props": {"n": "Verceia", "c": "IT", "y": 2014}},
-
-
+  {"lat": 55.601099, "lng": 37.266456, "layer": "travel", "props": {"n": "Vnukovo", "c": "RU", "y": 2014}},
 
   {"lat": 48.278334, "lng": 10.230861, "layer": "travel", "props": {"n": "Roggenburg", "c": "DE", "y": 2015}},
   {"lat": 48.264972, "lng": 10.220260, "layer": "travel", "props": {"n": "Meßhofen", "c": "DE", "y": 2015}},
@@ -684,8 +752,6 @@
   {"lat": 43.628457, "lng": 11.311998, "layer": "travel", "props": {"n": "Spedaluzzo", "c": "IT", "y": 2015}},
   {"lat": 43.660375, "lng": 11.295255, "layer": "travel", "props": {"n": "Strada in Chianti", "c": "IT", "y": 2015}},
   {"lat": 43.832530, "lng": 10.275484, "layer": "travel", "props": {"n": "Torre del Lago", "c": "IT", "y": 2015}},
-  
-  
   
   {"lat": 49.006890, "lng": 8.403653, "layer": "travel", "props": {"n": "Karlsruhe", "c": "DE", "y": 2016}},
   {"lat": 48.261395, "lng": 9.895152, "layer": "travel", "props": {"n": "Achstetten", "c": "DE", "y": 2016}},

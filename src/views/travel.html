@@ -2,8 +2,14 @@
 <md-content layout="column" layout-align="center center">
     <div id="map-popup" layout="row" layout-align="space-between center" data-ng-show="tech.showPopup">
         <div class="map-popup-control"></div>
-        <div class="map-popup-content" layout="column" layout-align="center center" flex>
-            <span class="map-popup-content-inner">{{tech.popupContent}}</span>
+        <div class="map-popup-content" layout="row" layout-align="center center" flex>
+            <div class="map-popup-content-inner" layout="column" layout-align="center end">
+                <img data-ng-src="{{tech.popupFlag}}"/>
+            </div>
+            <div class="map-popup-content-inner" layout="column" layout-align="center start">
+                <span class="text-ellipsis" title="{{tech.popupCountry}}">{{tech.popupCountry}}</span>
+                <span class="text-ellipsis" title="{{tech.popupName}}">{{tech.popupName}}</span>
+            </div>
         </div>
         <div class="map-popup-control" layout="row" layout-align="end center">
             <md-button class="md-icon-button good-popup-button" data-ng-click="closePopup()" aria-label="close-popup-button">

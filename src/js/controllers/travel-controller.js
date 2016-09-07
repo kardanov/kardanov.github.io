@@ -17,7 +17,9 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, dataFa
 
     $scope.tech = {};
     $scope.tech.showPopup = false;
-    $scope.tech.popupContent = 'n/a';
+    $scope.tech.popupName = '';
+    $scope.tech.popupCountry = '';
+    $scope.tech.popupFlag = '';
     $scope.tech.currentYear = 2016;
     $scope.tech.allMarkers = [];
 
@@ -105,7 +107,12 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, dataFa
     })*/
 
     $scope.$on('leafletDirectiveMarker.click', function(e, args) {
-        $scope.tech.popupContent = args.model.props.n + ' [ ' + args.model.props.c + ' ]';
+
+        // Setting new values.
+        $scope.tech.popupName = args.model.props.n;
+        $scope.tech.popupCountry = args.model.props.c;
+        $scope.tech.popupFlag = 'src/images/flags/' + args.model.props.c + '.png';
+
         $scope.tech.showPopup = true;
 
         // Repositioning center of the map.
@@ -121,7 +128,13 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, dataFa
     });
 
     $scope.closePopup = function() {
+
         $scope.tech.showPopup = false;
+
+        $scope.tech.popupName = '';
+        $scope.tech.popupCountry = '';
+        $scope.tech.popupFlag = '';
+
         if ($scope.center.zoom > 6) {
             $scope.center.zoom = 6;
         }
@@ -131,6 +144,7 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, dataFa
     }
 
     $scope.toggleSideNav = function () {
+        $scope.closePopup();
         $mdSidenav('left').toggle();
     }
 

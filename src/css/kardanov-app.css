@@ -75,6 +75,7 @@ md-backdrop._md-sidenav-backdrop {
 md-sidenav {
     z-index: 10001;
     width: 150px;
+    min-width: 150px;
 }
 @media (max-width: 456px) {
     md-sidenav {
@@ -146,19 +147,22 @@ md-sidenav {
     cursor: pointer;
 }
 
+.text-ellipsis {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 .map-popup-control {
     width: 50px;
 }
 .map-popup-content {
-    padding: 10px;
+    padding: 0px 10px;
     font-size: 13px;
 }
 .map-popup-content-inner {
-    width: 100%;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    width: 50%;
+    padding: 0px 10px;
 }
 #map-popup {
     position: absolute;
@@ -166,7 +170,7 @@ md-sidenav {
     left: 0px;
     z-index: 5001;
     width: 100%;
-    height: 50px;
+    height: 65px;
     background-color: rgba(33, 33, 33, 0.8);
     color: #fff;
 }

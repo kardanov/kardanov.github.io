@@ -1,0 +1,3 @@
+User-Agent: *
+Allow: .js
+Allow: .css

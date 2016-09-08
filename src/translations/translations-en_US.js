@@ -1,5 +1,8 @@
 var translations_en_US = {
 
+    LOCALE: 'en_US',
+    CODE: 'EN',
+
     KARDANOV: 'KARDANOV.',
     K: 'K.',
     WORK: 'work',

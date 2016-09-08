@@ -20,9 +20,9 @@ titleController = function($scope, $rootScope, $translate, titleFactory) {
     // Method to update page title.
     $scope.updateTitle = function() {
         if ($rootScope.ifHere('/work')) {
-            titleFactory.setTitleFinish(' ' + ($translate.use() === 'ru_RU' ? translations_ru_RU.WORK : translations_en_US.WORK));
+            titleFactory.setTitleFinish(' ' + ($translate.use() === translations_ru_RU.LOCALE ? translations_ru_RU.WORK : translations_en_US.WORK));
         } else if ($rootScope.ifHere('/travel')) {
-            titleFactory.setTitleFinish(' ' + ($translate.use() === 'ru_RU' ? translations_ru_RU.TRAVEL : translations_en_US.TRAVEL));
+            titleFactory.setTitleFinish(' ' + ($translate.use() === translations_ru_RU.LOCALE ? translations_ru_RU.TRAVEL : translations_en_US.TRAVEL));
         } else {
             titleFactory.setTitleFinish(' ');
         }

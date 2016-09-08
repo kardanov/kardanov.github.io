@@ -69,8 +69,8 @@ kardanovApp.factory('titleFactory', function() {
 
 // Setting translation provider.
 kardanovApp.config(['$translateProvider', function ($translateProvider) {
-    $translateProvider.translations('en_US', translations_en_US);
-    $translateProvider.translations('ru_RU', translations_ru_RU);
-    $translateProvider.preferredLanguage('en_US');
+    $translateProvider.translations(translations_en_US.LOCALE, translations_en_US);
+    $translateProvider.translations(translations_ru_RU.LOCALE, translations_ru_RU);
+    $translateProvider.preferredLanguage(translations_en_US.LOCALE);
     $translateProvider.useSanitizeValueStrategy(null);
 }]);

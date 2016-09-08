@@ -33,11 +33,11 @@ mainController = function($scope, $rootScope, $location, $window, $translate, ti
 
     // Handling language preferences.
     $scope.getCurrentLanguage = function() {
-        return $translate.use() === 'ru_RU' ? 'RU' : 'EN';
+        return $translate.use() === translations_ru_RU.LOCALE ? translations_ru_RU.CODE : translations_en_US.CODE;
     }
     $scope.setLanguage = function(lang) {
         titleFactory.setTitleStart(lang === 'RU' ? 'К А Р Д А Н О В .' : 'K A R D A N O V .');
-        $translate.use(lang === 'RU' ? 'ru_RU' : 'en_US');
+        $translate.use(lang === translations_ru_RU.CODE ? translations_ru_RU.LOCALE : translations_en_US.LOCALE);
         $rootScope.$emit('languageChangeEvent');
     }
 }

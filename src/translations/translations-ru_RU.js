@@ -1,5 +1,8 @@
 var translations_ru_RU = {
 
+    LOCALE: 'ru_RU',
+    CODE: 'RU',
+
     KARDANOV: 'КАРДАНОВ.',
     K: 'К.',
     WORK: 'работа',

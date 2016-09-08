@@ -5,13 +5,15 @@ var kardanovApp = angular.module('myApp', [
     'ngRoute',
     'myApp.version',
     'ngMaterial',
+    'pascalprecht.translate',
     'leaflet-directive',
     'ajoslin.promise-tracker',
     'cgBusy',
 ]);
 
-// Setting main controller.
+// Setting controllers.
 kardanovApp.controller('MainController', mainController);
+kardanovApp.controller('TitleController', titleController);
 
 // Configuring routing.
 kardanovApp.config(['$routeProvider', function($routeProvider) {
@@ -47,3 +49,28 @@ kardanovApp.config(function($mdGestureProvider) {
 });
 // Data factory.
 kardanovApp.factory('dataFactory', dataFactory);
+// Page title factory.
+kardanovApp.factory('titleFactory', function() {
+    var titleStart = 'K A R D A N O V .';
+    var titleFinish = '';
+
+    return {
+        getTitle: function() {
+            return titleStart + titleFinish;
+        },
+        setTitleStart: function(newTitleStart) {
+            titleStart = newTitleStart;
+        },
+        setTitleFinish: function(newTitleFinish) {
+            titleFinish = newTitleFinish;
+        }
+    };
+});
+
+// Setting translation provider.
+kardanovApp.config(['$translateProvider', function ($translateProvider) {
+    $translateProvider.translations('en_US', translations_en_US);
+    $translateProvider.translations('ru_RU', translations_ru_RU);
+    $translateProvider.preferredLanguage('en_US');
+    $translateProvider.useSanitizeValueStrategy(null);
+}]);

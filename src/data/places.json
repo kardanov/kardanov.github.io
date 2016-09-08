@@ -1,5 +1,5 @@
 [
-  {"lat": 58.525570, "lng": 31.274193, "layer": "travel", "props": {"n": "Velikij Novgorod", "c": "RU", "y": 1985}},
+  {"lat": 58.525570, "lng": 31.274193, "layer": "travel", "props": {"n": "VelikijNovgorod", "c": "RU", "y": 1985}},
 
   {"lat": 58.498156, "lng": 31.199070, "layer": "travel", "props": {"n": "Pankovka", "c": "RU", "y": 1988}},
   {"lat": 43.602808, "lng": 39.734154, "layer": "travel", "props": {"n": "Sochi", "c": "RU", "y": 1988}},
@@ -8,7 +8,7 @@
   {"lat": 43.494992, "lng": 43.604513, "layer": "travel", "props": {"n": "Nalchik", "c": "RU", "y": 1989}},
   {"lat": 43.549286, "lng": 43.850658, "layer": "travel", "props": {"n": "Nartkala", "c": "RU", "y": 1989}},
   {"lat": 55.755826, "lng": 37.617300, "layer": "travel", "props": {"n": "Moscow", "c": "RU", "y": 1989}},
-  {"lat": 59.934280, "lng": 30.335099, "layer": "travel", "props": {"n": "St. Petersburg", "c": "RU", "y": 1989}},
+  {"lat": 59.934280, "lng": 30.335099, "layer": "travel", "props": {"n": "StPetersburg", "c": "RU", "y": 1989}},
   {"lat": 59.540395, "lng": 30.889671, "layer": "travel", "props": {"n": "Tosno", "c": "RU", "y": 1989}},
 
   {"lat": 57.816699, "lng": 28.334473, "layer": "travel", "props": {"n": "Pskov", "c": "RU", "y": 1994}},

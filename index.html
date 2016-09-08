@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="myApp">
+<html lang="en" ng-app="myApp" ng-controller="TitleController">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>K A R D A N O V .</title>
+    <title>{{ titleFactory.getTitle() }}</title>
 
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -44,9 +44,13 @@
     <script src="src/js/utils/version-directive.js"></script>
     <script src="src/js/utils/interpolate-filter.js"></script>
 
+    <script src="src/translations/translations-en_US.js"></script>
+    <script src="src/translations/translations-ru_RU.js"></script>
+
     <script src="src/js/controllers/main-controller.js"></script>
     <script src="src/js/controllers/home-controller.js"></script>
     <script src="src/js/controllers/work-controller.js"></script>
+    <script src="src/js/controllers/title-controller.js"></script>
     <script src="src/js/controllers/travel-controller.js"></script>
 
     <script src="src/js/common/data-factory.js"></script>

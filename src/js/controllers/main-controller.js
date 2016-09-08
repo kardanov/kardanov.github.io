@@ -4,7 +4,10 @@
  * Created by Ruslan Kardanov.
  * Date: 27/05/16.
  */
-mainController = function($scope, $rootScope, $location, $window, $translate, titleFactory, promiseTracker) {
+mainController = function($scope, $rootScope, $location, $window, $translate, promiseTracker, titleFactory) {
+
+    // Creating new loading tracker.
+    $rootScope.loadingTracker = promiseTracker('loadingTracker');
 
     // Handling app width.
     $rootScope.width = $window.innerWidth;
@@ -14,9 +17,6 @@ mainController = function($scope, $rootScope, $location, $window, $translate, ti
             $scope.$apply();
         }
     });
-
-    // Creating new loading tracker.
-    $rootScope.loadingTracker = promiseTracker('loadingTracker');
 
     // App navigation. >>
     // Going to the location with path specified.

@@ -109,11 +109,17 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, dataFa
     $scope.$on('leafletDirectiveMarker.click', function(e, args) {
 
         // Setting new values.
-        $scope.tech.popupName = args.model.props.n;
-        $scope.tech.popupCountry = args.model.props.c;
-        $scope.tech.popupFlag = 'src/images/flags/' + args.model.props.c + '.png';
+        $timeout(function () {
+            $scope.tech.popupFlag = 'src/images/flags/' + args.model.props.c + '.png';
+            $scope.tech.popupName = args.model.props.n;
+            $scope.tech.popupCountry = args.model.props.c;
+        });
 
-        $scope.tech.showPopup = true;
+        if (!$scope.tech.showPopup) {
+            $timeout(function () {
+                $scope.tech.showPopup = true;
+            });
+        }
 
         // Repositioning center of the map.
         $scope.center.lat = args.model.lat;

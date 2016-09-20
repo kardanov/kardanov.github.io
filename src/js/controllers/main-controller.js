@@ -4,7 +4,7 @@
  * Created by Ruslan Kardanov.
  * Date: 27/05/16.
  */
-mainController = function($scope, $rootScope, $location, $window, $translate, promiseTracker, titleFactory) {
+mainController = function($scope, $rootScope, $location, $window, $translate, promiseTracker) {
 
     // Creating new loading tracker.
     $rootScope.loadingTracker = promiseTracker('loadingTracker');
@@ -36,7 +36,6 @@ mainController = function($scope, $rootScope, $location, $window, $translate, pr
         return $translate.use() === translations_ru_RU.LOCALE ? translations_ru_RU.CODE : translations_en_US.CODE;
     }
     $scope.setLanguage = function(lang) {
-        titleFactory.setTitleStart(lang === 'RU' ? 'К А Р Д А Н О В .' : 'K A R D A N O V .');
         $translate.use(lang === translations_ru_RU.CODE ? translations_ru_RU.LOCALE : translations_en_US.LOCALE);
         $rootScope.$emit('languageChangeEvent');
     }

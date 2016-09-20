@@ -8,12 +8,11 @@ var kardanovApp = angular.module('myApp', [
     'pascalprecht.translate',
     'leaflet-directive',
     'ajoslin.promise-tracker',
-    'cgBusy',
+    'cgBusy'
 ]);
 
-// Setting controllers.
+// Setting main controller.
 kardanovApp.controller('MainController', mainController);
-kardanovApp.controller('TitleController', titleController);
 
 // Configuring routing.
 kardanovApp.config(['$routeProvider', function($routeProvider) {
@@ -49,23 +48,6 @@ kardanovApp.config(function($mdGestureProvider) {
 });
 // Data factory.
 kardanovApp.factory('dataFactory', dataFactory);
-// Page title factory.
-kardanovApp.factory('titleFactory', function() {
-    var titleStart = 'K A R D A N O V .';
-    var titleFinish = '';
-
-    return {
-        getTitle: function() {
-            return titleStart + titleFinish;
-        },
-        setTitleStart: function(newTitleStart) {
-            titleStart = newTitleStart;
-        },
-        setTitleFinish: function(newTitleFinish) {
-            titleFinish = newTitleFinish;
-        }
-    };
-});
 
 // Setting translation provider.
 kardanovApp.config(['$translateProvider', function ($translateProvider) {

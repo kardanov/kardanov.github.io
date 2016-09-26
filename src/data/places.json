@@ -853,6 +853,8 @@
   {"lat": 47.936471, "lng": 9.172456, "layer": "travel", "props": {"n": "Wald", "c": "DE", "y": 2016}},
   {"lat": 47.884966, "lng": 9.108237, "layer": "travel", "props": {"n": "Hohenfels", "c": "DE", "y": 2016}},
   {"lat": 47.853164, "lng": 9.009153, "layer": "travel", "props": {"n": "Stockach", "c": "DE", "y": 2016}},
+  {"lat": 48.232592, "lng": 9.459066, "layer": "travel", "props": {"n": "Zwiefalten", "c": "DE", "y": 2016}},
+  {"lat": 48.216829, "lng": 9.517952, "layer": "travel", "props": {"n": "Zwiefaltendorf", "c": "DE", "y": 2016}},
   {"lat": 52.956281, "lng": 4.760797, "layer": "travel", "props": {"n": "Den Helder", "c": "NL", "y": 2016}},
   {"lat": 53.004305, "lng": 4.783042, "layer": "travel", "props": {"n": "Het Horntje", "c": "NL", "y": 2016}},
   {"lat": 53.096220, "lng": 4.761841, "layer": "travel", "props": {"n": "De Koog", "c": "NL", "y": 2016}},

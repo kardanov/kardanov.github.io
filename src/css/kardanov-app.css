@@ -1,3 +1,7 @@
+#nav-container-big {
+    padding-right: 10px;
+}
+
 #select-lang-button {
     height: 18px;
     width: 40px;
@@ -107,13 +111,15 @@ md-sidenav {
     min-height: 40px;
     text-transform: lowercase;
     letter-spacing: 1px;
-    margin: 0px;
+    margin: 0px 3px;
 }
 .md-button.nav-button:not([disabled]) {
     color: #fff;
+    border: #fff 1px solid;
 }
 .md-button.nav-button[disabled] {
     color: #777;
+    border: #777 1px solid;
 }
 .md-button.menu-nav-button {
     width: 100%;

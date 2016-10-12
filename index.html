@@ -29,6 +29,7 @@
     </script>
 
     <script src="src/js/ext/angular/angular.min.js"></script>
+    <script src="src/js/ext/utils/jquery.min.js"></script>
     <script src="src/js/ext/angular/angular-route.min.js"></script>
     <script src="src/js/ext/angular/material/angular-animate.min.js"></script>
     <script src="src/js/ext/angular/material/angular-aria.min.js"></script>
@@ -55,14 +56,12 @@
 
     <script src="src/js/common/data-factory.js"></script>
 </head>
-<body layout="column">
+<body layout="column" flex>
     <script src="src/js/kardanov-app.js"></script>
-    <div layout="column" flex>
-        <div data-ng-include="'src/views/header.html'"></div>
-        <md-content layout="column" flex cg-busy="{tracker: 'loadingTracker', backdrop: true}">
-            <div ng-view></div>
-        </md-content>
-        <div data-ng-include="'src/views/footer.html'"></div>
-    </div>
+    <div data-ng-include="'src/views/header.html'"></div>
+    <md-content id="main-app-content" layout="column" flex cg-busy="{tracker: 'loadingTracker', backdrop: true}">
+        <div ng-view></div>
+    </md-content>
+    <div data-ng-include="'src/views/footer.html'"></div>
 </body>
 </html>

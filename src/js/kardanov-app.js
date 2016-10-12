@@ -13,6 +13,7 @@ var kardanovApp = angular.module('myApp', [
 
 // Setting main controller.
 kardanovApp.controller('MainController', mainController);
+kardanovApp.controller('WorkController', workController);
 
 // Configuring routing.
 kardanovApp.config(['$routeProvider', function($routeProvider) {

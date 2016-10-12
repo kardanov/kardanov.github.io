@@ -1,6 +1,6 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-<md-content class="normal-container" layout="column" layout-align="center center">
-    <div layout-xs="column" layout-gt-xs="row" layout-align="center center">
+<md-content id="w_1" id="main-view-content" class="normal-container" layout="column" layout-align="center center">
+    <div id="w_ext" layout-xs="column" layout-gt-xs="row" layout-align="center center">
         <div layout="column" layout-align="center center">
             <span class="icon-linkedin icon-link linkedin" onclick="window.location='https://de.linkedin.com/in/kardanov';return false;"></span>
             <span class="work-text-ss">LinkedIn</span>
@@ -10,4 +10,41 @@
             <span class="work-text-ss">XING</span>
         </div>
     </div>
+    <md-button data-ng-click="slideTo('#w_2')">2</md-button>
 </md-content>
+
+<div id="w_2" style="width:100%;height:600px;background-color:darkmagenta;" >
+    TEST2<br>
+    TEST2<br>
+    TEST2<br>
+    TEST2<br>
+    TEST2<br>
+    TEST2<br>
+    TEST2<br>
+
+    <md-button data-ng-click="slideTo('#w_3')">3</md-button>
+</div>
+<div id="w_3" style="width:100%;height:600px;background-color:#026466;" >
+    TEST3<br>
+    TEST3<br>
+    TEST3<br>
+    TEST3<br>
+    TEST3<br>
+    TEST3<br>
+    TEST3<br>
+
+    <md-button data-ng-click="slideTo('#w_4')">4</md-button>
+</div>
+<div id="w_4" style="width:100%;height:600px;background-color:#3f51b5;" >
+    TEST4<br>
+    TEST4<br>
+    TEST4<br>
+    TEST4<br>
+    TEST4<br>
+    TEST4<br>
+    TEST4<br>
+
+    <md-button data-ng-click="slideTo('#w_1')">1</md-button>
+</div>
+
+

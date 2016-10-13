@@ -40,5 +40,14 @@ var translations_en_US = {
     VA: 'Vatican',
 
     VelikijNovgorod: 'Velikij Novgorod',
-    StPetersburg: 'St. Petersburg'
+    StPetersburg: 'St. Petersburg',
+    PushkinskieGory: 'Pushkinskie Gory',
+    NoviySvet: 'Noviy Svet',
+    StarajaRussa: 'Staraja Russa',
+    VyshniyVolochek: 'Vyshniy Volochek',
+    MalajaVishera: 'Malaja Vishera',
+    KrasnoeSelo: 'Krasnoe Selo',
+    GusHrustalniy: 'Gus-Hrustalniy',
+    JasnajaPoljana: 'Jasnaja Poljana',
+    LisiyNos: 'Lisiy Nos'
 }

@@ -1,12 +1,7 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 <md-toolbar id="header-container" md-whiteframe="4" data-ng-controller="MainController">
     <div class="md-toolbar-tools" layout="row" layout-align="space-between center">
-        <div layout="row" layout-align="start center">
-            <span class="logo long clickable" data-ng-show="width >= 800" data-ng-click="goTo('/home')">{{'KARDANOV' | translate}}</span>
-            <span class="logo short clickable" data-ng-show="width < 800" data-ng-click="goTo('/home')">{{'K' | translate}}</span>
-        </div>
-        <div layout="row" layout-align="end center">
-            <div data-ng-include="'src/views/header-nav.html'"></div>
-        </div>
+        <head-logo width="width" go-to-fn="goTo(loc)"></head-logo>
+        <head-nav width="width" go-to-fn="goTo(loc)" if-here-fn="ifHere(loc)"></head-nav>
     </div>
 </md-toolbar>

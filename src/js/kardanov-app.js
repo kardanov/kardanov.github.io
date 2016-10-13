@@ -8,12 +8,12 @@ var kardanovApp = angular.module('myApp', [
     'pascalprecht.translate',
     'leaflet-directive',
     'ajoslin.promise-tracker',
-    'cgBusy'
+    'cgBusy',
+    'workNav'
 ]);
 
 // Setting main controller.
 kardanovApp.controller('MainController', mainController);
-kardanovApp.controller('WorkController', workController);
 
 // Configuring routing.
 kardanovApp.config(['$routeProvider', function($routeProvider) {

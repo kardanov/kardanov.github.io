@@ -8,6 +8,10 @@ var translations_ru_RU = {
     WORK: 'работа',
     TRAVEL: 'трэвел',
 
+    MIN: 'мин',
+    LINKEDIN: 'ЛинкедИн',
+    XING: 'КСИНГ',
+
     AT: 'Австрия',
     BE: 'Бельгия',
     BY: 'Беларусь',

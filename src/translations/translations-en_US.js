@@ -8,6 +8,11 @@ var translations_en_US = {
     WORK: 'work',
     TRAVEL: 'travel',
 
+    MIN: 'min',
+    LINKEDIN: 'LinkedIn',
+    XING: 'XING',
+
+
     AT: 'Austria',
     BE: 'Belgium',
     BY: 'Belarus',

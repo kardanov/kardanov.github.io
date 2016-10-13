@@ -1,3 +1,7 @@
+#work-container-1 {
+   padding-top: 20px;
+}
+
 #nav-container-big {
     padding-right: 10px;
 }
@@ -18,21 +22,9 @@
     padding: 0px 10px;
 }
 
-.work-text-ss {
-    font-size: 12px;
-    margin-top: -10px;
-}
-
 .work-text {
-    font-size: 24px;
-    font-weight: 400;
-    letter-spacing: 2px;
-}
-.work-text.top {
-    padding-bottom: 40px;
-}
-.work-text.bottom {
-    padding-top: 40px;
+    font-size: 12px;
+    margin-top: -9px;
 }
 
 .icon-link {
@@ -138,8 +130,41 @@ md-sidenav {
     color: #777;
 }
 
+.md-button.md-icon-button.good-icon-button {
+    height: 60px;
+    width: 60px;
+    padding: 0px;
+    text-transform: lowercase;
+}
+@media (max-width: 420px) {
+    .md-button.md-icon-button.good-icon-button {
+        height: 50px;
+        width: 50px;
+        padding: 0px;
+        text-transform: lowercase;
+    }
+}
+.md-button.md-icon-button.good-icon-button:hover {
+    background-color: rgba(219, 219, 219, 0.5);
+}
+.md-button.md-icon-button.good-icon-button:not([disabled]) {
+    color: #212121;
+    border: #777 1px solid;
+}
+.md-button.md-icon-button.good-icon-button[disabled] {
+    color: #FFF;
+    border: #3F51B5 1px solid;
+    background-color: #3F51B5;
+}
+
 .md-button.md-icon-button.good-popup-button {
-    padding: 5px 0px 0px 0px;
+    height: 50px;
+    width: 50px;
+    padding: 0px;
+    color: #fff;
+}
+.md-button.md-icon-button.good-popup-button:hover {
+    background-color: rgba(256, 256, 256, 0.3);
 }
 
 #map-year-slider {
@@ -181,7 +206,7 @@ md-sidenav {
     text-overflow: ellipsis;
 }
 .map-popup-control {
-    width: 50px;
+    width: 65px;
 }
 .map-popup-content {
     padding: 0px 10px;
@@ -237,7 +262,11 @@ md-sidenav {
 }
 
 .normal-container {
-    padding: 50px 0px;
+    padding: 40px 30px;
+}
+
+#main-app-content {
+    overflow-x: hidden;
 }
 
 html, body {

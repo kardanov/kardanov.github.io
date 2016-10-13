@@ -1,6 +1,5 @@
 /**
  * Travel controller.
- *
  * Created by Ruslan Kardanov.
  * Date: 27/05/16.
  */
@@ -10,18 +9,16 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, dataFa
     $scope.mapHeight = getMapHeight($window.innerHeight);
     angular.element($window).bind('resize', function () {
         $scope.mapHeight = getMapHeight($window.innerHeight);
-        if (!$scope.$$phase) {
-            $scope.$apply();
-        }
+        if (!$scope.$$phase) { $scope.$apply(); }
     });
 
     $scope.tech = {};
-    $scope.tech.showPopup = false;
-    $scope.tech.popupName = '';
-    $scope.tech.popupCountry = '';
-    $scope.tech.popupFlag = '';
-    $scope.tech.currentYear = 2016;
-    $scope.tech.allMarkers = [];
+    $scope.tech.show = false;
+    $scope.tech.flag = '';
+    $scope.tech.country = '';
+    $scope.tech.city = '';
+    $scope.tech.year = 2016;
+    $scope.tech.all = [];
 
     // Setting up custom map marker icon.
     var icon = {
@@ -72,13 +69,13 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, dataFa
     // Getting places to be shown on the map.
     $timeout(function () {
         dataFactory.getPlaces().then(function (result) {
-            $scope.tech.allMarkers = result;
-            $scope.tech.allMarkers.forEach(function (marker) {
+            $scope.tech.all = result;
+            $scope.tech.all.forEach(function (marker) {
                 marker.icon = icon;
             });
 
             angular.extend($scope, {
-                markers: getVisibleMarkers($scope.tech.allMarkers, $scope.tech.currentYear)
+                markers: getVisibleMarkers($scope.tech.all, $scope.tech.year)
             });
         });
     }, 100);
@@ -106,62 +103,54 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, dataFa
         });
     })*/
 
+    // Method listening on marker click events.
     $scope.$on('leafletDirectiveMarker.click', function(e, args) {
-
-        // Setting new values.
         $timeout(function () {
-            $scope.tech.popupFlag = 'src/images/flags/' + args.model.props.c + '.png';
-            $scope.tech.popupName = args.model.props.n;
-            $scope.tech.popupCountry = args.model.props.c;
+            // Setting new values & showing popup.
+            $scope.tech.flag = 'src/images/flags/' + args.model.props.c + '.png';
+            $scope.tech.country = args.model.props.c;
+            $scope.tech.city = args.model.props.n;
+            if (!$scope.tech.show) {
+                $timeout(function () {
+                    $scope.tech.show = true;
+                });
+            }
         });
 
-        if (!$scope.tech.showPopup) {
-            $timeout(function () {
-                $scope.tech.showPopup = true;
-            });
-        }
-
-        // Repositioning center of the map.
+        // Repositioning center of the map & updating zoom.
         $scope.center.lat = args.model.lat;
         $scope.center.lng = args.model.lng;
-        // Changing zoom (if required).
         if ($scope.center.zoom < 10) {
             $scope.center.zoom = 10;
         }
-        if (!$scope.$$phase) {
-            $scope.$apply();
-        }
+        if (!$scope.$$phase) { $scope.$apply(); }
     });
 
+    // Method to close popup.
     $scope.closePopup = function() {
-
-        $scope.tech.showPopup = false;
-
-        $scope.tech.popupName = '';
-        $scope.tech.popupCountry = '';
-        $scope.tech.popupFlag = '';
-
+        $scope.tech.show = false;
+        $scope.tech.flag = '';
+        $scope.tech.country = '';
+        $scope.tech.city = '';
         if ($scope.center.zoom > 6) {
             $scope.center.zoom = 6;
         }
-        if (!$scope.$$phase) {
-            $scope.$apply();
-        }
+        if (!$scope.$$phase) { $scope.$apply(); }
     }
 
+    // Method to toggle side navigation.
     $scope.toggleSideNav = function () {
         $scope.closePopup();
         $mdSidenav('left').toggle();
     }
 
+    // Method to be run on year change.
     $scope.onYearChange = function() {
         $scope.closePopup();
         angular.extend($scope, {
-            markers: getVisibleMarkers($scope.tech.allMarkers, $scope.tech.currentYear)
+            markers: getVisibleMarkers($scope.tech.all, $scope.tech.year)
         });
-        if (!$scope.$$phase) {
-            $scope.$apply();
-        }
+        if (!$scope.$$phase) { $scope.$apply(); }
     }
 
     // Gets map height depending on the window height.

@@ -1,6 +1,5 @@
 /**
  * Data factory.
- *
  * Created by Ruslan Kardanov.
  * Date: 12/08/16.
  */

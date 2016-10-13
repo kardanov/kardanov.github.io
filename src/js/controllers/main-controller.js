@@ -1,6 +1,5 @@
 /**
  * Main controller.
- *
  * Created by Ruslan Kardanov.
  * Date: 27/05/16.
  */
@@ -31,12 +30,15 @@ mainController = function($scope, $rootScope, $location, $window, $translate, pr
     }
     // <<
 
-    // Handling language preferences.
+    // Handling language preferences. >>
+    // Getting current language.
     $scope.getCurrentLanguage = function() {
         return $translate.use() === translations_ru_RU.LOCALE ? translations_ru_RU.CODE : translations_en_US.CODE;
     }
+    // Setting language.
     $scope.setLanguage = function(lang) {
         $translate.use(lang === translations_ru_RU.CODE ? translations_ru_RU.LOCALE : translations_en_US.LOCALE);
         $rootScope.$emit('languageChangeEvent');
     }
+    // <<
 }

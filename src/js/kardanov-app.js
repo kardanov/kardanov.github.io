@@ -9,7 +9,8 @@ var kardanovApp = angular.module('myApp', [
     'leaflet-directive',
     'ajoslin.promise-tracker',
     'cgBusy',
-    'workNav'
+    'workNav',
+    'mapPopup'
 ]);
 
 // Setting main controller.

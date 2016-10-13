@@ -1,6 +1,5 @@
 /**
  * Work navigation directive.
- *
  * Created by Ruslan Kardanov.
  * Date: 13/10/16.
  */

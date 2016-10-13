@@ -1,5 +1,8 @@
-#work-container-1 {
-   padding-top: 20px;
+
+
+.work-nav {
+    padding: 40px 30px 20px 30px;
+    height: 100px;
 }
 
 #select-lang-button {
@@ -141,7 +144,7 @@ md-sidenav {
     }
 }
 .md-button.md-icon-button.good-work-button:hover {
-    background-color: rgba(219, 219, 219, 0.5);
+    background-color: #e8e8e8;
 }
 .md-button.md-icon-button.good-work-button:not([disabled]) {
     color: #212121;
@@ -242,7 +245,6 @@ md-sidenav {
 }
 
 .logo {
-    font-family: 'Open Sans', Helvetica, sans-serif;
     color: #fff;
     font-size: 28px;
     font-weight: 600;
@@ -266,12 +268,61 @@ md-sidenav {
     padding: 10px;
 }
 
-.normal-container {
-    padding: 40px 30px;
+.home-container {
+    padding: 18px;
+    overflow-x: hidden;
+}
+.home-block {
+    font-size: 14px;
+    letter-spacing: 1px;
+    width: 350px;
+}
+.home-block.pad {
+    padding-top: 20px;
+}
+#home-name {
+    color: #3F51B5;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    margin-left: -2px;
+}
+#home-text-2-1 {
+    height: 30px;
+    padding-right: 10px;
+}
+.md-button.home-button {
+    min-width: 70px;
+    height: 30px;
+    min-height: 30px;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    margin: 0px;
+    color: inherit;
+    border: #777 1px solid;
+}
+.icon-link-home {
+    color: #777;
+}
+.icon-link-home.icon-fb:hover {
+    color: #3b5998;
+    cursor: pointer;
+}
+.icon-link-home.icon-insta:hover {
+    cursor: pointer;
+    font-size: 62px;
+    background: -webkit-linear-gradient(-45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
 }
 
 #main-app-content {
     overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #3F51B5;
 }
 
 html, body {

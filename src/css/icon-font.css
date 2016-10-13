@@ -27,9 +27,18 @@
     font-size: 22px;
 }
 .icon-cross:before {
-    content: "\e117";
+    content: "\e5cd";
     color: #fff;
     font-size: 22px;
+}
+.icon-ok:before {
+    content: "\e876";
+    color: #fff;
+    font-size: 22px;
+}
+.icon-spinner:before {
+    content: "\f110";
+    font-size: 50px;
 }
 .icon-linkedin:before {
     content: "\f08c";
@@ -39,7 +48,14 @@
     content: "\f169";
     font-size: 200px;
 }
-.icon-spinner:before {
-    content: "\f110";
-    font-size: 50px;
+.icon-fb:before {
+    content: "\f082";
+    font-size: 60px;
+}
+.icon-insta:before {
+    content: "\f16d";
+    font-size: 62px;
+}
+.icon-github:before {
+    content: "\f09b";
 }

@@ -6,11 +6,7 @@
 travelController = function($scope, $window, $http, $mdSidenav, $timeout, dataFactory) {
 
     // Getting map height.
-    $scope.mapHeight = getMapHeight($window.innerHeight);
-    angular.element($window).bind('resize', function () {
-        $scope.mapHeight = getMapHeight($window.innerHeight);
-        if (!$scope.$$phase) { $scope.$apply(); }
-    });
+
 
     $scope.tech = {};
     $scope.tech.show = false;
@@ -151,10 +147,5 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, dataFa
             markers: getVisibleMarkers($scope.tech.all, $scope.tech.year)
         });
         if (!$scope.$$phase) { $scope.$apply(); }
-    }
-
-    // Gets map height depending on the window height.
-    function getMapHeight(windowHeight) {
-        return windowHeight - angular.element(document.querySelector('#header-container'))[0].offsetHeight - 41;
     }
 }

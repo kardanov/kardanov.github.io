@@ -1,16 +1,13 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 <md-content layout="column" layout-align="center center">
     <map-popup width="width" is-visible="tech.show" flag="tech.flag" country="tech.country" city="tech.city" close-fn="closePopup()"></map-popup>
-
     <div id="map-year-indicator" layout="column" layout-align="center center" data-ng-click="toggleSideNav()">
         <label class="map-year-label map">{{tech.year}}</label>
     </div>
-
     <md-sidenav class="md-sidenav-left" md-whiteframe="2" md-component-id="left">
         <md-content class="md-sidenav-content-custom" layout="column" layout-align="center center">
             <md-slider id="map-year-slider" class="md-warn" min="1985" max="2016" data-ng-model="tech.year" data-ng-change="onYearChange()" aria-label="map-time-slider" md-vertical></md-slider>
         </md-content>
     </md-sidenav>
-
-    <leaflet lf-center="center" width="100%" data-ng-style="{'height':mapHeight+'px'}" defaults="defaults" layers="layers" markers="markers" <!--geojson="geojson"-->></leaflet>
+    <leaflet lf-center="center" width="100%" data-ng-style="{'height':height+'px'}" defaults="defaults" layers="layers" markers="markers" <!--geojson="geojson"-->></leaflet>
 </md-content>

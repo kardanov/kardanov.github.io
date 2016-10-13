@@ -8,10 +8,12 @@ mainController = function($scope, $rootScope, $location, $window, $translate, pr
     // Creating new loading tracker.
     $rootScope.loadingTracker = promiseTracker('loadingTracker');
 
-    // Handling app width.
+    // Handling app width&height.
     $rootScope.width = $window.innerWidth;
+    $rootScope.height = getMapHeight($window.innerHeight);
     angular.element($window).bind('resize', function () {
         $rootScope.width = $window.innerWidth;
+        $rootScope.height = getMapHeight($window.innerHeight);
         if (!$scope.$$phase) {
             $scope.$apply();
         }
@@ -41,4 +43,9 @@ mainController = function($scope, $rootScope, $location, $window, $translate, pr
         $rootScope.$emit('languageChangeEvent');
     }
     // <<
+
+    // Gets map height depending on the window height.
+    function getMapHeight(windowHeight) {
+        return windowHeight - angular.element(document.querySelector('#header-container'))[0].offsetHeight - 41;
+    }
 }

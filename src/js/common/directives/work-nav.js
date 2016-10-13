@@ -11,7 +11,7 @@ angular.module('workNav', []).directive('workNav', function () {
             activeItem: '@',
             onClickFn: '&'
         },
-        template: "<div layout=\"row\" layout-align=\"center center\">"
+        template: "<div class=\"work-nav\" layout=\"row\" layout-align=\"center center\">"
                     + "<md-button class=\"md-icon-button good-work-button\" data-ng-disabled=\"activeItem === 'w_1'\" data-ng-click=\"onClickFn({anchor: '#w_1'})\" layout=\"column\" layout-align=\"center center\" aria-label=\"work-nav-button\">"
                         + "<span>0</span>"
                         + "<span class=\"work-text\">{{'MIN' | translate}}</span>"

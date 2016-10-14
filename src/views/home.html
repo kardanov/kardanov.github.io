@@ -1,6 +1,5 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 <md-content class="home-container" data-ng-style="{'min-height':height+'px'}" layout="column" layout-align="center center">
-
     <div class="home-block" layout="column" layout-align="center start">
         <span>{{'HOME_1_1' | translate}}</span>
         <span id="home-name">{{'HOME_1_2' | translate}}</span>
@@ -12,24 +11,25 @@
             <md-button class="home-button" data-ng-click="goTo('/work')" aria-label="go-work-button">
                 <div class="home-button-internal">{{'HOME_2_2' | translate}}</div>
             </md-button>
-            <span style="padding: 0px 10px;">{{'HOME_2_3' | translate}}</span>
+            <span id="home-text-2-3">{{'HOME_2_3' | translate}}</span>
             <md-button class="home-button" data-ng-click="goTo('/travel')" aria-label="go-travel-button">
                 <div class="home-button-internal">{{'HOME_2_4' | translate}}</div>
             </md-button>
         </div>
     </div>
     <div class="home-block pad" layout="column" layout-align="center start">
-        <div>{{'HOME_3_1' | translate}}</div>
+        <div>{{'HOME_3' | translate}}</div>
         <div layout="row">
-            <div style="padding: 1px 10px 0px 0px;"><span class="icon-link-home icon-fb" onclick="window.location='http://www.fb.com/kardanov';return false;"></span></div>
-            <div><span class="icon-link-home icon-insta" onclick="window.location='http://www.instagram.com/kardan0v';return false;"></span></div>
+            <div id="home-fb">
+                <span class="icon-link-home icon-fb" onclick="window.location='http://www.fb.com/kardanov';return false;"></span>
+            </div>
+            <div>
+                <span class="icon-link-home icon-insta" onclick="window.location='http://www.instagram.com/kardan0v';return false;"></span>
+            </div>
         </div>
-
     </div>
     <div class="home-block pad" layout="column" layout-align="center start">
         <span>{{'HOME_4' | translate}}</span>
         <a href="mailto:hallo@kardanov.de?subject=hey!">hallo@kardanov.de</a>
     </div>
-
-
 </md-content>

@@ -5,9 +5,7 @@
  */
 travelController = function($scope, $window, $http, $mdSidenav, $timeout, dataFactory) {
 
-    // Getting map height.
-
-
+    // Map tech stuff.
     $scope.tech = {};
     $scope.tech.show = false;
     $scope.tech.flag = '';
@@ -75,8 +73,6 @@ travelController = function($scope, $window, $http, $mdSidenav, $timeout, dataFa
             });
         });
     }, 100);
-
-
 
     // Getting countries to be shown on the map.
     /*

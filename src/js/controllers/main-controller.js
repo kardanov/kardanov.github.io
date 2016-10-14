@@ -3,17 +3,25 @@
  * Created by Ruslan Kardanov.
  * Date: 27/05/16.
  */
-mainController = function($scope, $rootScope, $location, $window, $translate, promiseTracker) {
+mainController = function($scope, $rootScope, $location, $window, $translate, $timeout, promiseTracker) {
 
     // Creating new loading tracker.
     $rootScope.loadingTracker = promiseTracker('loadingTracker');
 
     // Handling app width&height.
+    $scope.getInnerHeight = function(windowHeight) {
+        var headerHeight = 64;
+        var el = angular.element(document.querySelector('#header-container'))[0];
+        if (typeof el !== 'undefined') {
+            headerHeight = el.offsetHeight;
+        }
+        return windowHeight - headerHeight - 41;
+    }
     $rootScope.width = $window.innerWidth;
-    $rootScope.height = getMapHeight($window.innerHeight);
+    $rootScope.height = $scope.getInnerHeight($window.innerHeight);
     angular.element($window).bind('resize', function () {
         $rootScope.width = $window.innerWidth;
-        $rootScope.height = getMapHeight($window.innerHeight);
+        $rootScope.height = $scope.getInnerHeight($window.innerHeight);
         if (!$scope.$$phase) {
             $scope.$apply();
         }
@@ -43,9 +51,4 @@ mainController = function($scope, $rootScope, $location, $window, $translate, pr
         $rootScope.$emit('languageChangeEvent');
     }
     // <<
-
-    // Gets map height depending on the window height.
-    function getMapHeight(windowHeight) {
-        return windowHeight - angular.element(document.querySelector('#header-container'))[0].offsetHeight - 41;
-    }
 }

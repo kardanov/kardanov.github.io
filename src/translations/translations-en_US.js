@@ -9,8 +9,6 @@ var translations_en_US = {
     TRAVEL: 'travel',
 
     MIN: 'min',
-    LINKEDIN: 'LinkedIn',
-    XING: 'XING',
 
     HOME_1_1: 'Hello, my name is',
     HOME_1_2: 'RUSLAN KARDANOV',
@@ -19,9 +17,7 @@ var translations_en_US = {
     HOME_2_2: 'work',
     HOME_2_3: 'or',
     HOME_2_4: 'travel',
-    HOME_3_1: 'Get in touch',
-    HOME_3_2: 'Facebook',
-    HOME_3_3: 'Instagram',
+    HOME_3: 'Get in touch',
     HOME_4: 'Or simply drop me a message at',
 
     AT: 'Austria',

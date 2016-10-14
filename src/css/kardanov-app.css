@@ -132,14 +132,14 @@ md-sidenav {
 .md-button.md-icon-button.good-work-button {
     height: 60px;
     width: 60px;
-    padding: 0px;
+    padding-top: 9px;
     text-transform: lowercase;
 }
 @media (max-width: 420px) {
     .md-button.md-icon-button.good-work-button {
         height: 50px;
         width: 50px;
-        padding: 0px;
+        padding-top: 5px;
         text-transform: lowercase;
     }
 }
@@ -159,12 +159,12 @@ md-sidenav {
 .md-button.md-icon-button.good-nav-button {
     height: 40px;
     width: 40px;
-    padding: 0px;
     margin: 0px;
+    padding-top: 9px;
     color: #fff;
 }
 .md-button.md-icon-button.good-nav-button:hover {
-    background-color: rgba(256, 256, 256, 0.3);
+    background-color: rgba(256, 256, 256, 0.2);
 }
 
 #map-year-slider {
@@ -275,7 +275,7 @@ md-sidenav {
 .home-block {
     font-size: 14px;
     letter-spacing: 1px;
-    width: 350px;
+    width: 370px;
 }
 .home-block.pad {
     padding-top: 20px;
@@ -297,10 +297,15 @@ md-sidenav {
     min-height: 30px;
     text-transform: lowercase;
     letter-spacing: 1px;
-    margin: 0px;
+    margin: 0px 3px;
     color: inherit;
     border: #777 1px solid;
 }
+.home-button-internal {
+    height: 28px;
+    line-height: 28px;
+}
+
 .icon-link-home {
     color: #777;
 }

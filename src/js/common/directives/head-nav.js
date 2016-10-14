@@ -23,7 +23,7 @@ angular.module('headNav', []).directive('headNav', function () {
                     + "</div>"
                     + "<div data-ng-show=\"width < 800\">"
                         + "<md-menu>"
-                            + "<md-button class=\"md-icon-button good-nav-button\" data-ng-click=\"$mdOpenMenu($event)\" layout=\"column\" layout-align=\"center center\" aria-label=\"open-menu-button\">"
+                            + "<md-button class=\"md-icon-button good-nav-button\" data-ng-click=\"$mdOpenMenu($event)\" aria-label=\"open-menu-button\">"
                                 + "<span class=\"icon-menu\"></span>"
                             + "</md-button>"
                             + "<md-menu-content width=\"2\">"

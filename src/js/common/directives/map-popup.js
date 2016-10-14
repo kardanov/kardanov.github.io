@@ -36,7 +36,7 @@ angular.module('mapPopup', []).directive('mapPopup', function () {
                         + "</div>"
                     + "</div>"
                     + "<div class=\"map-popup-control\" layout=\"row\" layout-align=\"end center\">"
-                        + "<md-button class=\"md-icon-button good-nav-button\" data-ng-click=\"closeFn()\" layout=\"column\" layout-align=\"center center\" aria-label=\"close-popup-button\">"
+                        + "<md-button class=\"md-icon-button good-nav-button\" data-ng-click=\"closeFn()\" aria-label=\"close-popup-button\">"
                             + "<span class=\"icon-cross\"></span>"
                         + "</md-button>"
                     + "</div>"

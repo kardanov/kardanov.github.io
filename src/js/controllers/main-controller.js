@@ -9,22 +9,12 @@ mainController = function($scope, $rootScope, $location, $window, $translate, $t
     $rootScope.loadingTracker = promiseTracker('loadingTracker');
 
     // Handling app width&height.
-    $scope.getInnerHeight = function(windowHeight) {
-        var headerHeight = 64;
-        var el = angular.element(document.querySelector('#header-container'))[0];
-        if (typeof el !== 'undefined') {
-            headerHeight = el.offsetHeight;
-        }
-        return windowHeight - headerHeight - 41;
-    }
     $rootScope.width = $window.innerWidth;
-    $rootScope.height = $scope.getInnerHeight($window.innerHeight);
+    $rootScope.height = $window.innerHeight - 100;
     angular.element($window).bind('resize', function () {
         $rootScope.width = $window.innerWidth;
-        $rootScope.height = $scope.getInnerHeight($window.innerHeight);
-        if (!$scope.$$phase) {
-            $scope.$apply();
-        }
+        $rootScope.height = $window.innerHeight - 100;
+        if (!$scope.$$phase) { $scope.$apply(); }
     });
 
     // App navigation. >>

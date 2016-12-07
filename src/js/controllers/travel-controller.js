@@ -3,7 +3,7 @@
  * Created by Ruslan Kardanov.
  * Date: 27/05/16.
  */
-travelController = function($scope, $window, $http, $mdSidenav, $timeout, dataFactory) {
+travelController = function($scope, $http, $mdSidenav, $timeout, dataFactory) {
 
     // Map tech stuff.
     $scope.tech = {};

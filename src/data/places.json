@@ -863,6 +863,7 @@
   {"lat": 48.025604, "lng": 9.739603, "layer": "travel", "props": {"n": "Ingoldingen", "c": "DE", "y": 2016}},
   {"lat": 48.671757, "lng": 9.382768, "layer": "travel", "props": {"n": "Wendlingen", "c": "DE", "y": 2016}},
   {"lat": 47.950247, "lng": 9.637790, "layer": "travel", "props": {"n": "Aulendorf", "c": "DE", "y": 2016}},
+  {"lat": 48.311465, "lng": 11.918876, "layer": "travel", "props": {"n": "Erding", "c": "DE", "y": 2016}},
   {"lat": 52.956281, "lng": 4.760797, "layer": "travel", "props": {"n": "Den Helder", "c": "NL", "y": 2016}},
   {"lat": 53.004305, "lng": 4.783042, "layer": "travel", "props": {"n": "Het Horntje", "c": "NL", "y": 2016}},
   {"lat": 53.096220, "lng": 4.761841, "layer": "travel", "props": {"n": "De Koog", "c": "NL", "y": 2016}},

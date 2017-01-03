@@ -1,2 +1,4 @@
 # kardanov.github.io
-(c) Ruslan Kardanov, 2016
+My personal web page.
+Accessible at http://kardanov.de
+

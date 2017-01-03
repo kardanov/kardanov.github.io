@@ -1,4 +1,7 @@
 # kardanov.github.io
-My personal web page.
-Accessible at http://kardanov.de
+My personal web page.<br>
+Accessible via http://kardanov.de
 
+# Contact
+In case of comments/questions:<br>
+hallo@kardanov.de

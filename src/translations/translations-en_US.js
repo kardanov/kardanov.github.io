@@ -10,6 +10,8 @@ var translations_en_US = {
 
     MIN: 'min',
 
+    UNDER_CONSTRUCTION: 'Under construction :(',
+
     HOME_1_1: 'Hello, my name is',
     HOME_1_2: 'RUSLAN KARDANOV',
     HOME_1_3: 'and I’m experienced JAVA developer',

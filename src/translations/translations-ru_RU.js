@@ -10,6 +10,8 @@ var translations_ru_RU = {
 
     MIN: 'мин',
 
+    UNDER_CONSTRUCTION: 'Пока в разработке :(',
+
     HOME_1_1: 'Привет, меня зовут',
     HOME_1_2: 'РУСЛАН КАРДАНОВ',
     HOME_1_3: 'и я опытный JAVA-разработчик',

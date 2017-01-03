@@ -962,6 +962,9 @@
   {"lat": 43.581875, "lng": 11.002958, "layer": "travel", "props": {"n": "Petrazzi", "c": "IT", "y": 2016}},
   {"lat": 43.757748, "lng": 10.763696, "layer": "travel", "props": {"n": "Taccino", "c": "IT", "y": 2016}},
   {"lat": 43.766341, "lng": 10.733919, "layer": "travel", "props": {"n": "Urbano", "c": "IT", "y": 2016}},
+  {"lat": 45.337200, "lng": 11.783265, "layer": "travel", "props": {"n": "Montegrotto Terme", "c": "IT", "y": 2016}},
+  {"lat": 45.440847, "lng": 12.315515, "layer": "travel", "props": {"n": "Venice", "c": "IT", "y": 2016}},
+  {"lat": 45.406435, "lng": 11.876761, "layer": "travel", "props": {"n": "Padua", "c": "IT", "y": 2016}},
   {"lat": 46.462833, "lng": 6.841919, "layer": "travel", "props": {"n": "Vevey", "c": "CH", "y": 2016}},
   {"lat": 46.383268, "lng": 6.234785, "layer": "travel", "props": {"n": "Nyon", "c": "CH", "y": 2016}},
   {"lat": 46.104980, "lng": 7.075533, "layer": "travel", "props": {"n": "Martigny", "c": "CH", "y": 2016}},
@@ -986,5 +989,15 @@
   {"lat": 47.519917, "lng": 8.361593, "layer": "travel", "props": {"n": "Schneisingen", "c": "CH", "y": 2016}},
   {"lat": 47.497219, "lng": 8.342054, "layer": "travel", "props": {"n": "Ehrendingen", "c": "CH", "y": 2016}},
   {"lat": 47.556434, "lng": 8.437598, "layer": "travel", "props": {"n": "Weiach", "c": "CH", "y": 2016}},
-  {"lat": 47.576222, "lng": 8.521981, "layer": "travel", "props": {"n": "Eglisau", "c": "CH", "y": 2016}}
+  {"lat": 47.576222, "lng": 8.521981, "layer": "travel", "props": {"n": "Eglisau", "c": "CH", "y": 2016}},
+
+  {"lat": 45.296352, "lng": 11.789383, "layer": "travel", "props": {"n": "Catajo", "c": "IT", "y": 2017}},
+  {"lat": 45.290828, "lng": 11.782390, "layer": "travel", "props": {"n": "Battaglia Terme", "c": "IT", "y": 2017}},
+  {"lat": 45.270348, "lng": 11.718957, "layer": "travel", "props": {"n": "Arquà Petrarca", "c": "IT", "y": 2017}},
+  {"lat": 45.225491, "lng": 11.660392, "layer": "travel", "props": {"n": "Este", "c": "IT", "y": 2017}},
+  {"lat": 45.226766, "lng": 11.726962, "layer": "travel", "props": {"n": "Marendole", "c": "IT", "y": 2017}},
+  {"lat": 45.239113, "lng": 11.749736, "layer": "travel", "props": {"n": "Monselice", "c": "IT", "y": 2017}},
+  {"lat": 45.358717, "lng": 11.788300, "layer": "travel", "props": {"n": "Abano Terme", "c": "IT", "y": 2017}},
+  {"lat": 47.318761, "lng": 10.831036, "layer": "travel", "props": {"n": "Nassereith", "c": "AT", "y": 2017}},
+  {"lat": 47.362689, "lng": 10.831353, "layer": "travel", "props": {"n": "Fernpaß", "c": "AT", "y": 2017}}
 ]

@@ -999,5 +999,18 @@
   {"lat": 45.239113, "lng": 11.749736, "layer": "travel", "props": {"n": "Monselice", "c": "IT", "y": 2017}},
   {"lat": 45.358717, "lng": 11.788300, "layer": "travel", "props": {"n": "Abano Terme", "c": "IT", "y": 2017}},
   {"lat": 47.318761, "lng": 10.831036, "layer": "travel", "props": {"n": "Nassereith", "c": "AT", "y": 2017}},
-  {"lat": 47.362689, "lng": 10.831353, "layer": "travel", "props": {"n": "Fernpaß", "c": "AT", "y": 2017}}
+  {"lat": 47.362689, "lng": 10.831353, "layer": "travel", "props": {"n": "Fernpaß", "c": "AT", "y": 2017}},
+  {"lat": 47.516040, "lng": 12.225200, "layer": "travel", "props": {"n": "Bocking", "c": "AT", "y": 2017}},
+  {"lat": 47.519180, "lng": 12.246300, "layer": "travel", "props": {"n": "Schattenseite", "c": "AT", "y": 2017}},
+  {"lat": 47.514784, "lng": 12.302258, "layer": "travel", "props": {"n": "Ellmau", "c": "AT", "y": 2017}},
+  {"lat": 47.476610, "lng": 12.341413, "layer": "travel", "props": {"n": "Reith bei Kitzbühel", "c": "AT", "y": 2017}},
+  {"lat": 47.378429, "lng": 12.420024, "layer": "travel", "props": {"n": "Jochberg", "c": "AT", "y": 2017}},
+  {"lat": 47.282164, "lng": 12.572467, "layer": "travel", "props": {"n": "Uttendorf", "c": "AT", "y": 2017}},
+  {"lat": 47.289920, "lng": 12.718390, "layer": "travel", "props": {"n": "Piesendorf", "c": "AT", "y": 2017}},
+  {"lat": 48.301233, "lng": 11.365196, "layer": "travel", "props": {"n": "Schwabhausen", "c": "DE", "y": 2017}},
+  {"lat": 48.329443, "lng": 11.450175, "layer": "travel", "props": {"n": "Röhrmoos", "c": "DE", "y": 2017}},
+  {"lat": 48.316296, "lng": 11.552882, "layer": "travel", "props": {"n": "Haimhausen", "c": "DE", "y": 2017}},
+  {"lat": 47.750581, "lng": 11.738454, "layer": "travel", "props": {"n": "Gmund am Tegernsee", "c": "DE", "y": 2017}},
+  {"lat": 47.713016, "lng": 11.757624, "layer": "travel", "props": {"n": "Tegernsee", "c": "DE", "y": 2017}},
+  {"lat": 47.831575, "lng": 11.716624, "layer": "travel", "props": {"n": "Warngau", "c": "DE", "y": 2017}}
 ]

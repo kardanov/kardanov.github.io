@@ -23,8 +23,8 @@ travelController = function($scope, $http, $mdSidenav, $timeout, dataFactory) {
     // Configuring basic map data.
     angular.extend($scope, {
         center: {
-            lat: 48.401082,
-            lng: 9.987608,
+            lat: 52.520008,
+            lng: 13.404954,
             zoom: 7
         },
         defaults: {

@@ -154,7 +154,7 @@
   {"lat": 56.419159, "lng": 40.453615, "layer": "travel", "props": {"n": "Suzdal", "c": "RU", "y": 2009}},
   {"lat": 60.122909, "lng": 30.152059, "layer": "travel", "props": {"n": "Pesochniy", "c": "RU", "y": 2009}},
   {"lat": 60.103683, "lng": 30.203118, "layer": "travel", "props": {"n": "Levashovo", "c": "RU", "y": 2009}},
-  
+
   {"lat": 51.626668, "lng": 6.196844, "layer": "travel", "props": {"n": "Weeze", "c": "DE", "y": 2010}},
   {"lat": 51.812563, "lng": 5.837226, "layer": "travel", "props": {"n": "Nijmegen", "c": "NL", "y": 2010}},
   {"lat": 52.370216, "lng": 4.895168, "layer": "travel", "props": {"n": "Amsterdam", "c": "NL", "y": 2010}},
@@ -187,7 +187,7 @@
   {"lat": 45.698264, "lng": 9.677270, "layer": "travel", "props": {"n": "Bergamo", "c": "IT", "y": 2010}},
   {"lat": 45.465422, "lng": 9.185924, "layer": "travel", "props": {"n": "Milano", "c": "IT", "y": 2010}},
   {"lat": 59.371564, "lng": 28.218812, "layer": "travel", "props": {"n": "Ivangorod", "c": "RU", "y": 2010}},
-  
+
   {"lat": 48.401082, "lng": 9.987608, "layer": "travel", "props": {"n": "Ulm", "c": "DE", "y": 2011}},
   {"lat": 48.775846, "lng": 9.182932, "layer": "travel", "props": {"n": "Stuttgart", "c": "DE", "y": 2011}},
   {"lat": 48.135125, "lng": 11.581981, "layer": "travel", "props": {"n": "München", "c": "DE", "y": 2011}},
@@ -752,7 +752,7 @@
   {"lat": 43.628457, "lng": 11.311998, "layer": "travel", "props": {"n": "Spedaluzzo", "c": "IT", "y": 2015}},
   {"lat": 43.660375, "lng": 11.295255, "layer": "travel", "props": {"n": "Strada in Chianti", "c": "IT", "y": 2015}},
   {"lat": 43.832530, "lng": 10.275484, "layer": "travel", "props": {"n": "Torre del Lago", "c": "IT", "y": 2015}},
-  
+
   {"lat": 49.006890, "lng": 8.403653, "layer": "travel", "props": {"n": "Karlsruhe", "c": "DE", "y": 2016}},
   {"lat": 48.261395, "lng": 9.895152, "layer": "travel", "props": {"n": "Achstetten", "c": "DE", "y": 2016}},
   {"lat": 48.230350, "lng": 9.882917, "layer": "travel", "props": {"n": "Laupheim", "c": "DE", "y": 2016}},
@@ -1012,5 +1012,17 @@
   {"lat": 48.316296, "lng": 11.552882, "layer": "travel", "props": {"n": "Haimhausen", "c": "DE", "y": 2017}},
   {"lat": 47.750581, "lng": 11.738454, "layer": "travel", "props": {"n": "Gmund am Tegernsee", "c": "DE", "y": 2017}},
   {"lat": 47.713016, "lng": 11.757624, "layer": "travel", "props": {"n": "Tegernsee", "c": "DE", "y": 2017}},
-  {"lat": 47.831575, "lng": 11.716624, "layer": "travel", "props": {"n": "Warngau", "c": "DE", "y": 2017}}
+  {"lat": 47.831575, "lng": 11.716624, "layer": "travel", "props": {"n": "Warngau", "c": "DE", "y": 2017}},
+
+  {"lat": 49.509144, "lng": 4.366647, "layer": "travel", "props": {"n": "Rethel", "c": "FR", "y": 2018}},
+  {"lat": 49.256599, "lng": 4.033090, "layer": "travel", "props": {"n": "Reims", "c": "FR", "y": 2018}},
+  {"lat": 49.034149, "lng": 3.957420, "layer": "travel", "props": {"n": "Épernay", "c": "FR", "y": 2018}},
+  {"lat": 49.079200, "lng": 3.605140, "layer": "travel", "props": {"n": "Trélou-sur-Marne", "c": "FR", "y": 2018}},
+  {"lat": 49.074566, "lng": 3.638373, "layer": "travel", "props": {"n": "Dormans", "c": "FR", "y": 2018}},
+  {"lat": 49.126025, "lng": 3.678317, "layer": "travel", "props": {"n": "Passy-Grigny", "c": "FR", "y": 2018}},
+  {"lat": 49.172591, "lng": 3.768848, "layer": "travel", "props": {"n": "Romigny", "c": "FR", "y": 2018}},
+  {"lat": 49.095141, "lng": 3.672982, "layer": "travel", "props": {"n": "Verneuil", "c": "FR", "y": 2018}},
+  {"lat": 49.098994, "lng": 3.758353, "layer": "travel", "props": {"n": "Châtillon-sur-Marne", "c": "FR", "y": 2018}},
+  {"lat": 49.969591, "lng": 4.529681, "layer": "travel", "props": {"n": "Brûly", "c": "BE", "y": 2018}},
+  {"lat": 50.714691, "lng": 4.399100, "layer": "travel", "props": {"n": "Waterloo", "c": "BE", "y": 2018}}
 ]

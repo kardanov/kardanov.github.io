@@ -1110,5 +1110,12 @@
   {"lat": 52.207851, "lng": 8.804030, "layer": "travel", "props": {"n": "Bad Oeynhausen", "c": "DE", "y": 2018}},
   {"lat": 52.168190, "lng": 7.531058, "layer": "travel", "props": {"n": "Emsdetten", "c": "DE", "y": 2018}},
   {"lat": 52.28509, "lng": 7.44055, "layer": "travel", "props": {"n": "Rheine", "c": "DE", "y": 2018}},
-  {"lat": 52.31814, "lng": 7.16343, "layer": "travel", "props": {"n": "Bad Bentheim", "c": "DE", "y": 2018}}
+  {"lat": 52.31814, "lng": 7.16343, "layer": "travel", "props": {"n": "Bad Bentheim", "c": "DE", "y": 2018}},
+  
+  {"lat": 52.680860, "lng": 13.583550, "layer": "travel", "props": {"n": "Bernau bei Berlin", "c": "DE", "y": 2019}},
+  {"lat": 52.650810, "lng": 13.541220, "layer": "travel", "props": {"n": "Panketal", "c": "DE", "y": 2019}},
+  {"lat": 52.721570, "lng": 13.623980, "layer": "travel", "props": {"n": "Rüdnitz", "c": "DE", "y": 2019}},
+  {"lat": 52.631730, "lng": 13.732950, "layer": "travel", "props": {"n": "Werneuchen", "c": "DE", "y": 2019}},
+  {"lat": 52.766540, "lng": 13.639400, "layer": "travel", "props": {"n": "Biesenthal", "c": "DE", "y": 2019}},
+  {"lat": 52.545761, "lng": 12.942790, "layer": "travel", "props": {"n": "Wustermark", "c": "DE", "y": 2019}}
 ]

@@ -1117,5 +1117,10 @@
   {"lat": 52.721570, "lng": 13.623980, "layer": "travel", "props": {"n": "Rüdnitz", "c": "DE", "y": 2019}},
   {"lat": 52.631730, "lng": 13.732950, "layer": "travel", "props": {"n": "Werneuchen", "c": "DE", "y": 2019}},
   {"lat": 52.766540, "lng": 13.639400, "layer": "travel", "props": {"n": "Biesenthal", "c": "DE", "y": 2019}},
-  {"lat": 52.545761, "lng": 12.942790, "layer": "travel", "props": {"n": "Wustermark", "c": "DE", "y": 2019}}
+  {"lat": 52.545761, "lng": 12.942790, "layer": "travel", "props": {"n": "Wustermark", "c": "DE", "y": 2019}},
+  {"lat": 52.219060, "lng": 9.879440, "layer": "travel", "props": {"n": "Ahrbergen", "c": "DE", "y": 2019}},
+  {"lat": 52.196740, "lng": 9.897060, "layer": "travel", "props": {"n": "Giesen", "c": "DE", "y": 2019}},
+  {"lat": 52.185310, "lng": 9.811740, "layer": "travel", "props": {"n": "Rössing", "c": "DE", "y": 2019}},
+  {"lat": 52.236977, "lng": 9.854650, "layer": "travel", "props": {"n": "Sarstedt", "c": "DE", "y": 2019}},
+  {"lat": 52.375893, "lng": 9.732010, "layer": "travel", "props": {"n": "Hannover", "c": "DE", "y": 2019}}
 ]

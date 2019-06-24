@@ -1122,5 +1122,16 @@
   {"lat": 52.196740, "lng": 9.897060, "layer": "travel", "props": {"n": "Giesen", "c": "DE", "y": 2019}},
   {"lat": 52.185310, "lng": 9.811740, "layer": "travel", "props": {"n": "Rössing", "c": "DE", "y": 2019}},
   {"lat": 52.236977, "lng": 9.854650, "layer": "travel", "props": {"n": "Sarstedt", "c": "DE", "y": 2019}},
-  {"lat": 52.375893, "lng": 9.732010, "layer": "travel", "props": {"n": "Hannover", "c": "DE", "y": 2019}}
+  {"lat": 52.375893, "lng": 9.732010, "layer": "travel", "props": {"n": "Hannover", "c": "DE", "y": 2019}},
+  {"lat": 53.873009, "lng": 13.920410, "layer": "travel", "props": {"n": "Usedom", "c": "DE", "y": 2019}},
+  {"lat": 53.940450, "lng": 14.072919, "layer": "travel", "props": {"n": "Benz", "c": "DE", "y": 2019}},
+  {"lat": 53.950216, "lng": 14.118856, "layer": "travel", "props": {"n": "Alt Sallenthin", "c": "DE", "y": 2019}},
+  {"lat": 53.957088, "lng": 14.167000, "layer": "travel", "props": {"n": "Heringsdorf", "c": "DE", "y": 2019}},
+  {"lat": 53.937176, "lng": 14.189184, "layer": "travel", "props": {"n": "Ahlbeck", "c": "DE", "y": 2019}},
+  {"lat": 54.034962, "lng": 14.021640, "layer": "travel", "props": {"n": "Kölpinsee", "c": "DE", "y": 2019}},
+  {"lat": 54.052830, "lng": 13.774330, "layer": "travel", "props": {"n": "Wolgast", "c": "DE", "y": 2019}},
+  {"lat": 54.097198, "lng": 13.387940, "layer": "travel", "props": {"n": "Greifswald", "c": "DE", "y": 2019}},
+  {"lat": 53.558022, "lng": 13.261160, "layer": "travel", "props": {"n": "Neubrandenburg", "c": "DE", "y": 2019}},
+  {"lat": 53.184466, "lng": 13.148228, "layer": "travel", "props": {"n": "Fürstenberg (Havel)", "c": "DE", "y": 2019}},
+  {"lat": 53.910591, "lng": 14.251160, "layer": "travel", "props": {"n": "Świnoujście", "c": "PL", "y": 2019}}
 ]

@@ -1138,5 +1138,15 @@
   {"lat": 52.291618, "lng": 13.419110, "layer": "travel", "props": {"n": "Rangsdorf", "c": "DE", "y": 2019}},
   {"lat": 52.301182, "lng": 13.260160, "layer": "travel", "props": {"n": "Ludwigsfelde", "c": "DE", "y": 2019}},
   {"lat": 52.159370, "lng": 13.456600, "layer": "travel", "props": {"n": "Wünsdorf", "c": "DE", "y": 2019}},
+  {"lat": 50.498779, "lng": 13.028730, "layer": "travel", "props": {"n": "Bärenstein", "c": "DE", "y": 2019}},
+  {"lat": 50.556070, "lng": 12.949660, "layer": "travel", "props": {"n": "Schlettau", "c": "DE", "y": 2019}},
+  {"lat": 51.592659, "lng": 12.584050, "layer": "travel", "props": {"n": "Bad Düben", "c": "DE", "y": 2019}},
+  {"lat": 51.866900, "lng": 12.633920, "layer": "travel", "props": {"n": "Lutherstadt Wittenberg", "c": "DE", "y": 2019}},
+  {"lat": 52.096569, "lng": 12.869270, "layer": "travel", "props": {"n": "Treuenbrietzen", "c": "DE", "y": 2019}},
+  {"lat": 52.235298, "lng": 12.978450, "layer": "travel", "props": {"n": "Beelitz", "c": "DE", "y": 2019}},
+  {"lat": 50.670200, "lng": 12.949960, "layer": "travel", "props": {"n": "Thum", "c": "DE", "y": 2019}},
+  {"lat": 50.648155, "lng": 12.968730, "layer": "travel", "props": {"n": "Ehrenfriedersdorf", "c": "DE", "y": 2019}},
+  {"lat": 50.578587, "lng": 13.007584, "layer": "travel", "props": {"n": "Annaberg-Buchholz", "c": "DE", "y": 2019}},
+  {"lat": 50.495750, "lng": 13.030850, "layer": "travel", "props": {"n": "Vejprty", "c": "CZ", "y": 2019}},
   {"lat": 53.910591, "lng": 14.251160, "layer": "travel", "props": {"n": "Świnoujście", "c": "PL", "y": 2019}}
 ]

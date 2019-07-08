@@ -1133,5 +1133,10 @@
   {"lat": 54.097198, "lng": 13.387940, "layer": "travel", "props": {"n": "Greifswald", "c": "DE", "y": 2019}},
   {"lat": 53.558022, "lng": 13.261160, "layer": "travel", "props": {"n": "Neubrandenburg", "c": "DE", "y": 2019}},
   {"lat": 53.184466, "lng": 13.148228, "layer": "travel", "props": {"n": "Fürstenberg (Havel)", "c": "DE", "y": 2019}},
+  {"lat": 52.260270, "lng": 13.539710, "layer": "travel", "props": {"n": "Mittenwalde", "c": "DE", "y": 2019}},
+  {"lat": 52.215920, "lng": 13.448560, "layer": "travel", "props": {"n": "Zossen", "c": "DE", "y": 2019}},
+  {"lat": 52.291618, "lng": 13.419110, "layer": "travel", "props": {"n": "Rangsdorf", "c": "DE", "y": 2019}},
+  {"lat": 52.301182, "lng": 13.260160, "layer": "travel", "props": {"n": "Ludwigsfelde", "c": "DE", "y": 2019}},
+  {"lat": 52.159370, "lng": 13.456600, "layer": "travel", "props": {"n": "Wünsdorf", "c": "DE", "y": 2019}},
   {"lat": 53.910591, "lng": 14.251160, "layer": "travel", "props": {"n": "Świnoujście", "c": "PL", "y": 2019}}
 ]

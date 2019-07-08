@@ -1111,6 +1111,9 @@
   {"lat": 52.168190, "lng": 7.531058, "layer": "travel", "props": {"n": "Emsdetten", "c": "DE", "y": 2018}},
   {"lat": 52.28509, "lng": 7.44055, "layer": "travel", "props": {"n": "Rheine", "c": "DE", "y": 2018}},
   {"lat": 52.31814, "lng": 7.16343, "layer": "travel", "props": {"n": "Bad Bentheim", "c": "DE", "y": 2018}},
+  {"lat": 48.973911, "lng": 14.475020, "layer": "travel", "props": {"n": "České Budějovice", "c": "CZ", "y": 2018}},
+  {"lat": 49.259800, "lng": 14.718590, "layer": "travel", "props": {"n": "Soběslav", "c": "CZ", "y": 2018}},
+  {"lat": 50.660938, "lng": 14.032700, "layer": "travel", "props": {"n": "Ústí nad Labem", "c": "CZ", "y": 2018}},
   
   {"lat": 52.680860, "lng": 13.583550, "layer": "travel", "props": {"n": "Bernau bei Berlin", "c": "DE", "y": 2019}},
   {"lat": 52.650810, "lng": 13.541220, "layer": "travel", "props": {"n": "Panketal", "c": "DE", "y": 2019}},

@@ -1151,7 +1151,7 @@
   {"lat": 52.976521, "lng": 13.333610, "layer": "travel", "props": {"n": "Zehdenick", "c": "DE", "y": 2019}},
   {"lat": 52.871410, "lng": 13.395110, "layer": "travel", "props": {"n": "Liebenwalde", "c": "DE", "y": 2019}}, 
   {"lat": 52.663610, "lng": 13.378550, "layer": "travel", "props": {"n": "Mühlenbeck", "c": "DE", "y": 2019}},
-  {"lat": 52.848480, "lng": 13.683240, "layer": "travel", "props": {"n": "Schorfheide", "c": "DE", "y": 2019}}
+  {"lat": 52.848480, "lng": 13.683240, "layer": "travel", "props": {"n": "Schorfheide", "c": "DE", "y": 2019}},
   {"lat": 50.648155, "lng": 12.968730, "layer": "travel", "props": {"n": "Ehrenfriedersdorf", "c": "DE", "y": 2019}},
   {"lat": 50.578587, "lng": 13.007584, "layer": "travel", "props": {"n": "Annaberg-Buchholz", "c": "DE", "y": 2019}},
   {"lat": 50.495750, "lng": 13.030850, "layer": "travel", "props": {"n": "Vejprty", "c": "CZ", "y": 2019}},

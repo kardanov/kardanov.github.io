@@ -1155,5 +1155,15 @@
   {"lat": 50.648155, "lng": 12.968730, "layer": "travel", "props": {"n": "Ehrenfriedersdorf", "c": "DE", "y": 2019}},
   {"lat": 50.578587, "lng": 13.007584, "layer": "travel", "props": {"n": "Annaberg-Buchholz", "c": "DE", "y": 2019}},
   {"lat": 50.495750, "lng": 13.030850, "layer": "travel", "props": {"n": "Vejprty", "c": "CZ", "y": 2019}},
-  {"lat": 53.910591, "lng": 14.251160, "layer": "travel", "props": {"n": "Świnoujście", "c": "PL", "y": 2019}}
+  {"lat": 53.910591, "lng": 14.251160, "layer": "travel", "props": {"n": "Świnoujście", "c": "PL", "y": 2019}},
+  {"lat": 51.850460, "lng": 4.325670, "layer": "travel", "props": {"n": "Spijkenisse", "c": "NL", "y": 2019}},
+  {"lat": 51.822430, "lng": 4.258730, "layer": "travel", "props": {"n": "Zuidland", "c": "NL", "y": 2019}},
+  {"lat": 53.575580, "lng": 7.779960, "layer": "travel", "props": {"n": "Wittmund", "c": "DE", "y": 2019}},
+  {"lat": 53.691470, "lng": 7.800460, "layer": "travel", "props": {"n": "Carolinensiel", "c": "DE", "y": 2019}},
+  {"lat": 53.699650, "lng": 7.702830, "layer": "travel", "props": {"n": "Neuharlingersiel", "c": "DE", "y": 2019}},
+  {"lat": 53.771027, "lng": 7.693910, "layer": "travel", "props": {"n": "Spiekeroog", "c": "DE", "y": 2019}},
+  {"lat": 53.575680, "lng": 7.900300, "layer": "travel", "props": {"n": "Jever", "c": "DE", "y": 2019}},
+  {"lat": 53.663052, "lng": 7.915520, "layer": "travel", "props": {"n": "Hohenkirchen", "c": "DE", "y": 2019}},
+  {"lat": 53.517059, "lng": 8.119750, "layer": "travel", "props": {"n": "Wilhelmshaven", "c": "DE", "y": 2019}},
+  {"lat": 53.079296, "lng": 8.801694, "layer": "travel", "props": {"n": "Bremen", "c": "DE", "y": 2019}}
 ]

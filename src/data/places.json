@@ -1171,5 +1171,6 @@
   {"lat": 52.187832, "lng": 9.080190, "layer": "travel", "props": {"n": "Rinteln", "c": "DE", "y": 2019}},
   {"lat": 52.128420, "lng": 4.658000, "layer": "travel", "props": {"n": "Alphen aan den Rijn", "c": "NL", "y": 2019}},
   {"lat": 52.084278, "lng": 4.746880, "layer": "travel", "props": {"n": "Bodegraven", "c": "NL", "y": 2019}},
-  {"lat": 52.011520, "lng": 4.710463, "layer": "travel", "props": {"n": "Gouda", "c": "NL", "y": 2019}}
+  {"lat": 52.011520, "lng": 4.710463, "layer": "travel", "props": {"n": "Gouda", "c": "NL", "y": 2019}},
+  {"lat": 51.980633, "lng": 4.134185, "layer": "travel", "props": {"n": "Hoek van Holland", "c": "NL", "y": 2019}}
 ]

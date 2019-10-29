@@ -1165,5 +1165,11 @@
   {"lat": 53.575680, "lng": 7.900300, "layer": "travel", "props": {"n": "Jever", "c": "DE", "y": 2019}},
   {"lat": 53.663052, "lng": 7.915520, "layer": "travel", "props": {"n": "Hohenkirchen", "c": "DE", "y": 2019}},
   {"lat": 53.517059, "lng": 8.119750, "layer": "travel", "props": {"n": "Wilhelmshaven", "c": "DE", "y": 2019}},
-  {"lat": 53.079296, "lng": 8.801694, "layer": "travel", "props": {"n": "Bremen", "c": "DE", "y": 2019}}
+  {"lat": 53.079296, "lng": 8.801694, "layer": "travel", "props": {"n": "Bremen", "c": "DE", "y": 2019}},
+  {"lat": 52.279911, "lng": 8.047179, "layer": "travel", "props": {"n": "Osnabrück", "c": "DE", "y": 2019}},
+  {"lat": 52.239540, "lng": 8.922620, "layer": "travel", "props": {"n": "Porta Westfalica", "c": "DE", "y": 2019}},
+  {"lat": 52.187832, "lng": 9.080190, "layer": "travel", "props": {"n": "Rinteln", "c": "DE", "y": 2019}},
+  {"lat": 52.128420, "lng": 4.658000, "layer": "travel", "props": {"n": "Alphen aan den Rijn", "c": "NL", "y": 2019}},
+  {"lat": 52.084278, "lng": 4.746880, "layer": "travel", "props": {"n": "Bodegraven", "c": "NL", "y": 2019}},
+  {"lat": 52.011520, "lng": 4.710463, "layer": "travel", "props": {"n": "Gouda", "c": "NL", "y": 2019}}
 ]

@@ -1172,5 +1172,22 @@
   {"lat": 52.128420, "lng": 4.658000, "layer": "travel", "props": {"n": "Alphen aan den Rijn", "c": "NL", "y": 2019}},
   {"lat": 52.084278, "lng": 4.746880, "layer": "travel", "props": {"n": "Bodegraven", "c": "NL", "y": 2019}},
   {"lat": 52.011520, "lng": 4.710463, "layer": "travel", "props": {"n": "Gouda", "c": "NL", "y": 2019}},
-  {"lat": 51.980633, "lng": 4.134185, "layer": "travel", "props": {"n": "Hoek van Holland", "c": "NL", "y": 2019}}
+  {"lat": 51.980633, "lng": 4.134185, "layer": "travel", "props": {"n": "Hoek van Holland", "c": "NL", "y": 2019}},
+
+  {"lat": 51.503738, "lng": 10.793720, "layer": "travel", "props": {"n": "Nordhausen", "c": "DE", "y": 2020}},
+  {"lat": 51.482170, "lng": 11.965800, "layer": "travel", "props": {"n": "Halle (Saale)", "c": "DE", "y": 2020}},
+  {"lat": 51.470400, "lng": 10.261910, "layer": "travel", "props": {"n": "Teistungen", "c": "DE", "y": 2020}},
+  {"lat": 51.513031, "lng": 10.264670, "layer": "travel", "props": {"n": "Duderstadt", "c": "DE", "y": 2020}},
+  {"lat": 51.656158, "lng": 10.341160, "layer": "travel", "props": {"n": "Herzberg am Harz", "c": "DE", "y": 2020}},
+  {"lat": 51.728481, "lng": 10.253790, "layer": "travel", "props": {"n": "Osterode am Harz", "c": "DE", "y": 2020}},
+  {"lat": 51.801571, "lng": 10.338630, "layer": "travel", "props": {"n": "Clausthal-Zellerfeld", "c": "DE", "y": 2020}},
+  {"lat": 51.904491, "lng": 10.427830, "layer": "travel", "props": {"n": "Goslar", "c": "DE", "y": 2020}},
+  {"lat": 51.953630, "lng": 10.561540, "layer": "travel", "props": {"n": "Vienenburg", "c": "DE", "y": 2020}},
+  {"lat": 51.881481, "lng": 10.562540, "layer": "travel", "props": {"n": "Bad Harzburg", "c": "DE", "y": 2020}},
+  {"lat": 51.553471, "lng": 10.766210, "layer": "travel", "props": {"n": "Harztor", "c": "DE", "y": 2020}},
+  {"lat": 51.577200, "lng": 10.787290, "layer": "travel", "props": {"n": "Ilfeld", "c": "DE", "y": 2020}},
+  {"lat": 51.836811, "lng": 10.784427, "layer": "travel", "props": {"n": "Wernigerode", "c": "DE", "y": 2020}},
+  {"lat": 51.853080, "lng": 10.987370, "layer": "travel", "props": {"n": "Langenstein", "c": "DE", "y": 2020}},
+  {"lat": 51.783581, "lng": 11.142080, "layer": "travel", "props": {"n": "Quedlinburg", "c": "DE", "y": 2020}},
+  {"lat": 51.802361, "lng": 11.739380, "layer": "travel", "props": {"n": "Bernburg", "c": "DE", "y": 2020}}
 ]

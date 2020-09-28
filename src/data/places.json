@@ -1189,5 +1189,16 @@
   {"lat": 51.836811, "lng": 10.784427, "layer": "travel", "props": {"n": "Wernigerode", "c": "DE", "y": 2020}},
   {"lat": 51.853080, "lng": 10.987370, "layer": "travel", "props": {"n": "Langenstein", "c": "DE", "y": 2020}},
   {"lat": 51.783581, "lng": 11.142080, "layer": "travel", "props": {"n": "Quedlinburg", "c": "DE", "y": 2020}},
-  {"lat": 51.802361, "lng": 11.739380, "layer": "travel", "props": {"n": "Bernburg", "c": "DE", "y": 2020}}
+  {"lat": 51.802361, "lng": 11.739380, "layer": "travel", "props": {"n": "Bernburg", "c": "DE", "y": 2020}},
+  {"lat": 52.089940, "lng": 13.265890, "layer": "travel", "props": {"n": "Gottow", "c": "DE", "y": 2020}},
+  {"lat": 52.089680, "lng": 13.171040, "layer": "travel", "props": {"n": "Luckenwalde", "c": "DE", "y": 2020}},
+  {"lat": 52.160191, "lng": 13.403030, "layer": "travel", "props": {"n": "Am Mellensee", "c": "DE", "y": 2020}},
+  {"lat": 52.217991, "lng": 13.217660, "layer": "travel", "props": {"n": "Trebbin", "c": "DE", "y": 2020}},
+  {"lat": 52.324070, "lng": 13.637340, "layer": "travel", "props": {"n": "Wildau", "c": "DE", "y": 2020}},
+  {"lat": 52.387650, "lng": 13.506520, "layer": "travel", "props": {"n": "Schönefeld", "c": "DE", "y": 2020}},
+  {"lat": 52.295891, "lng": 13.622838, "layer": "travel", "props": {"n": "Königs Wusterhausen", "c": "DE", "y": 2020}},
+  {"lat": 52.336941, "lng": 13.414340, "layer": "travel", "props": {"n": "Blankenfelde-Mahlow", "c": "DE", "y": 2020}},
+  {"lat": 52.356770, "lng": 13.308320, "layer": "travel", "props": {"n": "Grossbeeren", "c": "DE", "y": 2020}},
+  {"lat": 52.401001, "lng": 13.265340, "layer": "travel", "props": {"n": "Teltow", "c": "DE", "y": 2020}},
+  {"lat": 52.136420, "lng": 13.609600, "layer": "travel", "props": {"n": "Teupitz", "c": "DE", "y": 2020}}
 ]

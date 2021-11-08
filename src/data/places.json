@@ -1235,5 +1235,22 @@
   {"lat": 44.851510, "lng": 13.943010, "layer": "travel", "props": {"n": "Šišan", "c": "HR", "y": 2020}},
   {"lat": 52.091550, "lng": 4.964300, "layer": "travel", "props": {"n": "Harmelen", "c": "NL", "y": 2020}},
   {"lat": 51.888721, "lng": 4.634900, "layer": "travel", "props": {"n": "Kinderdijk", "c": "NL", "y": 2020}},
-  {"lat": 51.893929, "lng": 4.625310, "layer": "travel", "props": {"n": "Krimpen aan de Lek", "c": "NL", "y": 2020}}
+  {"lat": 51.893929, "lng": 4.625310, "layer": "travel", "props": {"n": "Krimpen aan de Lek", "c": "NL", "y": 2020}},
+  
+  {"lat": 51.855430, "lng": 12.044330, "layer": "travel", "props": {"n": "Aken", "c": "DE", "y": 2021}},
+  {"lat": 51.884160, "lng": 11.954150, "layer": "travel", "props": {"n": "Lödderitz", "c": "DE", "y": 2021}},
+  {"lat": 51.854210, "lng": 11.855720, "layer": "travel", "props": {"n": "Zuchau", "c": "DE", "y": 2021}},
+  {"lat": 51.808910, "lng": 11.802360, "layer": "travel", "props": {"n": "Latdorf", "c": "DE", "y": 2021}},
+  {"lat": 51.8953514, "lng": 11.0520563, "layer": "travel", "props": {"n": "Halberstadt", "c": "DE", "y": 2021}},
+  {"lat": 52.0107313, "lng": 11.0315947, "layer": "travel", "props": {"n": "Schlanstedt (Huy)", "c": "DE", "y": 2021}},
+  {"lat": 51.9686422, "lng": 11.1216923, "layer": "travel", "props": {"n": "Schwanebeck", "c": "DE", "y": 2021}},
+  {"lat": 51.9270132, "lng": 11.1084816, "layer": "travel", "props": {"n": "Groß Quenstedt", "c": "DE", "y": 2021}},
+  {"lat": 51.7959504, "lng": 10.9612272, "layer": "travel", "props": {"n": "Blankenburg (Harz)", "c": "DE", "y": 2021}},
+  {"lat": 51.8140575, "lng": 10.9020397, "layer": "travel", "props": {"n": "Heimburg", "c": "DE", "y": 2021}},
+  {"lat": 51.7241176, "lng": 11.1385722, "layer": "travel", "props": {"n": "Gernrode", "c": "DE", "y": 2021}},
+  {"lat": 51.6381169, "lng": 11.1465703, "layer": "travel", "props": {"n": "Harzgerode", "c": "DE", "y": 2021}},
+  {"lat": 51.6431436, "lng": 10.9765865, "layer": "travel", "props": {"n": "Güntersberge", "c": "DE", "y": 2021}},
+  {"lat": 52.2646577, "lng": 10.5236066, "layer": "travel", "props": {"n": "Braunschweig", "c": "DE", "y": 2021}},
+  {"lat": 52.251762, "lng": 10.81739, "layer": "travel", "props": {"n": "Königslutter am Elm", "c": "DE", "y": 2021}},
+  {"lat": 52.2271049, "lng": 10.9040619, "layer": "travel", "props": {"n": "Süpplingen", "c": "DE", "y": 2021}}
 ]

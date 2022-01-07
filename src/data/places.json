@@ -1252,5 +1252,11 @@
   {"lat": 51.6431436, "lng": 10.9765865, "layer": "travel", "props": {"n": "Güntersberge", "c": "DE", "y": 2021}},
   {"lat": 52.2646577, "lng": 10.5236066, "layer": "travel", "props": {"n": "Braunschweig", "c": "DE", "y": 2021}},
   {"lat": 52.251762, "lng": 10.81739, "layer": "travel", "props": {"n": "Königslutter am Elm", "c": "DE", "y": 2021}},
-  {"lat": 52.2271049, "lng": 10.9040619, "layer": "travel", "props": {"n": "Süpplingen", "c": "DE", "y": 2021}}
+  {"lat": 52.2271049, "lng": 10.9040619, "layer": "travel", "props": {"n": "Süpplingen", "c": "DE", "y": 2021}},
+  {"lat": 52.106660, "lng": 13.700970, "layer": "travel", "props": {"n": "Halbe", "c": "DE", "y": 2021}},
+  {"lat": 52.109320, "lng": 13.763250, "layer": "travel", "props": {"n": "Märkisch Buchholz", "c": "DE", "y": 2021}},
+  {"lat": 52.076340, "lng": 13.806920, "layer": "travel", "props": {"n": "Köthen", "c": "DE", "y": 2021}},
+  
+  {"lat": 51.977520, "lng": 12.982270, "layer": "travel", "props": {"n": "Niedergörsdorf", "c": "DE", "y": 2022}},
+  {"lat": 51.9916493, "lng": 13.0801128, "layer": "travel", "props": {"n": "Jüterbog", "c": "DE", "y": 2022}}
 ]

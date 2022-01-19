@@ -1129,6 +1129,9 @@
   {"lat": 45.164400, "lng": 13.664860, "layer": "travel", "props": {"n": "Flengi", "c": "HR", "y": 2018}},
   {"lat": 44.866623, "lng": 13.849579, "layer": "travel", "props": {"n": "Pula", "c": "HR", "y": 2018}},
   {"lat": 45.276190, "lng": 13.720120, "layer": "travel", "props": {"n": "Višnjan", "c": "HR", "y": 2018}},
+  {"lat": 52.6151088, "lng": 14.1333753, "layer": "travel", "props": {"n": "Märkische Höhe", "c": "DE", "y": 2018}},
+  {"lat": 52.5610084, "lng": 14.0755586, "layer": "travel", "props": {"n": "Buckow (Märkische Schweiz)", "c": "DE", "y": 2018}},
+  {"lat": 52.5037484, "lng": 14.1404688, "layer": "travel", "props": {"n": "Müncheberg", "c": "DE", "y": 2018}},
 
   {"lat": 52.680860, "lng": 13.583550, "layer": "travel", "props": {"n": "Bernau bei Berlin", "c": "DE", "y": 2019}},
   {"lat": 52.650810, "lng": 13.541220, "layer": "travel", "props": {"n": "Panketal", "c": "DE", "y": 2019}},

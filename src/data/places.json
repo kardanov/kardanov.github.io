@@ -1258,5 +1258,10 @@
   {"lat": 52.076340, "lng": 13.806920, "layer": "travel", "props": {"n": "Köthen", "c": "DE", "y": 2021}},
   
   {"lat": 51.977520, "lng": 12.982270, "layer": "travel", "props": {"n": "Niedergörsdorf", "c": "DE", "y": 2022}},
-  {"lat": 51.9916493, "lng": 13.0801128, "layer": "travel", "props": {"n": "Jüterbog", "c": "DE", "y": 2022}}
+  {"lat": 51.9916493, "lng": 13.0801128, "layer": "travel", "props": {"n": "Jüterbog", "c": "DE", "y": 2022}},
+  {"lat": 52.242279, "lng": 13.638930, "layer": "travel", "props": {"n": "Bestensee", "c": "DE", "y": 2022}},
+  {"lat": 52.244200, "lng": 13.806790, "layer": "travel", "props": {"n": "Kolberg", "c": "DE", "y": 2022}},
+  {"lat": 52.253298, "lng": 13.9305192, "layer": "travel", "props": {"n": "Storkow (Mark)", "c": "DE", "y": 2022}},
+  {"lat": 52.3304635, "lng": 14.0269414, "layer": "travel", "props": {"n": "Rauen", "c": "DE", "y": 2022}},
+  {"lat": 52.3580209, "lng": 14.064985, "layer": "travel", "props": {"n": "Fürstenwalde (Spree)", "c": "DE", "y": 2022}}
 ]

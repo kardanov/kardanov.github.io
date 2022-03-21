@@ -1282,6 +1282,5 @@
   {"lat": 50.4382144, "lng": 13.0538805, "layer": "travel", "props": {"n": "Kovářská", "c": "CZ", "y": 2022}},
   {"lat": 50.38166, "lng": 13.1101996, "layer": "travel", "props": {"n": "Perštejn", "c": "CZ", "y": 2022}},
   {"lat": 50.3372216, "lng": 13.0509513, "layer": "travel", "props": {"n": "Stráž nad Ohří", "c": "CZ", "y": 2022}},
-  {"lat": 50.3629787, "lng": 12.9299257, "layer": "travel", "props": {"n": "Jáchymov", "c": "CZ", "y": 2022}},
-  {"lat": 50.38166, "lng": 13.1101996, "layer": "travel", "props": {"n": "Perštejn", "c": "CZ", "y": 2022}}
+  {"lat": 50.3629787, "lng": 12.9299257, "layer": "travel", "props": {"n": "Jáchymov", "c": "CZ", "y": 2022}}
 ]

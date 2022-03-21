@@ -1266,5 +1266,22 @@
   {"lat": 52.244200, "lng": 13.806790, "layer": "travel", "props": {"n": "Kolberg", "c": "DE", "y": 2022}},
   {"lat": 52.253298, "lng": 13.9305192, "layer": "travel", "props": {"n": "Storkow (Mark)", "c": "DE", "y": 2022}},
   {"lat": 52.3304635, "lng": 14.0269414, "layer": "travel", "props": {"n": "Rauen", "c": "DE", "y": 2022}},
-  {"lat": 52.3580209, "lng": 14.064985, "layer": "travel", "props": {"n": "Fürstenwalde (Spree)", "c": "DE", "y": 2022}}
+  {"lat": 52.3580209, "lng": 14.064985, "layer": "travel", "props": {"n": "Fürstenwalde (Spree)", "c": "DE", "y": 2022}},
+  {"lat": 50.914040, "lng": 13.337230, "layer": "travel", "props": {"n": "Freiberg", "c": "DE", "y": 2022}},
+  {"lat": 50.860062, "lng": 13.320100, "layer": "travel", "props": {"n": "Brand-Erbisdorf", "c": "DE", "y": 2022}},
+  {"lat": 50.796740, "lng": 13.318960, "layer": "travel", "props": {"n": "Großhartmannsdorf", "c": "DE", "y": 2022}},
+  {"lat": 50.655899, "lng": 13.070327, "layer": "travel", "props": {"n": "Wolkenstein", "c": "DE", "y": 2022}},
+  {"lat": 50.774980, "lng": 12.879100, "layer": "travel", "props": {"n": "Neukirchen (Erzgebirge)", "c": "DE", "y": 2022}},
+  {"lat": 50.7333, "lng": 12.9167, "layer": "travel", "props": {"n": "Burkhardtsdorf", "c": "DE", "y": 2022}},
+  {"lat": 51.2112788, "lng": 13.1427202, "layer": "travel", "props": {"n": "Ostrau", "c": "DE", "y": 2022}},
+  {"lat": 51.2626076, "lng": 13.2298255, "layer": "travel", "props": {"n": "Stauchitz", "c": "DE", "y": 2022}},
+  {"lat": 51.3038241, "lng": 13.308828, "layer": "travel", "props": {"n": "Riesa", "c": "DE", "y": 2022}},
+  {"lat": 51.384124, "lng": 13.6767086, "layer": "travel", "props": {"n": "Großthiemig", "c": "DE", "y": 2022}},
+  {"lat": 51.4977774, "lng": 13.7400618, "layer": "travel", "props": {"n": "Lauchhammer", "c": "DE", "y": 2022}},
+  {"lat": 50.3761991, "lng": 13.2710364, "layer": "travel", "props": {"n": "Kadaň", "c": "CZ", "y": 2022}},
+  {"lat": 50.4382144, "lng": 13.0538805, "layer": "travel", "props": {"n": "Kovářská", "c": "CZ", "y": 2022}},
+  {"lat": 50.38166, "lng": 13.1101996, "layer": "travel", "props": {"n": "Perštejn", "c": "CZ", "y": 2022}},
+  {"lat": 50.3372216, "lng": 13.0509513, "layer": "travel", "props": {"n": "Stráž nad Ohří", "c": "CZ", "y": 2022}},
+  {"lat": 50.3629787, "lng": 12.9299257, "layer": "travel", "props": {"n": "Jáchymov", "c": "CZ", "y": 2022}},
+  {"lat": 50.38166, "lng": 13.1101996, "layer": "travel", "props": {"n": "Perštejn", "c": "CZ", "y": 2022}}
 ]

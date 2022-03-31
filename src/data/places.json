@@ -1282,5 +1282,14 @@
   {"lat": 50.4382144, "lng": 13.0538805, "layer": "travel", "props": {"n": "Kovářská", "c": "CZ", "y": 2022}},
   {"lat": 50.38166, "lng": 13.1101996, "layer": "travel", "props": {"n": "Perštejn", "c": "CZ", "y": 2022}},
   {"lat": 50.3372216, "lng": 13.0509513, "layer": "travel", "props": {"n": "Stráž nad Ohří", "c": "CZ", "y": 2022}},
-  {"lat": 50.3629787, "lng": 12.9299257, "layer": "travel", "props": {"n": "Jáchymov", "c": "CZ", "y": 2022}}
+  {"lat": 50.3629787, "lng": 12.9299257, "layer": "travel", "props": {"n": "Jáchymov", "c": "CZ", "y": 2022}},
+  {"lat": 50.675106, "lng": 17.921297, "layer": "travel", "props": {"n": "Opole", "c": "PL", "y": 2022}},
+  {"lat": 49.970360, "lng": 20.609329, "layer": "travel", "props": {"n": "Brzesko", "c": "PL", "y": 2022}},
+  {"lat": 49.896080, "lng": 20.611259, "layer": "travel", "props": {"n": "Gnojnik", "c": "PL", "y": 2022}},
+  {"lat": 49.754980, "lng": 20.616260, "layer": "travel", "props": {"n": "Łososina Dolna", "c": "PL", "y": 2022}},
+  {"lat": 49.709090, "lng": 20.642930, "layer": "travel", "props": {"n": "Tęgoborze", "c": "PL", "y": 2022}},
+  {"lat": 49.610304, "lng": 20.7149366, "layer": "travel", "props": {"n": "Nowy Sącz", "c": "PL", "y": 2022}},
+  {"lat": 49.55912, "lng": 20.74119, "layer": "travel", "props": {"n": "Nawojowa", "c": "PL", "y": 2022}},
+  {"lat": 49.4733191, "lng": 20.9477453, "layer": "travel", "props": {"n": "Krzyżówka", "c": "PL", "y": 2022}},
+  {"lat": 49.4206138, "lng": 20.9594176, "layer": "travel", "props": {"n": "Krynica-Zdrój", "c": "PL", "y": 2022}}
 ]

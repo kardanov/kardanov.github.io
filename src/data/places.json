@@ -1278,6 +1278,11 @@
   {"lat": 51.3038241, "lng": 13.308828, "layer": "travel", "props": {"n": "Riesa", "c": "DE", "y": 2022}},
   {"lat": 51.384124, "lng": 13.6767086, "layer": "travel", "props": {"n": "Großthiemig", "c": "DE", "y": 2022}},
   {"lat": 51.4977774, "lng": 13.7400618, "layer": "travel", "props": {"n": "Lauchhammer", "c": "DE", "y": 2022}},
+  {"lat": 52.245869, "lng": 14.417890, "layer": "travel", "props": {"n": "Müllrose", "c": "DE", "y": 2022}},
+  {"lat": 52.347179, "lng": 14.550520, "layer": "travel", "props": {"n": "Frankfurt (Oder)", "c": "DE", "y": 2022}},
+  {"lat": 52.144741, "lng": 14.669630, "layer": "travel", "props": {"n": "Eisenhüttenstadt", "c": "DE", "y": 2022}},
+  {"lat": 52.0908428, "lng": 14.6493003, "layer": "travel", "props": {"n": "Neuzelle", "c": "DE", "y": 2022}},
+  {"lat": 52.1721569, "lng": 14.2471058, "layer": "travel", "props": {"n": "Beeskow", "c": "DE", "y": 2022}},
   {"lat": 50.3761991, "lng": 13.2710364, "layer": "travel", "props": {"n": "Kadaň", "c": "CZ", "y": 2022}},
   {"lat": 50.4382144, "lng": 13.0538805, "layer": "travel", "props": {"n": "Kovářská", "c": "CZ", "y": 2022}},
   {"lat": 50.38166, "lng": 13.1101996, "layer": "travel", "props": {"n": "Perštejn", "c": "CZ", "y": 2022}},
@@ -1291,5 +1296,6 @@
   {"lat": 49.610304, "lng": 20.7149366, "layer": "travel", "props": {"n": "Nowy Sącz", "c": "PL", "y": 2022}},
   {"lat": 49.55912, "lng": 20.74119, "layer": "travel", "props": {"n": "Nawojowa", "c": "PL", "y": 2022}},
   {"lat": 49.4733191, "lng": 20.9477453, "layer": "travel", "props": {"n": "Krzyżówka", "c": "PL", "y": 2022}},
-  {"lat": 49.4206138, "lng": 20.9594176, "layer": "travel", "props": {"n": "Krynica-Zdrój", "c": "PL", "y": 2022}}
+  {"lat": 49.4206138, "lng": 20.9594176, "layer": "travel", "props": {"n": "Krynica-Zdrój", "c": "PL", "y": 2022}},
+  {"lat": 52.359150, "lng": 14.563840, "layer": "travel", "props": {"n": "Słubice", "c": "PL", "y": 2022}}
 ]

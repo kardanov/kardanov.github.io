@@ -1300,6 +1300,8 @@
   {"lat": 50.9810486, "lng": 11.3296637, "layer": "travel", "props": {"n": "Weimar", "c": "DE", "y": 2022}},
   {"lat": 51.1525648, "lng": 11.8099186, "layer": "travel", "props": {"n": "Naumburg (Saale)", "c": "DE", "y": 2022}},
   {"lat": 51.1939777, "lng": 11.8720591, "layer": "travel", "props": {"n": "Goseck", "c": "DE", "y": 2022}},
+  {"lat": 51.8414537, "lng": 12.4199023, "layer": "travel", "props": {"n": "Wörlitz", "c": "DE", "y": 2022}},
+  {"lat": 51.8803541, "lng": 12.458638, "layer": "travel", "props": {"n": "Coswig (Anhalt)", "c": "DE", "y": 2022}},
   {"lat": 50.3761991, "lng": 13.2710364, "layer": "travel", "props": {"n": "Kadaň", "c": "CZ", "y": 2022}},
   {"lat": 50.4382144, "lng": 13.0538805, "layer": "travel", "props": {"n": "Kovářská", "c": "CZ", "y": 2022}},
   {"lat": 50.38166, "lng": 13.1101996, "layer": "travel", "props": {"n": "Perštejn", "c": "CZ", "y": 2022}},
@@ -1314,5 +1316,9 @@
   {"lat": 49.55912, "lng": 20.74119, "layer": "travel", "props": {"n": "Nawojowa", "c": "PL", "y": 2022}},
   {"lat": 49.4733191, "lng": 20.9477453, "layer": "travel", "props": {"n": "Krzyżówka", "c": "PL", "y": 2022}},
   {"lat": 49.4206138, "lng": 20.9594176, "layer": "travel", "props": {"n": "Krynica-Zdrój", "c": "PL", "y": 2022}},
-  {"lat": 52.359150, "lng": 14.563840, "layer": "travel", "props": {"n": "Słubice", "c": "PL", "y": 2022}}
+  {"lat": 52.359150, "lng": 14.563840, "layer": "travel", "props": {"n": "Słubice", "c": "PL", "y": 2022}},
+  {"lat": 52.406376, "lng": 16.925167, "layer": "travel", "props": {"n": "Poznań", "c": "PL", "y": 2022}},
+  {"lat": 52.458140, "lng": 16.782220, "layer": "travel", "props": {"n": "Chyby", "c": "PL", "y": 2022}},
+  {"lat": 52.477211, "lng": 16.755590, "layer": "travel", "props": {"n": "Rogierówko", "c": "PL", "y": 2022}},
+  {"lat": 52.249111, "lng": 15.535790, "layer": "travel", "props": {"n": "Świebodzin", "c": "PL", "y": 2022}}
 ]

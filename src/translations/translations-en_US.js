@@ -41,6 +41,7 @@ var translations_en_US = {
     LU: 'Luxembourg',
     LV: 'Latvia',
     MA: 'Morocco',
+    ME: 'Montenegro',
     NL: 'Netherlands',
     PL: 'Poland',
     PT: 'Portugal',

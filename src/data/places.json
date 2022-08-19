@@ -1337,5 +1337,11 @@
   {"lat": 42.4479266, "lng": 18.4752174, "layer": "travel", "props": {"n": "Vitaljina", "c": "HR", "y": 2022}},
   {"lat": 45.2255051, "lng": 15.2762008, "layer": "travel", "props": {"n": "Oštarije", "c": "HR", "y": 2022}},
   {"lat": 45.1888553, "lng": 15.2847736, "layer": "travel", "props": {"n": "Josipdol", "c": "HR", "y": 2022}},
-  {"lat": 45.4861805, "lng": 14.2382155, "layer": "travel", "props": {"n": "Pasjak", "c": "HR", "y": 2022}}
+  {"lat": 45.4861805, "lng": 14.2382155, "layer": "travel", "props": {"n": "Pasjak", "c": "HR", "y": 2022}},
+  {"lat": 42.4587283, "lng": 18.5106652, "layer": "travel", "props": {"n": "Igalo", "c": "ME", "y": 2022}},
+  {"lat": 42.45306, "lng": 18.5375, "layer": "travel", "props": {"n": "Herceg Novi", "c": "ME", "y": 2022}},
+  {"lat": 42.4501744, "lng": 18.690931, "layer": "travel", "props": {"n": "Donja Lastva", "c": "ME", "y": 2022}},
+  {"lat": 42.4303762, "lng": 18.6988104, "layer": "travel", "props": {"n": "Tivat", "c": "ME", "y": 2022}},
+  {"lat": 42.2885656, "lng": 18.8419505, "layer": "travel", "props": {"n": "Budva", "c": "ME", "y": 2022}},
+  {"lat": 42.25611, "lng": 18.891389, "layer": "travel", "props": {"n": "Sveti Stefan", "c": "ME", "y": 2022}}
 ]

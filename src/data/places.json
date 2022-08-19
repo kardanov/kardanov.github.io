@@ -1343,5 +1343,22 @@
   {"lat": 42.4501744, "lng": 18.690931, "layer": "travel", "props": {"n": "Donja Lastva", "c": "ME", "y": 2022}},
   {"lat": 42.4303762, "lng": 18.6988104, "layer": "travel", "props": {"n": "Tivat", "c": "ME", "y": 2022}},
   {"lat": 42.2885656, "lng": 18.8419505, "layer": "travel", "props": {"n": "Budva", "c": "ME", "y": 2022}},
-  {"lat": 42.25611, "lng": 18.891389, "layer": "travel", "props": {"n": "Sveti Stefan", "c": "ME", "y": 2022}}
+  {"lat": 42.25611, "lng": 18.891389, "layer": "travel", "props": {"n": "Sveti Stefan", "c": "ME", "y": 2022}},
+  {"lat": 42.2068358, "lng": 18.9428248, "layer": "travel", "props": {"n": "Petrovac", "c": "ME", "y": 2022}},
+  {"lat": 42.1999711, "lng": 18.9652623, "layer": "travel", "props": {"n": "Buljarica", "c": "ME", "y": 2022}},
+  {"lat": 42.1426733, "lng": 19.0429902, "layer": "travel", "props": {"n": "Sutomore", "c": "ME", "y": 2022}},
+  {"lat": 42.1162811, "lng": 19.0931387, "layer": "travel", "props": {"n": "Šušanj", "c": "ME", "y": 2022}},
+  {"lat": 42.0979745, "lng": 19.0954528, "layer": "travel", "props": {"n": "Bar", "c": "ME", "y": 2022}},
+  {"lat": 42.0943222, "lng": 19.1347198, "layer": "travel", "props": {"n": "Stari Bar", "c": "ME", "y": 2022}},
+  {"lat": 42.0510559, "lng": 19.1462648, "layer": "travel", "props": {"n": "Dobra Voda", "c": "ME", "y": 2022}},
+  {"lat": 42.0049002, "lng": 19.1516299, "layer": "travel", "props": {"n": "Utjeha", "c": "ME", "y": 2022}},
+  {"lat": 41.926012, "lng": 19.2055563, "layer": "travel", "props": {"n": "Ulcinj", "c": "ME", "y": 2022}},
+  {"lat": 41.9061772, "lng": 19.3015984, "layer": "travel", "props": {"n": "Donji Štoj", "c": "ME", "y": 2022}},
+  {"lat": 41.8796206, "lng": 19.361959, "layer": "travel", "props": {"n": "Gornji Štoj", "c": "ME", "y": 2022}},
+  {"lat": 42.2462724, "lng": 19.0906057, "layer": "travel", "props": {"n": "Virpazar", "c": "ME", "y": 2022}},
+  {"lat": 42.2218695, "lng": 19.1115984, "layer": "travel", "props": {"n": "Godinje", "c": "ME", "y": 2022}},
+  {"lat": 42.1602278, "lng": 19.2130625, "layer": "travel", "props": {"n": "Donji Murići", "c": "ME", "y": 2022}},
+  {"lat": 42.3964329, "lng": 18.6713893, "layer": "travel", "props": {"n": "Radovići", "c": "ME", "y": 2022}},
+  {"lat": 42.4117583, "lng": 18.6416706, "layer": "travel", "props": {"n": "Krašići", "c": "ME", "y": 2022}},
+  {"lat": 42.3562677, "lng": 18.7057448, "layer": "travel", "props": {"n": "Bigova", "c": "ME", "y": 2022}}
 ]

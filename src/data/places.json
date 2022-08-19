@@ -1328,5 +1328,14 @@
   {"lat": 45.8316083, "lng": 14.9295491, "layer": "travel", "props": {"n": "Žužemberk", "c": "SI", "y": 2022}},
   {"lat": 45.5706789, "lng": 15.1925962, "layer": "travel", "props": {"n": "Črnomelj", "c": "SI", "y": 2022}},
   {"lat": 45.6190872, "lng": 13.9093999, "layer": "travel", "props": {"n": "Krvavi Potok", "c": "SI", "y": 2022}},
-  {"lat": 45.5805156, "lng": 13.996426, "layer": "travel", "props": {"n": "Materija", "c": "SI", "y": 2022}}
+  {"lat": 45.5805156, "lng": 13.996426, "layer": "travel", "props": {"n": "Materija", "c": "SI", "y": 2022}},
+  {"lat": 45.4511423, "lng": 15.2502303, "layer": "travel", "props": {"n": "Pribanjci", "c": "HR", "y": 2022}},
+  {"lat": 43.0496671, "lng": 17.4329642, "layer": "travel", "props": {"n": "Grad Ploče", "c": "HR", "y": 2022}},
+  {"lat": 42.8383479, "lng": 17.6962701, "layer": "travel", "props": {"n": "Ston", "c": "HR", "y": 2022}},
+  {"lat": 42.8463719, "lng": 17.7040343, "layer": "travel", "props": {"n": "Mali Ston", "c": "HR", "y": 2022}},
+  {"lat": 42.6502473, "lng": 18.0924947, "layer": "travel", "props": {"n": "Dubrovnik", "c": "HR", "y": 2022}},
+  {"lat": 42.4479266, "lng": 18.4752174, "layer": "travel", "props": {"n": "Vitaljina", "c": "HR", "y": 2022}},
+  {"lat": 45.2255051, "lng": 15.2762008, "layer": "travel", "props": {"n": "Oštarije", "c": "HR", "y": 2022}},
+  {"lat": 45.1888553, "lng": 15.2847736, "layer": "travel", "props": {"n": "Josipdol", "c": "HR", "y": 2022}},
+  {"lat": 45.4861805, "lng": 14.2382155, "layer": "travel", "props": {"n": "Pasjak", "c": "HR", "y": 2022}}
 ]

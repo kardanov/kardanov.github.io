@@ -1302,6 +1302,8 @@
   {"lat": 51.1939777, "lng": 11.8720591, "layer": "travel", "props": {"n": "Goseck", "c": "DE", "y": 2022}},
   {"lat": 51.8414537, "lng": 12.4199023, "layer": "travel", "props": {"n": "Wörlitz", "c": "DE", "y": 2022}},
   {"lat": 51.8803541, "lng": 12.458638, "layer": "travel", "props": {"n": "Coswig (Anhalt)", "c": "DE", "y": 2022}},
+  {"lat": 51.685661, "lng": 13.218010, "layer": "travel", "props": {"n": "Herzberg", "c": "DE", "y": 2022}},
+  {"lat": 51.555199, "lng": 12.999220, "layer": "travel", "props": {"n": "Torgau", "c": "DE", "y": 2022}},
   {"lat": 50.3761991, "lng": 13.2710364, "layer": "travel", "props": {"n": "Kadaň", "c": "CZ", "y": 2022}},
   {"lat": 50.4382144, "lng": 13.0538805, "layer": "travel", "props": {"n": "Kovářská", "c": "CZ", "y": 2022}},
   {"lat": 50.38166, "lng": 13.1101996, "layer": "travel", "props": {"n": "Perštejn", "c": "CZ", "y": 2022}},

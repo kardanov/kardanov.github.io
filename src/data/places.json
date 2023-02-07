@@ -1380,5 +1380,12 @@
   {"lat": 47.8701474, "lng": 12.6423403, "layer": "travel", "props": {"n": "Traunstein", "c": "DE", "y": 2023}},
   {"lat": 47.7633488, "lng": 12.7492369, "layer": "travel", "props": {"n": "Inzell", "c": "DE", "y": 2023}},
   {"lat": 48.6068504, "lng": 12.3167686, "layer": "travel", "props": {"n": "Niederaichbach", "c": "DE", "y": 2023}},
-  {"lat": 48.134892, "lng": 12.590550, "layer": "travel", "props": {"n": "Garching an der Alz", "c": "DE", "y": 2023}}
+  {"lat": 48.134892, "lng": 12.590550, "layer": "travel", "props": {"n": "Garching an der Alz", "c": "DE", "y": 2023}},
+  {"lat": 47.4268102, "lng": 12.8297861, "layer": "travel", "props": {"n": "Saalfelden", "c": "AT", "y": 2023}},
+  {"lat": 47.3611756, "lng": 12.8061392, "layer": "travel", "props": {"n": "Maishofen", "c": "AT", "y": 2023}},
+  {"lat": 47.3324875, "lng": 12.8379692, "layer": "travel", "props": {"n": "Thumersbach", "c": "AT", "y": 2023}},
+  {"lat": 47.286430, "lng": 12.823570, "layer": "travel", "props": {"n": "Bruck an der Gloßglocknerstraße", "c": "AT", "y": 2023}},
+  {"lat": 47.390991, "lng": 12.636930, "layer": "travel", "props": {"n": "Saalbach", "c": "AT", "y": 2023}},
+  {"lat": 47.378973, "lng": 12.5971959, "layer": "travel", "props": {"n": "Hinterglemm", "c": "AT", "y": 2023}},
+  {"lat": 47.383130, "lng": 12.666300, "layer": "travel", "props": {"n": "Vorderglemm", "c": "AT", "y": 2023}}
 ]

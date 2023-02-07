@@ -1387,5 +1387,10 @@
   {"lat": 47.286430, "lng": 12.823570, "layer": "travel", "props": {"n": "Bruck an der Gloßglocknerstraße", "c": "AT", "y": 2023}},
   {"lat": 47.390991, "lng": 12.636930, "layer": "travel", "props": {"n": "Saalbach", "c": "AT", "y": 2023}},
   {"lat": 47.378973, "lng": 12.5971959, "layer": "travel", "props": {"n": "Hinterglemm", "c": "AT", "y": 2023}},
-  {"lat": 47.383130, "lng": 12.666300, "layer": "travel", "props": {"n": "Vorderglemm", "c": "AT", "y": 2023}}
+  {"lat": 47.383130, "lng": 12.666300, "layer": "travel", "props": {"n": "Vorderglemm", "c": "AT", "y": 2023}},
+  {"lat": 42.4415238, "lng": 19.2621081, "layer": "travel", "props": {"n": "Podgorica", "c": "ME", "y": 2023}},
+  {"lat": 42.2838324, "lng": 18.8725252, "layer": "travel", "props": {"n": "Bečići", "c": "ME", "y": 2023}},
+  {"lat": 42.2213368, "lng": 18.9089697, "layer": "travel", "props": {"n": "Krstac", "c": "ME", "y": 2023}},
+  {"lat": 42.4248515, "lng": 18.7710437, "layer": "travel", "props": {"n": "Kotor", "c": "ME", "y": 2023}},
+  {"lat": 42.3576698, "lng": 18.7621765, "layer": "travel", "props": {"n": "Radanovici", "c": "ME", "y": 2023}}
 ]

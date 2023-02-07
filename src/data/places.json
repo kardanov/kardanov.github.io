@@ -1371,5 +1371,14 @@
   {"lat": 42.1602278, "lng": 19.2130625, "layer": "travel", "props": {"n": "Donji Murići", "c": "ME", "y": 2022}},
   {"lat": 42.3964329, "lng": 18.6713893, "layer": "travel", "props": {"n": "Radovići", "c": "ME", "y": 2022}},
   {"lat": 42.4117583, "lng": 18.6416706, "layer": "travel", "props": {"n": "Krašići", "c": "ME", "y": 2022}},
-  {"lat": 42.3562677, "lng": 18.7057448, "layer": "travel", "props": {"n": "Bigova", "c": "ME", "y": 2022}}
+  {"lat": 42.3562677, "lng": 18.7057448, "layer": "travel", "props": {"n": "Bigova", "c": "ME", "y": 2022}},
+  
+  {"lat": 48.8350879, "lng": 12.1378625, "layer": "travel", "props": {"n": "Schierling", "c": "DE", "y": 2023}},
+  {"lat": 48.6130261, "lng": 12.2169913, "layer": "travel", "props": {"n": "Essenbach", "c": "DE", "y": 2023}},
+  {"lat": 48.536217, "lng": 12.1516551, "layer": "travel", "props": {"n": "Landshut", "c": "DE", "y": 2023}},
+  {"lat": 48.2547192, "lng": 12.5864967, "layer": "travel", "props": {"n": "Töging am Inn", "c": "DE", "y": 2023}},
+  {"lat": 47.8701474, "lng": 12.6423403, "layer": "travel", "props": {"n": "Traunstein", "c": "DE", "y": 2023}},
+  {"lat": 47.7633488, "lng": 12.7492369, "layer": "travel", "props": {"n": "Inzell", "c": "DE", "y": 2023}},
+  {"lat": 48.6068504, "lng": 12.3167686, "layer": "travel", "props": {"n": "Niederaichbach", "c": "DE", "y": 2023}},
+  {"lat": 48.134892, "lng": 12.590550, "layer": "travel", "props": {"n": "Garching an der Alz", "c": "DE", "y": 2023}}
 ]

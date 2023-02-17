@@ -4,4 +4,4 @@ Accessible via http://kardanov.de
 
 # Contact
 In case of comments/questions:<br>
-hallo@kardanov.de
+kardanov@gmail.com

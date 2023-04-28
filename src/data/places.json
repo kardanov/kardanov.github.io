@@ -1259,6 +1259,9 @@
   {"lat": 52.106660, "lng": 13.700970, "layer": "travel", "props": {"n": "Halbe", "c": "DE", "y": 2021}},
   {"lat": 52.109320, "lng": 13.763250, "layer": "travel", "props": {"n": "Märkisch Buchholz", "c": "DE", "y": 2021}},
   {"lat": 52.076340, "lng": 13.806920, "layer": "travel", "props": {"n": "Köthen", "c": "DE", "y": 2021}},
+  {"lat": 52.2085731, "lng": 7.0264443, "layer": "travel", "props": {"n": "Gronau", "c": "DE", "y": 2021}},
+  {"lat": 52.218722, "lng": 6.9742518, "layer": "travel", "props": {"n": "Glanerbrug", "c": "NL", "y": 2021}},
+  {"lat": 52.2209855, "lng": 6.8940537, "layer": "travel", "props": {"n": "Enschede", "c": "NL", "y": 2021}},
   
   {"lat": 51.977520, "lng": 12.982270, "layer": "travel", "props": {"n": "Niedergörsdorf", "c": "DE", "y": 2022}},
   {"lat": 51.9916493, "lng": 13.0801128, "layer": "travel", "props": {"n": "Jüterbog", "c": "DE", "y": 2022}},

@@ -33,12 +33,12 @@ travelController = function($scope, $http, $mdSidenav, $timeout, dataFactory) {
         },
         layers: {
             baselayers: {
-                toner: {
-                    name: 'toner',
+                osm: {
+                    name: 'osm',
                     type: 'xyz',
-                    url: 'http://stamen-tiles-{s}.a.ssl.fastly.net/toner-background/{z}/{x}/{y}.png',
+                    url: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
                     layerOptions: {
-                        attribution: '<a href="http://stamen.com">Stamen Design</a>, ' + '<a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> | ' + '<a href="http://www.openstreetmap.org/copyright">OSM</a>',
+                        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
                         showOnSelector: false
                     }
                 }

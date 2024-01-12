@@ -1422,6 +1422,7 @@
   {"lat": 51.4441976, "lng": 4.9317413, "layer": "travel", "props": {"n": "Baarle-Nassau", "c": "NL", "y": 2023}},
   {"lat": 52.0622891, "lng": 4.4877545, "layer": "travel", "props": {"n": "Zoetermeer", "c": "NL", "y": 2023}},
   {"lat": 51.9890128, "lng": 5.0937164, "layer": "travel", "props": {"n": "Vianen", "c": "NL", "y": 2023}},
+  {"lat": 51.3933291, "lng": 5.3413526, "layer": "travel", "props": {"n": "Eersel", "c": "NL", "y": 2023}},
   {"lat": 47.4268102, "lng": 12.8297861, "layer": "travel", "props": {"n": "Saalfelden", "c": "AT", "y": 2023}},
   {"lat": 47.3611756, "lng": 12.8061392, "layer": "travel", "props": {"n": "Maishofen", "c": "AT", "y": 2023}},
   {"lat": 47.3324875, "lng": 12.8379692, "layer": "travel", "props": {"n": "Thumersbach", "c": "AT", "y": 2023}},
@@ -1438,6 +1439,8 @@
   {"lat": 42.4214928, "lng": 18.5672994, "layer": "travel", "props": {"n": "Klinci", "c": "ME", "y": 2023}},
   {"lat": 42.2918224, "lng": 18.8195253, "layer": "travel", "props": {"n": "Prijevor", "c": "ME", "y": 2023}},
   {"lat": 51.4383589, "lng": 4.9316995, "layer": "travel", "props": {"n": "Baarle-Hertog", "c": "BE", "y": 2023}},
+  {"lat": 51.1840421, "lng": 5.1155267, "layer": "travel", "props": {"n": "Mol", "c": "BE", "y": 2023}},
+  {"lat": 51.1610826, "lng": 4.9903187, "layer": "travel", "props": {"n": "Geel", "c": "BE", "y": 2023}},
   {"lat": 50.4808898, "lng": 2.6620888, "layer": "travel", "props": {"n": "Nœux-les-Mines", "c": "FR", "y": 2023}},
   {"lat": 50.4524327, "lng": 2.5378571, "layer": "travel", "props": {"n": "Houdain", "c": "FR", "y": 2023}},
   {"lat": 49.5266295, "lng": 0.7611546, "layer": "travel", "props": {"n": "Rives-en-Seine", "c": "FR", "y": 2023}},
@@ -1456,5 +1459,11 @@
   {"lat": 49.482563, "lng": 0.8754968, "layer": "travel", "props": {"n": "Duclair", "c": "FR", "y": 2023}},
   {"lat": 49.4404591, "lng": 1.0939658, "layer": "travel", "props": {"n": "Rouen", "c": "FR", "y": 2023}},
   {"lat": 49.82386, "lng": 0.5518312, "layer": "travel", "props": {"n": "Saint-Martin-aux-Buneaux", "c": "FR", "y": 2023}},
-  {"lat": 49.8069179, "lng": 0.4946787, "layer": "travel", "props": {"n": "Saint-Pierre-en-Port", "c": "FR", "y": 2023}}
+  {"lat": 49.8069179, "lng": 0.4946787, "layer": "travel", "props": {"n": "Saint-Pierre-en-Port", "c": "FR", "y": 2023}},
+  {"lat": 38.1112268, "lng": 13.3524434, "layer": "travel", "props": {"n": "Palermo", "c": "IT", "y": 2023}},
+
+  {"lat": 51.1317433, "lng": 5.0772388, "layer": "travel", "props": {"n": "Meerhout", "c": "BE", "y": 2024}},
+  {"lat": 51.1727481, "lng": 5.1941389, "layer": "travel", "props": {"n": "Balen", "c": "BE", "y": 2024}},
+  {"lat": 42.4869385, "lng": 18.6991696, "layer": "travel", "props": {"n": "Perast", "c": "ME", "y": 2024}},
+  {"lat": 42.389633, "lng": 18.9246085, "layer": "travel", "props": {"n": "Cetinje", "c": "ME", "y": 2024}}
 ]

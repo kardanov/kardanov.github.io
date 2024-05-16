@@ -1465,5 +1465,15 @@
   {"lat": 51.1317433, "lng": 5.0772388, "layer": "travel", "props": {"n": "Meerhout", "c": "BE", "y": 2024}},
   {"lat": 51.1727481, "lng": 5.1941389, "layer": "travel", "props": {"n": "Balen", "c": "BE", "y": 2024}},
   {"lat": 42.4869385, "lng": 18.6991696, "layer": "travel", "props": {"n": "Perast", "c": "ME", "y": 2024}},
-  {"lat": 42.389633, "lng": 18.9246085, "layer": "travel", "props": {"n": "Cetinje", "c": "ME", "y": 2024}}
+  {"lat": 42.389633, "lng": 18.9246085, "layer": "travel", "props": {"n": "Cetinje", "c": "ME", "y": 2024}},
+  {"lat": 47.287979, "lng": 12.528890, "layer": "travel", "props": {"n": "Stuhlfelden", "c": "AT", "y": 2024}},
+  {"lat": 47.417660, "lng": 12.433300, "layer": "travel", "props": {"n": "Aurach bei Kitzbühel", "c": "AT", "y": 2024}},
+  {"lat": 50.191189, "lng": 11.788860, "layer": "travel", "props": {"n": "Münchberg", "c": "DE", "y": 2024}},
+  {"lat": 50.927055, "lng": 11.589237, "layer": "travel", "props": {"n": "Jena", "c": "DE", "y": 2024}},
+  {"lat": 50.766842, "lng": 11.628980, "layer": "travel", "props": {"n": "Hummelshain", "c": "DE", "y": 2024}},
+  {"lat": 50.787579, "lng": 11.706853, "layer": "travel", "props": {"n": "Trockenborn-Wolfersdorf", "c": "DE", "y": 2024}},
+  {"lat": 50.858267, "lng": 11.726364, "layer": "travel", "props": {"n": "Stadtroda", "c": "DE", "y": 2024}},
+  {"lat": 52.386968, "lng": 13.207712, "layer": "travel", "props": {"n": "Stahnsdorf", "c": "DE", "y": 2024}},
+  {"lat": 52.406417, "lng": 13.223660, "layer": "travel", "props": {"n": "Kleinmachnow", "c": "DE", "y": 2024}},
+  {"lat": 52.294826, "lng": 4.5729713, "layer": "travel", "props": {"n": "Hillegom", "c": "NL", "y": 2024}}
 ]

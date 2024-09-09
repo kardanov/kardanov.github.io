@@ -1475,5 +1475,13 @@
   {"lat": 50.858267, "lng": 11.726364, "layer": "travel", "props": {"n": "Stadtroda", "c": "DE", "y": 2024}},
   {"lat": 52.386968, "lng": 13.207712, "layer": "travel", "props": {"n": "Stahnsdorf", "c": "DE", "y": 2024}},
   {"lat": 52.406417, "lng": 13.223660, "layer": "travel", "props": {"n": "Kleinmachnow", "c": "DE", "y": 2024}},
+  {"lat": 52.9243859, "lng": 12.8092919, "layer": "travel", "props": {"n": "Neuruppin", "c": "DE", "y": 2024}},
+  {"lat": 53.5156249, "lng": 12.6850606, "layer": "travel", "props": {"n": "Waren (Müritz)", "c": "DE", "y": 2024}},
+  {"lat": 53.4785811, "lng": 12.6232857, "layer": "travel", "props": {"n": "Klink", "c": "DE", "y": 2024}},
+  {"lat": 53.5104874, "lng": 12.8476523, "layer": "travel", "props": {"n": "Schloen-Dratow", "c": "DE", "y": 2024}},
+  {"lat": 53.6164852, "lng": 12.3346914, "layer": "travel", "props": {"n": "Dobbin-Linstow", "c": "DE", "y": 2024}},
+  {"lat": 53.6288297, "lng": 11.4148038, "layer": "travel", "props": {"n": "Schwerin", "c": "DE", "y": 2024}},
+  {"lat": 54.0757442, "lng": 9.9815377, "layer": "travel", "props": {"n": "Neumünster", "c": "DE", "y": 2024}},
+  {"lat": 54.7833021, "lng": 9.4333264, "layer": "travel", "props": {"n": "Flensburg", "c": "DE", "y": 2024}},
   {"lat": 52.294826, "lng": 4.5729713, "layer": "travel", "props": {"n": "Hillegom", "c": "NL", "y": 2024}}
 ]

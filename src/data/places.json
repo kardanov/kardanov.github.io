@@ -1483,7 +1483,13 @@
   {"lat": 53.6288297, "lng": 11.4148038, "layer": "travel", "props": {"n": "Schwerin", "c": "DE", "y": 2024}},
   {"lat": 54.0757442, "lng": 9.9815377, "layer": "travel", "props": {"n": "Neumünster", "c": "DE", "y": 2024}},
   {"lat": 54.7833021, "lng": 9.4333264, "layer": "travel", "props": {"n": "Flensburg", "c": "DE", "y": 2024}},
+  {"lat": 51.1277815, "lng": 14.1795516, "layer": "travel", "props": {"n": "Bischofswerda", "c": "DE", "y": 2024}},
+  {"lat": 51.4858276, "lng": 13.8306977, "layer": "travel", "props": {"n": "Schwarzheide", "c": "DE", "y": 2024}},
+  {"lat": 51.0461044, "lng": 14.4273043, "layer": "travel", "props": {"n": "Sohland an der Spree", "c": "DE", "y": 2024}},
+  {"lat": 51.3710839, "lng": 14.0694111, "layer": "travel", "props": {"n": "Bernsdorf", "c": "DE", "y": 2024}},
   {"lat": 52.294826, "lng": 4.5729713, "layer": "travel", "props": {"n": "Hillegom", "c": "NL", "y": 2024}},
+  {"lat": 51.4935582, "lng": 4.0452502, "layer": "travel", "props": {"n": "Yerseke", "c": "NL", "y": 2024}},
+  {"lat": 52.0114017, "lng": 4.35839, "layer": "travel", "props": {"n": "Delft", "c": "NL", "y": 2024}},
   {"lat": 54.9380637, "lng": 8.8629408, "layer": "travel", "props": {"n": "Tønder", "c": "DK", "y": 2024}},
   {"lat": 54.9433547, "lng": 8.8024693, "layer": "travel", "props": {"n": "Møgeltønder", "c": "DK", "y": 2024}},
   {"lat": 55.1351329, "lng": 8.513829, "layer": "travel", "props": {"n": "Rømø", "c": "DK", "y": 2024}},
@@ -1505,5 +1511,12 @@
   {"lat": 57.2088452, "lng": 10.4878871, "layer": "travel", "props": {"n": "Voerså", "c": "DK", "y": 2024}},
   {"lat": 57.1463492, "lng": 10.419057, "layer": "travel", "props": {"n": "Asaa", "c": "DK", "y": 2024}},
   {"lat": 56.1496278, "lng": 10.2134046, "layer": "travel", "props": {"n": "Aarhus", "c": "DK", "y": 2024}},
-  {"lat": 55.1062273, "lng": 10.2905107, "layer": "travel", "props": {"n": "Diernæs", "c": "DK", "y": 2024}}
+  {"lat": 55.1062273, "lng": 10.2905107, "layer": "travel", "props": {"n": "Diernæs", "c": "DK", "y": 2024}},
+  {"lat": 50.7766765, "lng": 14.6329751, "layer": "travel", "props": {"n": "Cvikov", "c": "CZ", "y": 2024}},
+  {"lat": 50.757878, "lng": 14.5554953, "layer": "travel", "props": {"n": "Nový Bor", "c": "CZ", "y": 2024}},
+  {"lat": 50.7392237, "lng": 14.5885149, "layer": "travel", "props": {"n": "Sloup v Čechách", "c": "CZ", "y": 2024}},
+  {"lat": 50.5340795, "lng": 14.1317985, "layer": "travel", "props": {"n": "Litoměřice", "c": "CZ", "y": 2024}},
+  {"lat": 50.5150033, "lng": 14.0517563, "layer": "travel", "props": {"n": "Lovosice", "c": "CZ", "y": 2024}},
+  {"lat": 50.7735891, "lng": 14.4728675, "layer": "travel", "props": {"n": "Kamenický Šenov", "c": "CZ", "y": 2024}},
+  {"lat": 51.003217, "lng": 14.4530321, "layer": "travel", "props": {"n": "Šluknov", "c": "CZ", "y": 2024}}
 ]

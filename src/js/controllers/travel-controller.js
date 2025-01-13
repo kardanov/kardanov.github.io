@@ -11,7 +11,7 @@ travelController = function($scope, $http, $mdSidenav, $timeout, dataFactory) {
     $scope.tech.flag = '';
     $scope.tech.country = '';
     $scope.tech.city = '';
-    $scope.tech.year = 2024;
+    $scope.tech.year = 2025;
     $scope.tech.all = [];
 
     // Setting up custom map marker icon.

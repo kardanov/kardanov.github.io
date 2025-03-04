@@ -1375,6 +1375,7 @@
   {"lat": 42.3964329, "lng": 18.6713893, "layer": "travel", "props": {"n": "Radovići", "c": "ME", "y": 2022}},
   {"lat": 42.4117583, "lng": 18.6416706, "layer": "travel", "props": {"n": "Krašići", "c": "ME", "y": 2022}},
   {"lat": 42.3562677, "lng": 18.7057448, "layer": "travel", "props": {"n": "Bigova", "c": "ME", "y": 2022}},
+  {"lat": 48.892956, "lng": 2.2881683, "layer": "travel", "props": {"n": "Levallois-Perret", "c": "FR", "y": 2022}},
   
   {"lat": 48.8350879, "lng": 12.1378625, "layer": "travel", "props": {"n": "Schierling", "c": "DE", "y": 2023}},
   {"lat": 48.6130261, "lng": 12.2169913, "layer": "travel", "props": {"n": "Essenbach", "c": "DE", "y": 2023}},
@@ -1518,5 +1519,12 @@
   {"lat": 50.5340795, "lng": 14.1317985, "layer": "travel", "props": {"n": "Litoměřice", "c": "CZ", "y": 2024}},
   {"lat": 50.5150033, "lng": 14.0517563, "layer": "travel", "props": {"n": "Lovosice", "c": "CZ", "y": 2024}},
   {"lat": 50.7735891, "lng": 14.4728675, "layer": "travel", "props": {"n": "Kamenický Šenov", "c": "CZ", "y": 2024}},
-  {"lat": 51.003217, "lng": 14.4530321, "layer": "travel", "props": {"n": "Šluknov", "c": "CZ", "y": 2024}}
+  {"lat": 51.003217, "lng": 14.4530321, "layer": "travel", "props": {"n": "Šluknov", "c": "CZ", "y": 2024}},
+  {"lat": 48.8897044, "lng": 2.1573695, "layer": "travel", "props": {"n": "Chatou", "c": "FR", "y": 2024}},
+  {"lat": 48.894254, "lng": 2.1347291, "layer": "travel", "props": {"n": "Le Vésinet", "c": "FR", "y": 2024}},
+  {"lat": 48.8924273, "lng": 2.2071267, "layer": "travel", "props": {"n": "Nanterre", "c": "FR", "y": 2024}},
+  {"lat": 48.8981133, "lng": 2.09479666, "layer": "travel", "props": {"n": "Saint-Germain-en-Laye", "c": "FR", "y": 2024}},
+
+  {"lat": 48.5288442, "lng": 2.0153689, "layer": "travel", "props": {"n": "Dourdan", "c": "FR", "y": 2025}},
+  {"lat": 48.7079689, "lng": 2.0408005, "layer": "travel", "props": {"n": "Chevreuse", "c": "FR", "y": 2025}}
 ]

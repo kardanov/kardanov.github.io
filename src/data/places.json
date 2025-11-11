@@ -1526,5 +1526,10 @@
   {"lat": 48.8981133, "lng": 2.09479666, "layer": "travel", "props": {"n": "Saint-Germain-en-Laye", "c": "FR", "y": 2024}},
 
   {"lat": 48.5288442, "lng": 2.0153689, "layer": "travel", "props": {"n": "Dourdan", "c": "FR", "y": 2025}},
-  {"lat": 48.7079689, "lng": 2.0408005, "layer": "travel", "props": {"n": "Chevreuse", "c": "FR", "y": 2025}}
+  {"lat": 48.7079689, "lng": 2.0408005, "layer": "travel", "props": {"n": "Chevreuse", "c": "FR", "y": 2025}},
+  {"lat": 54.2131404, "lng": 15.7545528, "layer": "travel", "props": {"n": "Ustronie Morskie", "c": "PL", "y": 2025}},
+  {"lat": 53.2535889, "lng": 14.4924243, "layer": "travel", "props": {"n": "Gryfino", "c": "PL", "y": 2025}},
+  {"lat": 53.0315789, "lng": 14.3158196, "layer": "travel", "props": {"n": "Krajnik Dolny", "c": "PL", "y": 2025}},
+  {"lat": 53.0586366, "lng": 14.2840858, "layer": "travel", "props": {"n": "Schwedt", "c": "DE", "y": 2025}},
+  {"lat": 53.017276, "lng": 13.9981503, "layer": "travel", "props": {"n": "Angermünde", "c": "DE", "y": 2025}}
 ]

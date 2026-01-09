@@ -1531,5 +1531,12 @@
   {"lat": 53.2535889, "lng": 14.4924243, "layer": "travel", "props": {"n": "Gryfino", "c": "PL", "y": 2025}},
   {"lat": 53.0315789, "lng": 14.3158196, "layer": "travel", "props": {"n": "Krajnik Dolny", "c": "PL", "y": 2025}},
   {"lat": 53.0586366, "lng": 14.2840858, "layer": "travel", "props": {"n": "Schwedt", "c": "DE", "y": 2025}},
-  {"lat": 53.017276, "lng": 13.9981503, "layer": "travel", "props": {"n": "Angermünde", "c": "DE", "y": 2025}}
+  {"lat": 53.017276, "lng": 13.9981503, "layer": "travel", "props": {"n": "Angermünde", "c": "DE", "y": 2025}},
+
+  {"lat": 43.2073873, "lng": 27.9166653, "layer": "travel", "props": {"n": "Varna", "c": "BG", "y": 2026}},
+  {"lat": 42.8205748, "lng": 27.8794434, "layer": "travel", "props": {"n": "Obzor", "c": "BG", "y": 2026}},
+  {"lat": 42.4936616, "lng": 27.4721276, "layer": "travel", "props": {"n": "Burgas", "c": "BG", "y": 2026}},
+  {"lat": 42.4181556, "lng": 27.6943124, "layer": "travel", "props": {"n": "Sozopol", "c": "BG", "y": 2026}},
+  {"lat": 42.3728714, "lng": 27.7094294, "layer": "travel", "props": {"n": "Dyuni", "c": "BG", "y": 2026}},
+  {"lat": 42.2698672, "lng": 27.7506179, "layer": "travel", "props": {"n": "Primorsko", "c": "BG", "y": 2026}}
 ]
